@@ -724,18 +724,6 @@
   "suggestions": []
  },
  {
-  "title": "SN - Inter 24/7",
-  "tvg_id": "SonyTvInter247.it",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "SN - Tennis+",
-  "tvg_id": "SonyTvTennis.it",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
   "title": "SN - Golf",
   "tvg_id": "SonyTvGolfTelevision.it",
   "status": "ID_NOT_FOUND",
@@ -796,6 +784,12 @@
   "suggestions": [
    "Tele.Ticino.ch"
   ]
+ },
+ {
+  "title": "CL - Bío Bío TV (news)",
+  "tvg_id": "BioBioTV.cl@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
   "title": "CL - La Red",
@@ -1089,6 +1083,12 @@
    "UK1"
   ],
   "programmes": 90
+ },
+ {
+  "title": "UK - Teletubbies",
+  "tvg_id": "Teletubbies.uk@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
   "title": "US - ABC (KGTV San Diego)",
