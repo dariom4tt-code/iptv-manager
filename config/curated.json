@@ -74,7 +74,7 @@
    ],
    "name": "ES - La 1 (alt. Canarias)",
    "group": "Spagnolo - Generalisti",
-   "hold": true
+   "hold": false
   },
   {
    "type": "streams",
@@ -84,7 +84,7 @@
    ],
    "name": "ES - La 2 (alt. Canarias)",
    "group": "Spagnolo - Generalisti",
-   "hold": true
+   "hold": false
   },
   {
    "type": "pinned",
@@ -99,7 +99,7 @@
    ],
    "name": "ES - 24 Horas (RTVE)",
    "group": "Spagnolo - News",
-   "hold": true
+   "hold": false
   },
   {
    "type": "streams",
