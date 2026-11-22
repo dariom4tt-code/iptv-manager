@@ -1182,20 +1182,6 @@
   {
    "type": "redirector",
    "source": "wltv-sony",
-   "catalog_name": "SonyTv - Inter 24/7",
-   "name": "SN - Inter 24/7",
-   "group": "FAST | Sport e motori"
-  },
-  {
-   "type": "redirector",
-   "source": "wltv-sony",
-   "catalog_name": "SonyTv - Tennis+",
-   "name": "SN - Tennis+",
-   "group": "FAST | Sport e motori"
-  },
-  {
-   "type": "redirector",
-   "source": "wltv-sony",
    "catalog_name": "SonyTv - Golf Television",
    "name": "SN - Golf",
    "group": "FAST | Sport e motori"
