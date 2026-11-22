@@ -484,6 +484,22 @@
   "programmes": 127
  },
  {
+  "title": "ES - La 1 (alt. Canarias)",
+  "tvg_id": "La1Canarias.es@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "La.1.Canarias.es"
+  ]
+ },
+ {
+  "title": "ES - La 2 (alt. Canarias)",
+  "tvg_id": "La2Canarias.es@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "La.2.Canarias.es"
+  ]
+ },
+ {
   "title": "ES - TVE Internacional",
   "tvg_id": "TVE.Internacional.fr",
   "status": "EPG_OK",
@@ -491,6 +507,12 @@
    "FR1"
   ],
   "programmes": 96
+ },
+ {
+  "title": "ES - 24 Horas (RTVE)",
+  "tvg_id": "24Horas.es@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
   "title": "ES - DW Español",

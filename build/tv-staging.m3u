@@ -109,29 +109,35 @@ https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8
 #EXTINF:-1 tvg-id="La.2.es" tvg-name="La 2 (RTVE)" tvg-chno="101" tvg-logo="https://i.imgur.com/DmuTwDw.png" group-title="Spagnolo - Generalisti",ES - La 2 (RTVE)
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8
-#EXTINF:-1 tvg-id="TVE.Internacional.fr" tvg-name="TVE Internacional" tvg-chno="102" group-title="Spagnolo - Generalisti",ES - TVE Internacional
+#EXTINF:-1 tvg-id="La1Canarias.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" tvg-chno="102" group-title="Spagnolo - Generalisti" tvg-name="ES - La 1 (alt. Canarias)",ES - La 1 (alt. Canarias)
+https://ztnr.rtve.es/ztnr/5190066.m3u8
+#EXTINF:-1 tvg-id="La2Canarias.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Logo_La_2_Canarias.png/960px-Logo_La_2_Canarias.png" tvg-chno="103" group-title="Spagnolo - Generalisti" tvg-name="ES - La 2 (alt. Canarias)",ES - La 2 (alt. Canarias)
+https://ztnr.rtve.es/ztnr/5468585.m3u8
+#EXTINF:-1 tvg-id="TVE.Internacional.fr" tvg-name="TVE Internacional" tvg-chno="104" group-title="Spagnolo - Generalisti",ES - TVE Internacional
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8
-#EXTINF:-1 tvg-id="DW.de@Espanol" tvg-logo="https://i.imgur.com/8MRNFb9.png" tvg-chno="103" group-title="Spagnolo - News" tvg-name="ES - DW Español",ES - DW Español
+#EXTINF:-1 tvg-id="24Horas.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" tvg-chno="105" group-title="Spagnolo - News" tvg-name="ES - 24 Horas (RTVE)",ES - 24 Horas (RTVE)
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 tvg-id="DW.de@Espanol" tvg-logo="https://i.imgur.com/8MRNFb9.png" tvg-chno="106" group-title="Spagnolo - News" tvg-name="ES - DW Español",ES - DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" tvg-chno="104" group-title="Spagnolo - News" tvg-name="ES - France 24 Español",ES - France 24 Español
+#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" tvg-chno="107" group-title="Spagnolo - News" tvg-name="ES - France 24 Español",ES - France 24 Español
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="CNNenEspanol.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" tvg-chno="105" group-title="Spagnolo - News" tvg-name="ES - CNN en Español",ES - CNN en Español
+#EXTINF:-1 tvg-id="CNNenEspanol.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" tvg-chno="108" group-title="Spagnolo - News" tvg-name="ES - CNN en Español",ES - CNN en Español
 https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" tvg-chno="106" group-title="Spagnolo - Intrattenimento" tvg-name="ES - AMC en Español",ES - AMC en Español
+#EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" tvg-chno="109" group-title="Spagnolo - Intrattenimento" tvg-name="ES - AMC en Español",ES - AMC en Español
 https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="EstrellaTV.us@SD" tvg-logo="https://i.imgur.com/IZxjnyp.png" tvg-chno="107" group-title="Spagnolo - Intrattenimento" tvg-name="ES - Estrella TV",ES - Estrella TV
+#EXTINF:-1 tvg-id="EstrellaTV.us@SD" tvg-logo="https://i.imgur.com/IZxjnyp.png" tvg-chno="110" group-title="Spagnolo - Intrattenimento" tvg-name="ES - Estrella TV",ES - Estrella TV
 https://estrellatv-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://i.imgur.com/V562tpO.png" tvg-chno="108" group-title="Spagnolo - Sport" tvg-name="ES - beIN SPORTS XTRA",ES - beIN SPORTS XTRA
+#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://i.imgur.com/V562tpO.png" tvg-chno="111" group-title="Spagnolo - Sport" tvg-name="ES - beIN SPORTS XTRA",ES - beIN SPORTS XTRA
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" tvg-chno="109" group-title="Spagnolo - Cartoni" tvg-name="ES - Clan (RTVE)",ES - Clan (RTVE)
+#EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" tvg-chno="112" group-title="Spagnolo - Cartoni" tvg-name="ES - Clan (RTVE)",ES - Clan (RTVE)
 https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8
-#EXTINF:-1 tvg-id="Historia.es@SD" tvg-logo="https://i.imgur.com/VUy8xIG.png" tvg-chno="110" group-title="Spagnolo - Documentari" tvg-name="ES - Historia",ES - Historia
+#EXTINF:-1 tvg-id="Historia.es@SD" tvg-logo="https://i.imgur.com/VUy8xIG.png" tvg-chno="113" group-title="Spagnolo - Documentari" tvg-name="ES - Historia",ES - Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
-#EXTINF:-1 tvg-id="LATINA.HD.(Latina.HD).pe" tvg-name="Latina Televisión" tvg-chno="111" group-title="Perù",PE - Latina Televisión
+#EXTINF:-1 tvg-id="LATINA.HD.(Latina.HD).pe" tvg-name="Latina Televisión" tvg-chno="114" group-title="Perù",PE - Latina Televisión
 https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe" tvg-name="Panamericana TV" tvg-chno="112" group-title="Perù",PE - Panamericana TV
+#EXTINF:-1 tvg-id="PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe" tvg-name="Panamericana TV" tvg-chno="115" group-title="Perù",PE - Panamericana TV
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVPerú" tvg-chno="113" group-title="Perù",PE - TVPerú
+#EXTINF:-1 tvg-id="" tvg-name="TVPerú" tvg-chno="116" group-title="Perù",PE - TVPerú
 https://cablered.iptvperu.tv:1936/cablered/tvperu_new/playlist.m3u8
 #EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC News" tvg-chno="200" group-title="Inglese - News",UK - BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8

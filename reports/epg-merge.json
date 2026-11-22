@@ -88,6 +88,7 @@
   "Top.Crime.it": "IT1"
  },
  "missing": [
+  "24Horas.es@SD",
   "ABCNews.au@Sydney",
   "AMCenEspanol.us@SD",
   "AlJazeera.qa@English",
@@ -114,6 +115,8 @@
   "Franceinfo.fr@SD",
   "Historia.es@SD",
   "HistoryHit.uk@SD",
+  "La1Canarias.es@SD",
+  "La2Canarias.es@SD",
   "LawCrime.us@SD",
   "LoveNature.ca@SD",
   "M6.fr@SD",
