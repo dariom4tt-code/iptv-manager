@@ -419,15 +419,6 @@
   "programmes": 38
  },
  {
-  "title": "SM - San Marino RTV",
-  "tvg_id": "San.Marino.RTV.it",
-  "status": "EPG_OK",
-  "sources": [
-   "IT1"
-  ],
-  "programmes": 104
- },
- {
   "title": "ES - La 1 (RTVE)",
   "tvg_id": "La.1.es",
   "status": "EPG_OK",
@@ -474,21 +465,21 @@
  },
  {
   "title": "PE - Latina Televisión",
-  "tvg_id": "LATINA.(Latina).pe",
-  "status": "ID_PRESENT_NO_PROGRAMMES",
+  "tvg_id": "LATINA.HD.(Latina.HD).pe",
+  "status": "EPG_OK",
   "sources": [
    "PE1"
   ],
-  "programmes": 0
+  "programmes": 70
  },
  {
   "title": "PE - Panamericana TV",
-  "tvg_id": "PANAMERICANA.TELEVISION.(Panamericana.TV).pe",
-  "status": "ID_PRESENT_NO_PROGRAMMES",
+  "tvg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
+  "status": "EPG_OK",
   "sources": [
    "PE1"
   ],
-  "programmes": 0
+  "programmes": 78
  },
  {
   "title": "PE - TVPerú",
@@ -524,9 +515,32 @@
  },
  {
   "title": "UK - GB News",
-  "tvg_id": "GBNews.uk@SD",
+  "tvg_id": "GB.News.HD.uk",
+  "status": "EPG_OK",
+  "sources": [
+   "UK1"
+  ],
+  "programmes": 47
+ },
+ {
+  "title": "UK - BBC One",
+  "tvg_id": "BBCOne.uk@London",
   "status": "ID_NOT_FOUND",
   "suggestions": []
+ },
+ {
+  "title": "UK - BBC Two",
+  "tvg_id": "BBCTwo.uk@HD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "UK - Channel 4",
+  "tvg_id": "Channel4.uk@UK",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Channel.44.uk"
+  ]
  },
  {
   "title": "US - PBS Create",
@@ -539,9 +553,12 @@
  },
  {
   "title": "US - PBS World Channel",
-  "tvg_id": "WorldChannel.us",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "WORLD.Channel.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 131
  },
  {
   "title": "FR - ARTE (Français)",
@@ -571,28 +588,87 @@
   "programmes": 799
  },
  {
-  "title": "DE - Das Erste",
-  "tvg_id": "DasErste.de@HD",
+  "title": "FR - TF1",
+  "tvg_id": "TF1.fr@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
-   "Das.Erste.de"
+   "TF1.fr"
   ]
  },
  {
-  "title": "DE - ARD-alpha",
-  "tvg_id": "ARDalpha.de@SD",
+  "title": "FR - France 2",
+  "tvg_id": "France2.fr@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
-   "ARD.alpha.de"
+   "France.2.fr",
+   "France.24.fr",
+   "France.2..fr"
+  ]
+ },
+ {
+  "title": "FR - France 3",
+  "tvg_id": "France3.fr@National",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "FR - M6",
+  "tvg_id": "M6.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "FR - franceinfo",
+  "tvg_id": "Franceinfo.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Franceinfo.fr",
+   "France.info.fr",
+   "franceinfo:.fr"
+  ]
+ },
+ {
+  "title": "FR - BFM TV",
+  "tvg_id": "BFMTV.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "BFM.TV.fr"
+  ]
+ },
+ {
+  "title": "DE - Das Erste",
+  "tvg_id": "Das.Erste.de",
+  "status": "EPG_OK",
+  "sources": [
+   "DE1"
+  ],
+  "programmes": 114
+ },
+ {
+  "title": "DE - ARD-alpha",
+  "tvg_id": "ARD.alpha.de",
+  "status": "EPG_OK",
+  "sources": [
+   "DE1"
+  ],
+  "programmes": 137
+ },
+ {
+  "title": "DE - ZDF",
+  "tvg_id": "ZDF.de@HD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "ZDF.de"
   ]
  },
  {
   "title": "US - ABC News Live",
-  "tvg_id": "ABCNewsLive1.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "ABC.News.Live.us2"
-  ]
+  "tvg_id": "ABC.News.Live.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 136
  },
  {
   "title": "US - NBC News NOW",
@@ -614,41 +690,57 @@
  },
  {
   "title": "US - Bloomberg",
-  "tvg_id": "BloombergOriginals.us@US",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "Bloomberg.HD.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 97
  },
  {
   "title": "US - Court TV",
-  "tvg_id": "CourtTV.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "Court.TV.us2"
-  ]
+  "tvg_id": "Court.TV.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 107
  },
  {
   "title": "US - FOX New York (WNYW)",
-  "tvg_id": "Fox.us@WNYW",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "WNYW-DT.us_locals1",
+  "status": "EPG_OK",
+  "sources": [
+   "US_LOCALS1"
+  ],
+  "programmes": 121
  },
  {
   "title": "US - CBS Seattle (KIRO)",
-  "tvg_id": "CBS.us@KIROTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "KIRO-DT.us_locals1",
+  "status": "EPG_OK",
+  "sources": [
+   "US_LOCALS1"
+  ],
+  "programmes": 119
  },
  {
   "title": "US - ABC Cleveland (WEWS)",
-  "tvg_id": "ABC.us@WEWSTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "WEWS-DT.us_locals1",
+  "status": "EPG_OK",
+  "sources": [
+   "US_LOCALS1"
+  ],
+  "programmes": 116
  },
  {
   "title": "US - PBS KQED",
-  "tvg_id": "PBS.us@KQED",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "KQED-DT.us_locals1",
+  "status": "EPG_OK",
+  "sources": [
+   "US_LOCALS1"
+  ],
+  "programmes": 142
  },
  {
   "title": "PL - Cinema Italiano",
@@ -700,18 +792,30 @@
  },
  {
   "title": "RK - Film Top",
-  "tvg_id": "",
-  "status": "NO_TVG_ID"
+  "tvg_id": "IT:.Film.Top.-.Rakuten.TV.be",
+  "status": "EPG_OK",
+  "sources": [
+   "RAKUTEN1"
+  ],
+  "programmes": 47
  },
  {
   "title": "RK - Film Commedia",
-  "tvg_id": "",
-  "status": "NO_TVG_ID"
+  "tvg_id": "IT:.Commedia.-.Rakuten.TV.be",
+  "status": "EPG_OK",
+  "sources": [
+   "RAKUTEN1"
+  ],
+  "programmes": 53
  },
  {
   "title": "RK - Film Azione",
-  "tvg_id": "",
-  "status": "NO_TVG_ID"
+  "tvg_id": "IT:.Azione.-.Rakuten.TV.be",
+  "status": "EPG_OK",
+  "sources": [
+   "RAKUTEN1"
+  ],
+  "programmes": 51
  },
  {
   "title": "ST - BBC Earth",
@@ -792,29 +896,39 @@
  },
  {
   "title": "US - QVC",
-  "tvg_id": "QVC.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "QVC.HD.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 63
  },
  {
   "title": "US - HSN",
-  "tvg_id": "HSN.us@East",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "HSN.Home.Shopping.Network.HD.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 96
  },
  {
   "title": "UK - QVC",
-  "tvg_id": "QVCUK.uk",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
+  "tvg_id": "QVC.HD.uk",
+  "status": "EPG_OK",
+  "sources": [
+   "UK1"
+  ],
+  "programmes": 90
  },
  {
   "title": "DE - QVC",
-  "tvg_id": "QVC.de@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "QVC.de"
-  ]
+  "tvg_id": "QVC.de",
+  "status": "EPG_OK",
+  "sources": [
+   "DE1"
+  ],
+  "programmes": 76
  },
  {
   "title": "SN - Cinema Italiano",
