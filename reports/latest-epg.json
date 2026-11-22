@@ -588,6 +588,24 @@
   "status": "NO_TVG_ID"
  },
  {
+  "title": "MX - Imagen Televisión",
+  "tvg_id": "ImagenTV.mx@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "MX - Azteca Uno (+1)",
+  "tvg_id": "AztecaUno.mx@Plus1",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "VE - Globovisión",
+  "tvg_id": "Globovision.ve@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
   "title": "UK - BBC News",
   "tvg_id": "BBC.NEWS.HD.uk",
   "status": "EPG_OK",
@@ -698,6 +716,20 @@
   "programmes": 131
  },
  {
+  "title": "US - AMC Thrillers",
+  "tvg_id": "AMCThrillers.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - Stories by AMC",
+  "tvg_id": "StoriesbyAMC.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Stories.by.AMC.us2"
+  ]
+ },
+ {
   "title": "US - beIN SPORTS XTRA",
   "tvg_id": "beINSPORTSXTRA.us@SD",
   "status": "ID_NOT_FOUND",
@@ -706,12 +738,6 @@
  {
   "title": "US - Stadium",
   "tvg_id": "Stadium.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - FIFA+",
-  "tvg_id": "FIFAPlus.uk@UnitedStates",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
@@ -736,6 +762,12 @@
  {
   "title": "UK - Mr Bean Live Action",
   "tvg_id": "MrBeanLiveAction.uk@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "UK - Teletubbies",
+  "tvg_id": "Teletubbies.uk@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },

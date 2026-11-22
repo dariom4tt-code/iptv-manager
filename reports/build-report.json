@@ -100,7 +100,12 @@
   "PL - Top Gear",
   "PL - Mayday: Disastro Aereo",
   "PL - Documentari",
-  "PL - Il Testimone"
+  "PL - Il Testimone",
+  "US - AMC Thrillers",
+  "US - Stories by AMC",
+  "MX - Imagen Televisión",
+  "MX - Azteca Uno (+1)",
+  "VE - Globovisión"
  ],
  "held": [
   "ES - DW Español",
@@ -164,11 +169,21 @@
   "DE - tagesschau24",
   "DE - Euronews Deutsch",
   "DE - QVC",
-  "SM - San Marino RTV"
+  "SM - San Marino RTV",
+  "US - AMC Thrillers",
+  "US - Stories by AMC",
+  "MX - Imagen Televisión",
+  "MX - Azteca Uno (+1)",
+  "VE - Globovisión"
  ],
- "not_found": [],
+ "not_found": [
+  "BR - SBT: nessun candidato valido in iptvorg-all",
+  "CL - Mega: nessun candidato valido in iptvorg-all"
+ ],
  "proposed_removal": [],
- "excluded": [],
+ "excluded": [
+  "CL - Mega: http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/pl... (non https)"
+ ],
  "selected": {
   "ES - La 1 (alt. Canarias)": {
    "url": "https://ztnr.rtve.es/ztnr/5190066.m3u8",
@@ -421,6 +436,26 @@
   "DE - QVC": {
    "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
    "alternatives": 0
+  },
+  "US - AMC Thrillers": {
+   "url": "https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8",
+   "alternatives": 2
+  },
+  "US - Stories by AMC": {
+   "url": "https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8",
+   "alternatives": 2
+  },
+  "MX - Imagen Televisión": {
+   "url": "https://igd-it-runtime.otteravision.com/igd/it/it.m3u8",
+   "alternatives": 0
+  },
+  "MX - Azteca Uno (+1)": {
+   "url": "https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8",
+   "alternatives": 0
+  },
+  "VE - Globovisión": {
+   "url": "https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8",
+   "alternatives": 0
   }
  },
  "dropped_from_prod": [
@@ -553,11 +588,11 @@
   "UK - GREAT! Movies": "STREAM_OK",
   "US - beIN SPORTS XTRA": "STREAM_OK",
   "US - Stadium": "STREAM_OK",
-  "US - FIFA+": "UNREACHABLE",
-  "US - ESPN8 The Ocho": "REACHABLE_ONLY",
-  "AT - Red Bull TV": "UNREACHABLE",
+  "US - ESPN8 The Ocho": "UNREACHABLE",
+  "AT - Red Bull TV": "REACHABLE_ONLY",
   "UK - Mr Bean Animated": "UNREACHABLE",
-  "UK - Mr Bean Live Action": "STREAM_OK",
+  "UK - Mr Bean Live Action": "UNREACHABLE",
+  "UK - Teletubbies": "STREAM_OK",
   "US - MeTV Toons (cartoni classici)": "STREAM_OK",
   "UK - Real Wild": "REACHABLE_ONLY",
   "CA - Love Nature": "REACHABLE_ONLY",
@@ -566,12 +601,12 @@
   "US - QVC": "STREAM_OK",
   "US - HSN": "REACHABLE_ONLY",
   "UK - QVC": "STREAM_OK",
-  "FR - ARTE (Français)": "STREAM_OK",
+  "FR - ARTE (Français)": "REACHABLE_ONLY",
   "FR - France 5": "STREAM_OK",
   "FR - TF1": "STREAM_OK",
   "FR - France 2": "STREAM_OK",
   "FR - France 3": "STREAM_OK",
-  "FR - M6": "REACHABLE_ONLY",
+  "FR - M6": "STREAM_OK",
   "FR - France 24 Français": "STREAM_OK",
   "FR - franceinfo": "STREAM_OK",
   "FR - BFM TV": "STREAM_OK",
@@ -614,7 +649,12 @@
   "PL - Mayday: Disastro Aereo": "REACHABLE_ONLY",
   "PL - Documentari": "STREAM_OK",
   "PL - Il Testimone": "REACHABLE_ONLY",
-  "PL - Distretto di Polizia": "REACHABLE_ONLY"
+  "PL - Distretto di Polizia": "REACHABLE_ONLY",
+  "US - AMC Thrillers": "REACHABLE_ONLY",
+  "US - Stories by AMC": "REACHABLE_ONLY",
+  "MX - Imagen Televisión": "REACHABLE_ONLY",
+  "MX - Azteca Uno (+1)": "REACHABLE_ONLY",
+  "VE - Globovisión": "REACHABLE_ONLY"
  },
  "source_errors": {},
  "warnings": [

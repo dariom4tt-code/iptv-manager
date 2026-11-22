@@ -250,5 +250,25 @@
  "DE - QVC": {
   "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
   "alternatives": 0
+ },
+ "US - AMC Thrillers": {
+  "url": "https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - Stories by AMC": {
+  "url": "https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8",
+  "alternatives": 2
+ },
+ "MX - Imagen Televisión": {
+  "url": "https://igd-it-runtime.otteravision.com/igd/it/it.m3u8",
+  "alternatives": 0
+ },
+ "MX - Azteca Uno (+1)": {
+  "url": "https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8",
+  "alternatives": 0
+ },
+ "VE - Globovisión": {
+  "url": "https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8",
+  "alternatives": 0
  }
 }
