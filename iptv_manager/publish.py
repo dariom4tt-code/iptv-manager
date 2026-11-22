@@ -44,7 +44,37 @@ def _gist_request(method: str, data: dict | None = None) -> dict:
         return json.load(r)
 
 
-def publish(path: pathlib.Path, confirm: bool = False) -> int:
+def online_text() -> str:
+    """Versione attualmente online (Raw senza hash, URL pubblico)."""
+    cfg = settings()["gist"]
+    url = f"https://gist.githubusercontent.com/{cfg['owner']}/{cfg['id']}/raw/{cfg['filename']}"
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "iptv-manager"}), timeout=30) as r:
+        return r.read().decode("utf-8")
+
+
+def auto_guard(new_text: str, old_text: str) -> list[str]:
+    """Motivi per cui l'aggiornamento NON puo' essere automatico (richiede approvazione).
+
+    Automatico solo se: stessi canali (per titolo), stesso LCN/gruppo, e nessun canale
+    'storico' (LCN < 100, i canali italiani) cambia URL. Cambi di URL su altri canali e correzioni
+    di tvg-id sono considerati aggiornamenti tecnici.
+    """
+    new, old = m3u.parse(new_text), m3u.parse(old_text)
+    n, o = {c.title: c for c in new.channels}, {c.title: c for c in old.channels}
+    why = []
+    for t in sorted(set(n) - set(o)):
+        why.append(f"canale AGGIUNTO: {t}")
+    for t in sorted(set(o) - set(n)):
+        why.append(f"canale RIMOSSO: {t}")
+    for t in sorted(set(n) & set(o)):
+        if (n[t].chno, n[t].group) != (o[t].chno, o[t].group):
+            why.append(f"LCN/gruppo cambiato: {t}")
+        if (o[t].chno or 999) < 100 and n[t].url != o[t].url:
+            why.append(f"URL di canale storico cambiato: {t}")
+    return why
+
+
+def publish(path: pathlib.Path, confirm: bool = False, auto: bool = False) -> int:
     text = path.read_text(encoding="utf-8")
     errors, warnings = m3u.validate(m3u.parse(text))
     for w in warnings:
@@ -53,6 +83,12 @@ def publish(path: pathlib.Path, confirm: bool = False) -> int:
         print("PUBBLICAZIONE BLOCCATA:\n  " + "\n  ".join(errors))
         return 2
     fname = settings()["gist"]["filename"]
+    if auto:
+        why = auto_guard(text, online_text())
+        if why:
+            print("AGGIORNAMENTO AUTOMATICO SOSPESO: serve approvazione.\n  " + "\n  ".join(why))
+            return 0  # non e' un errore: resta in staging
+        print("auto_guard OK: solo correzioni tecniche")
     if not confirm:
         print(f"[dry-run] validazione OK ({len(text.splitlines())} righe). Pubblicherebbe su gist file '{fname}'. "
               "Aggiungere --confirm per procedere.")

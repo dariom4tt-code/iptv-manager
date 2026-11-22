@@ -46,6 +46,17 @@ class Playlist:
     trailer: list[str] = field(default_factory=list)
 
 
+def _split_extinf(line: str) -> tuple[str, str]:
+    """Divide '#EXTINF:-1 attrs,titolo' alla prima virgola FUORI dalle virgolette."""
+    inq = False
+    for i, ch in enumerate(line):
+        if ch == '"':
+            inq = not inq
+        elif ch == "," and not inq:
+            return line[:i], line[i + 1:].strip()
+    return line, ""
+
+
 def parse(text: str) -> Playlist:
     lines = text.replace("\r\n", "\n").split("\n")
     if not lines or not lines[0].startswith("#EXTM3U"):
@@ -54,7 +65,7 @@ def parse(text: str) -> Playlist:
     cur: Channel | None = None
     for line in lines[1:]:
         if line.startswith("#EXTINF:"):
-            head, _, title = line.partition(",")
+            head, title = _split_extinf(line)
             cur = Channel(dict(ATTR_RE.findall(head)), title.strip(), "", [], pending)
             pending = []
         elif cur is not None and line.startswith("#"):

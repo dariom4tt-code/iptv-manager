@@ -111,6 +111,29 @@ def cmd_epg(a) -> int:
     return 0
 
 
+def cmd_build(a) -> int:
+    from . import build
+    prod = (ROOT / "playlists" / "production.m3u").read_text(encoding="utf-8")
+    sel = ROOT / "config" / "selected.json"
+    prev = {k: v["url"] for k, v in json.loads(sel.read_text()).items()} if sel.exists() else {}
+    srcs, errs = build.load_sources()
+    for k, v in errs.items():
+        print("FONTE NON RAGGIUNGIBILE (si prosegue senza):", k, v)
+    r = build.build(prod, srcs, prev, check=a.check)
+    errors, warnings = m3u.validate(r["playlist"])
+    if errors:
+        print("BUILD NON VALIDA:", *errors, sep="\n  ")
+        return 2
+    (ROOT / "build").mkdir(exist_ok=True)
+    (ROOT / "build" / "tv-staging.m3u").write_text(m3u.dumps(r["playlist"]), encoding="utf-8")
+    sel.write_text(json.dumps(r["report"]["selected"], indent=1, ensure_ascii=False))
+    (REPORTS / "build-report.json").write_text(json.dumps({**r["report"], "source_errors": errs, "warnings": warnings}, indent=1, ensure_ascii=False))
+    n = len(r["playlist"].channels)
+    print(f"staging: {n} canali -> build/tv-staging.m3u; avvisi={len(warnings)}; nuovi={len(r['report']['new'])}; "
+          f"non trovati={len(r['report']['not_found'])}; rimozioni proposte={len(r['report']['proposed_removal'])}")
+    return 0
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="iptv_manager")
     sp = p.add_subparsers(dest="cmd", required=True)
@@ -122,15 +145,18 @@ def main(argv=None) -> int:
             s.add_argument("--no-deep", action="store_true")
         if name == "publish":
             s.add_argument("--confirm", action="store_true")
+            s.add_argument("--auto", action="store_true", help="pubblica solo se auto_guard conferma che sono correzioni tecniche")
+    s = sp.add_parser("build")
+    s.add_argument("--check", action="store_true")
     s = sp.add_parser("restore")
     s.add_argument("file")
     s.add_argument("--confirm", action="store_true")
     a = p.parse_args(argv)
     if a.cmd == "publish":
-        return publish.publish(pathlib.Path(a.file or ROOT / "playlists" / "production.m3u"), a.confirm)
+        return publish.publish(pathlib.Path(a.file or ROOT / "playlists" / "production.m3u"), a.confirm, a.auto)
     if a.cmd == "restore":
         return publish.publish(pathlib.Path(a.file), a.confirm)
-    return {"validate": cmd_validate, "check": cmd_check, "epg": cmd_epg}[a.cmd](a)
+    return {"validate": cmd_validate, "check": cmd_check, "epg": cmd_epg, "build": cmd_build}[a.cmd](a)
 
 
 if __name__ == "__main__":

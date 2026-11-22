@@ -1,0 +1,176 @@
+{
+ "epg_fixed": [
+  "29 | LA7 Cinema: La7Cinema.it -> LA7.CINEMA.it",
+  "47 | Super!: Super.it -> Super!.it",
+  "50 | Sky TG24: SkyTG24.it -> Sky.TG24.it",
+  "70 | Radio Italia TV: Radioitaliatv.it -> Radio.Italia.TV.HD.it"
+ ],
+ "new": [
+  "UK - GB News",
+  "US - ABC News Live",
+  "US - NBC News NOW",
+  "US - CBS News 24/7",
+  "US - Fox Weather",
+  "US - Bloomberg",
+  "US - Court TV",
+  "US - FOX New York (WNYW)",
+  "US - CBS Seattle (KIRO)",
+  "US - ABC Cleveland (WEWS)",
+  "US - PBS KQED",
+  "DE - Das Erste",
+  "DE - ARD-alpha",
+  "DE - QVC",
+  "PL - Cinema Italiano",
+  "PL - Totò",
+  "PL - Alberto Sordi",
+  "PL - Film Commedia",
+  "PL - Cinema Poliziottesco",
+  "PL - Carabinieri",
+  "PL - Squadra Speciale Cobra 11",
+  "PL - Serie Crime",
+  "PL - I Soliti Idioti",
+  "PL - Scherzi e Risate",
+  "PL - Il Banco dei Pugni",
+  "PL - Affare Fatto",
+  "PL - South Park",
+  "PL - Top Gear",
+  "PL - Mayday: Disastro Aereo",
+  "PL - Documentari",
+  "PL - Il Testimone",
+  "PL - Cucina",
+  "PL - Real Life",
+  "SN - Cinema Italiano",
+  "SN - Totò & Co",
+  "SN - Alberto Sordi & Co",
+  "SN - Marcello, Sophia & Co",
+  "SN - Film Divertenti",
+  "SN - Serie da Ridere",
+  "SN - Film d'Azione",
+  "SN - Gli Imperdibili",
+  "SN - Duri a Morire",
+  "SN - Grandi Nomi",
+  "SN - Crime Time",
+  "SN - Squadra Speciale Lipsia",
+  "SN - Vita da Strega",
+  "SN - Top Gear",
+  "SN - Mayday",
+  "SN - Gambero Rosso",
+  "SN - BBC Earth",
+  "SN - BBC Series",
+  "SN - Euronews Italiano",
+  "SN - Il Sole 24 Ore TV",
+  "SN - CNN Headlines",
+  "SN - Bloomberg TV+"
+ ],
+ "held": [
+  "SM - San Marino RTV"
+ ],
+ "not_found": [
+  "CH - RSI La 1: nessun candidato valido in wltv-dtt",
+  "UK - BBC One: nessun candidato valido in iptvorg-uk",
+  "UK - BBC Two: nessun candidato valido in iptvorg-uk",
+  "UK - Channel 4: nessun candidato valido in iptvorg-uk",
+  "UK - Channel 5: nessun candidato valido in iptvorg-uk",
+  "FR - TF1: nessun candidato valido in iptvorg-fr",
+  "FR - France 2: nessun candidato valido in iptvorg-fr",
+  "FR - France 3: nessun candidato valido in iptvorg-fr",
+  "FR - M6: nessun candidato valido in iptvorg-fr",
+  "FR - franceinfo: nessun candidato valido in iptvorg-fr",
+  "FR - BFM TV: nessun candidato valido in iptvorg-fr",
+  "DE - ZDF: nessun candidato valido in iptvorg-de"
+ ],
+ "proposed_removal": [
+  "UK - GREAT! Romance",
+  "UK - BLAZE",
+  "US - MyTime Movie Network",
+  "US - FailArmy",
+  "US - FilmRise Classic TV",
+  "US - Hallmark Movies & More",
+  "US - Grit Xtra",
+  "US - PBS Kids",
+  "FR - TV5MONDE Chefs",
+  "UK - TJC",
+  "BO - Red TV Shop (spagnolo)"
+ ],
+ "excluded": [
+  "CH - RSI La 1: https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-da... (non HLS)",
+  "UK - BBC One: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
+  "UK - BBC Two: host grigio, serve include_grey_new (n-5-1.eu.cdn-redge.media)",
+  "UK - Channel 4: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
+  "UK - Channel 5: https://lb.iptvnetwork.net/ls28/10105/playlist.m3u8... (host bloccato (iptvnetwork))",
+  "FR - TF1: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
+  "FR - France 2: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
+  "FR - France 3: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
+  "FR - M6: host grigio, serve include_grey_new (n-5-2.eu.cdn-redge.media)",
+  "FR - franceinfo: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
+  "FR - BFM TV: host grigio, serve include_grey_new (n-5-2.eu.cdn-redge.media)",
+  "DE - ZDF: host grigio, serve include_grey_new (r.eu.cdn-redge.media)"
+ ],
+ "selected": {
+  "UK - GB News": {
+   "url": "https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8",
+   "alternatives": 0
+  },
+  "US - ABC News Live": {
+   "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+   "alternatives": 0
+  },
+  "US - NBC News NOW": {
+   "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
+   "alternatives": 0
+  },
+  "US - CBS News 24/7": {
+   "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
+   "alternatives": 0
+  },
+  "US - Fox Weather": {
+   "url": "https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8",
+   "alternatives": 0
+  },
+  "US - Bloomberg": {
+   "url": "https://bloomberg.com/media-manifest/streams/qt.m3u8",
+   "alternatives": 0
+  },
+  "US - Court TV": {
+   "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+   "alternatives": 0
+  },
+  "US - FOX New York (WNYW)": {
+   "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8",
+   "alternatives": 0
+  },
+  "US - CBS Seattle (KIRO)": {
+   "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8",
+   "alternatives": 0
+  },
+  "US - ABC Cleveland (WEWS)": {
+   "url": "https://amg01438-amg01438c1-vizio-us-10865.playouts.now.amagi.tv/playlist.m3u8",
+   "alternatives": 0
+  },
+  "US - PBS KQED": {
+   "url": "https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8",
+   "alternatives": 0
+  },
+  "DE - Das Erste": {
+   "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+   "alternatives": 0
+  },
+  "DE - ARD-alpha": {
+   "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
+   "alternatives": 0
+  },
+  "DE - QVC": {
+   "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
+   "alternatives": 0
+  }
+ },
+ "dropped_from_prod": [
+  "CA - Gusto TV",
+  "PL - Pluto TV Documentari"
+ ],
+ "source_errors": {},
+ "warnings": [
+  "tvg-id vuoto (nessuna EPG): PE - TVPerú",
+  "tvg-id vuoto (nessuna EPG): ST - BBC Earth"
+ ]
+}

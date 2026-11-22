@@ -1,0 +1,10 @@
+{
+  "_note": "Correzioni tvg-id verificate per corrispondenza ESATTA con epg_ripper_IT1.xml.gz il 22/11/2026. Applicate solo allo staging.",
+  "fixes": {
+    "LA7 Cinema": "LA7.CINEMA.it",
+    "Super!": "Super!.it",
+    "Sky TG24": "Sky.TG24.it",
+    "Radio Italia TV": "Radio.Italia.TV.HD.it"
+  },
+  "no_epg_in_IT1": ["Canale 21", "TV2000"]
+}

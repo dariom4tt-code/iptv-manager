@@ -14,7 +14,8 @@ Repo GitHub -> Python -> GitHub Actions -> Gist (URL fisso) -> Samsung M5
 python -m unittest discover -s tests
 python -m iptv_manager validate [file]
 python -m iptv_manager check [--only "PL -"] [--no-deep]   # report in reports/
-python -m iptv_manager epg
+python -m iptv_manager epg [file]
+python -m iptv_manager build [--check]                   # lista autoaggiornante -> build/tv-staging.m3u (docs/AUTOUPDATE.md)
 python -m iptv_manager publish playlists/production.m3u            # dry-run
 GIST_TOKEN=... python -m iptv_manager publish FILE --confirm       # solo con approvazione
 python -m iptv_manager restore backups/<file>.m3u --confirm        # ripristino immediato

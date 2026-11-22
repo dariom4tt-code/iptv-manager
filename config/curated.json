@@ -1,0 +1,755 @@
+{
+ "italy_pinned_rule": "tutti i canali di playlists/production.m3u con tvg-chno < 100, invariati",
+ "entries": [
+  {
+   "type": "pinned",
+   "from_title": "SM - San Marino RTV",
+   "hold": true,
+   "note": "segnalato non funzionante dall'utente: incluso solo se il controllo lo vede STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "wltv-dtt",
+   "catalog_name": "RSI La1 (instabile)",
+   "name": "CH - RSI La 1",
+   "chno": 960,
+   "group": "Internazionali - Svizzera",
+   "hold": true,
+   "note": "in dtt e' plugin:// o solo VPN: cercare HTTP su fonti alternative"
+  },
+  {
+   "type": "pinned",
+   "from_title": "ES - La 1 (RTVE)"
+  },
+  {
+   "type": "pinned",
+   "from_title": "ES - La 2 (RTVE)"
+  },
+  {
+   "type": "pinned",
+   "from_title": "ES - TVE Internacional"
+  },
+  {
+   "type": "pinned",
+   "from_title": "ES - Telemadrid"
+  },
+  {
+   "type": "pinned",
+   "from_title": "ES - Canal Sur Andalucía"
+  },
+  {
+   "type": "pinned",
+   "from_title": "PE - Latina Televisión",
+   "epg_id": "LATINA.HD.(Latina.HD).pe"
+  },
+  {
+   "type": "pinned",
+   "from_title": "PE - Panamericana TV",
+   "epg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe"
+  },
+  {
+   "type": "pinned",
+   "from_title": "PE - TVPerú"
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - BBC News"
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - Sky News"
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - GREAT! Movies"
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - GREAT! Romance",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - BLAZE",
+   "proposed_removal": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-uk",
+   "tvg_ids": [
+    "GBNews.uk@SD"
+   ],
+   "name": "UK - GB News",
+   "chno": 935,
+   "group": "Internazionali - Regno Unito",
+   "epg_id": "GB.News.HD.uk"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-uk",
+   "tvg_ids": [
+    "BBCOne.uk@London"
+   ],
+   "name": "UK - BBC One",
+   "chno": 936,
+   "group": "Internazionali - Regno Unito",
+   "tier_note": "host redge (grigio)"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-uk",
+   "tvg_ids": [
+    "BBCTwo.uk@HD"
+   ],
+   "name": "UK - BBC Two",
+   "chno": 937,
+   "group": "Internazionali - Regno Unito"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-uk",
+   "tvg_ids": [
+    "Channel4.uk@UK"
+   ],
+   "name": "UK - Channel 4",
+   "chno": 938,
+   "group": "Internazionali - Regno Unito"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-uk",
+   "tvg_ids": [
+    "Channel5.uk@SD"
+   ],
+   "name": "UK - Channel 5",
+   "chno": 939,
+   "group": "Internazionali - Regno Unito"
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - PBS Create"
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - PBS World Channel",
+   "epg_id": "WORLD.Channel.us2"
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - MyTime Movie Network",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - FailArmy",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - FilmRise Classic TV",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - Hallmark Movies & More",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - Grit Xtra",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - PBS Kids",
+   "proposed_removal": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "ABCNewsLive1.us@SD"
+   ],
+   "name": "US - ABC News Live",
+   "chno": 980,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "ABC.News.Live.us2"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "NBCNewsNOW.us@SD"
+   ],
+   "name": "US - NBC News NOW",
+   "chno": 981,
+   "group": "Internazionali - Stati Uniti"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "CBSNews247.us@SD"
+   ],
+   "name": "US - CBS News 24/7",
+   "chno": 982,
+   "group": "Internazionali - Stati Uniti"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "FoxWeather.us@SD"
+   ],
+   "name": "US - Fox Weather",
+   "chno": 983,
+   "group": "Internazionali - Stati Uniti"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "BloombergOriginals.us@US"
+   ],
+   "name": "US - Bloomberg",
+   "chno": 984,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "Bloomberg.HD.us2"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "CourtTV.us@SD"
+   ],
+   "name": "US - Court TV",
+   "chno": 985,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "Court.TV.us2"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "Fox.us@WNYW"
+   ],
+   "name": "US - FOX New York (WNYW)",
+   "chno": 986,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "WNYW-DT.us_locals1"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "CBS.us@KIROTV"
+   ],
+   "name": "US - CBS Seattle (KIRO)",
+   "chno": 987,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "KIRO-DT.us_locals1"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "ABC.us@WEWSTV"
+   ],
+   "name": "US - ABC Cleveland (WEWS)",
+   "chno": 988,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "WEWS-DT.us_locals1"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-us",
+   "tvg_ids": [
+    "PBS.us@KQED"
+   ],
+   "name": "US - PBS KQED",
+   "chno": 989,
+   "group": "Internazionali - Stati Uniti",
+   "epg_id": "KQED-DT.us_locals1"
+  },
+  {
+   "type": "pinned",
+   "from_title": "FR - ARTE (Français)"
+  },
+  {
+   "type": "pinned",
+   "from_title": "FR - France 24 Français"
+  },
+  {
+   "type": "pinned",
+   "from_title": "FR - France 5 (verifica disponibilità)",
+   "name": "FR - France 5",
+   "note": "host redge (grigio) gia' presente in produzione"
+  },
+  {
+   "type": "pinned",
+   "from_title": "FR - TV5MONDE Chefs",
+   "proposed_removal": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-fr",
+   "tvg_ids": [
+    "TF1.fr@SD"
+   ],
+   "name": "FR - TF1",
+   "chno": 964,
+   "group": "Internazionali - Francia"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-fr",
+   "tvg_ids": [
+    "France2.fr@SD"
+   ],
+   "name": "FR - France 2",
+   "chno": 965,
+   "group": "Internazionali - Francia"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-fr",
+   "tvg_ids": [
+    "France3.fr@National"
+   ],
+   "name": "FR - France 3",
+   "chno": 966,
+   "group": "Internazionali - Francia"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-fr",
+   "tvg_ids": [
+    "M6.fr@SD"
+   ],
+   "name": "FR - M6",
+   "chno": 967,
+   "group": "Internazionali - Francia"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-fr",
+   "tvg_ids": [
+    "Franceinfo.fr@SD"
+   ],
+   "name": "FR - franceinfo",
+   "chno": 968,
+   "group": "Internazionali - Francia"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-fr",
+   "tvg_ids": [
+    "BFMTV.fr@SD"
+   ],
+   "name": "FR - BFM TV",
+   "chno": 969,
+   "group": "Internazionali - Francia"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-de",
+   "tvg_ids": [
+    "DasErste.de@HD"
+   ],
+   "name": "DE - Das Erste",
+   "chno": 970,
+   "group": "Internazionali - Germania",
+   "epg_id": "Das.Erste.de"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-de",
+   "tvg_ids": [
+    "ARDalpha.de@SD"
+   ],
+   "name": "DE - ARD-alpha",
+   "chno": 971,
+   "group": "Internazionali - Germania",
+   "epg_id": "ARD.alpha.de"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-de",
+   "tvg_ids": [
+    "ZDF.de@HD"
+   ],
+   "name": "DE - ZDF",
+   "chno": 972,
+   "group": "Internazionali - Germania"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-de",
+   "tvg_ids": [
+    "QVC.de@SD"
+   ],
+   "name": "DE - QVC",
+   "chno": 1106,
+   "group": "SHOP | Germania",
+   "epg_id": "QVC.de"
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - QVC",
+   "epg_id": "QVC.HD.us2"
+  },
+  {
+   "type": "pinned",
+   "from_title": "US - HSN",
+   "epg_id": "HSN.Home.Shopping.Network.HD.us2"
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - QVC",
+   "epg_id": "QVC.HD.uk"
+  },
+  {
+   "type": "pinned",
+   "from_title": "UK - TJC",
+   "proposed_removal": true
+  },
+  {
+   "type": "pinned",
+   "from_title": "BO - Red TV Shop (spagnolo)",
+   "proposed_removal": true
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Cinema Italiano",
+   "name": "PL - Cinema Italiano",
+   "chno": 1001,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Totò",
+   "name": "PL - Totò",
+   "chno": 1002,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Alberto Sordi",
+   "name": "PL - Alberto Sordi",
+   "chno": 1003,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Film Commedia",
+   "name": "PL - Film Commedia",
+   "chno": 1014,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Cinema Poliziottesco",
+   "name": "PL - Cinema Poliziottesco",
+   "chno": 1015,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Carabinieri",
+   "name": "PL - Carabinieri",
+   "chno": 1016,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Squadra Speciale Cobra 11",
+   "name": "PL - Squadra Speciale Cobra 11",
+   "chno": 1017,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Serie Crime",
+   "name": "PL - Serie Crime",
+   "chno": 1018,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - I Soliti Idioti",
+   "name": "PL - I Soliti Idioti",
+   "chno": 1019,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Scherzi E Risate",
+   "name": "PL - Scherzi e Risate",
+   "chno": 1020,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Il Banco Dei Pugni",
+   "name": "PL - Il Banco dei Pugni",
+   "chno": 1021,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Affare Fatto",
+   "name": "PL - Affare Fatto",
+   "chno": 1022,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - South Park",
+   "name": "PL - South Park",
+   "chno": 1005,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Top Gear",
+   "name": "PL - Top Gear",
+   "chno": 1006,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Mayday: Disastro Aereo",
+   "name": "PL - Mayday: Disastro Aereo",
+   "chno": 1007,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Documentari",
+   "name": "PL - Documentari",
+   "chno": 1008,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Il Testimone",
+   "name": "PL - Il Testimone",
+   "chno": 1013,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Cucina",
+   "name": "PL - Cucina",
+   "chno": 1023,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pluto",
+   "catalog_name": "PlutoTv - Real Life",
+   "name": "PL - Real Life",
+   "chno": 1024,
+   "group": "FAST | PL - Pluto TV"
+  },
+  {
+   "type": "pinned",
+   "from_title": "PL - Distretto di Polizia",
+   "chno": 1004
+  },
+  {
+   "type": "pinned",
+   "from_title": "RK - Film Top",
+   "epg_id": "IT:.Film.Top.-.Rakuten.TV.be"
+  },
+  {
+   "type": "pinned",
+   "from_title": "RK - Film Commedia",
+   "epg_id": "IT:.Commedia.-.Rakuten.TV.be"
+  },
+  {
+   "type": "pinned",
+   "from_title": "RK - Film Azione",
+   "epg_id": "IT:.Azione.-.Rakuten.TV.be"
+  },
+  {
+   "type": "pinned",
+   "from_title": "ST - BBC Earth"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Cinema Italiano",
+   "name": "SN - Cinema Italiano",
+   "chno": 1201,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Totò & Co",
+   "name": "SN - Totò & Co",
+   "chno": 1202,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Alberto Sordi & Co",
+   "name": "SN - Alberto Sordi & Co",
+   "chno": 1203,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Marcello, Sophia & Co.",
+   "name": "SN - Marcello, Sophia & Co",
+   "chno": 1204,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Sony One | Film Divertenti",
+   "name": "SN - Film Divertenti",
+   "chno": 1205,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Sony One | Serie Da Ridere",
+   "name": "SN - Serie da Ridere",
+   "chno": 1206,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Sony One | Film D'azione",
+   "name": "SN - Film d'Azione",
+   "chno": 1207,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Sony One | Gli Imperdibili",
+   "name": "SN - Gli Imperdibili",
+   "chno": 1208,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Duri A Morire",
+   "name": "SN - Duri a Morire",
+   "chno": 1209,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Grandi Nomi",
+   "name": "SN - Grandi Nomi",
+   "chno": 1210,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Crime Time",
+   "name": "SN - Crime Time",
+   "chno": 1211,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Squadra Speciale Lipsia",
+   "name": "SN - Squadra Speciale Lipsia",
+   "chno": 1212,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Vita Da Strega",
+   "name": "SN - Vita da Strega",
+   "chno": 1213,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Top Gear",
+   "name": "SN - Top Gear",
+   "chno": 1214,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Mayday: Disastro Aereo",
+   "name": "SN - Mayday",
+   "chno": 1215,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Gambero Rosso",
+   "name": "SN - Gambero Rosso",
+   "chno": 1216,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Bbc Earth",
+   "name": "SN - BBC Earth",
+   "chno": 1217,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Bbc Series",
+   "name": "SN - BBC Series",
+   "chno": 1218,
+   "group": "FAST | SN - Sony/Titan OS"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Euronews Italiano",
+   "name": "SN - Euronews Italiano",
+   "chno": 1230,
+   "group": "FAST | SN - Notizie"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Il Sole 24 Ore Tv",
+   "name": "SN - Il Sole 24 Ore TV",
+   "chno": 1231,
+   "group": "FAST | SN - Notizie"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Cnn Headlines International",
+   "name": "SN - CNN Headlines",
+   "chno": 1232,
+   "group": "FAST | SN - Notizie"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Bloomberg Tv+",
+   "name": "SN - Bloomberg TV+",
+   "chno": 1233,
+   "group": "FAST | SN - Notizie"
+  }
+ ]
+}

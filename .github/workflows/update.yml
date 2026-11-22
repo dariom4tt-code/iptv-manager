@@ -1,0 +1,37 @@
+name: update-playlist
+on:
+  schedule: [{cron: "23 4 * * *"}]     # ogni giorno
+  workflow_dispatch:
+permissions:
+  contents: write                       # solo per committare staging/report/stato
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m unittest discover -s tests
+      # Ricostruisce dalle fonti pubbliche; i canali 'hold' entrano solo se STREAM_OK
+      - run: python -m iptv_manager build --check
+      - run: python -m iptv_manager epg build/tv-staging.m3u
+      - name: Commit staging, report e stato
+        run: |
+          git config user.name "iptv-manager-bot"; git config user.email "bot@users.noreply.github.com"
+          git add build reports config/selected.json
+          git diff --cached --quiet || git commit -m "update: staging e report $(date -u +%F)"
+          git push
+      # Pubblicazione AUTOMATICA sul Gist: spenta finche' non imposti la variabile del repo
+      # AUTO_PUBLISH=true. Anche allora pubblica SOLO se auto_guard non vede aggiunte/rimozioni
+      # di canali ne' cambi di URL dei canali italiani; altrimenti resta in staging.
+      - name: Pubblica sul Gist (solo correzioni tecniche)
+        if: ${{ vars.AUTO_PUBLISH == 'true' }}
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: python -m iptv_manager publish build/tv-staging.m3u --auto --confirm
+      - name: Backup della versione online sostituita
+        if: ${{ vars.AUTO_PUBLISH == 'true' }}
+        run: |
+          git add backups
+          git diff --cached --quiet || (git commit -m "backup: versione online precedente" && git push)

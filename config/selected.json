@@ -1,0 +1,58 @@
+{
+ "UK - GB News": {
+  "url": "https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8",
+  "alternatives": 0
+ },
+ "US - ABC News Live": {
+  "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+  "alternatives": 0
+ },
+ "US - NBC News NOW": {
+  "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
+  "alternatives": 0
+ },
+ "US - CBS News 24/7": {
+  "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
+  "alternatives": 0
+ },
+ "US - Fox Weather": {
+  "url": "https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8",
+  "alternatives": 0
+ },
+ "US - Bloomberg": {
+  "url": "https://bloomberg.com/media-manifest/streams/qt.m3u8",
+  "alternatives": 0
+ },
+ "US - Court TV": {
+  "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+  "alternatives": 0
+ },
+ "US - FOX New York (WNYW)": {
+  "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8",
+  "alternatives": 0
+ },
+ "US - CBS Seattle (KIRO)": {
+  "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8",
+  "alternatives": 0
+ },
+ "US - ABC Cleveland (WEWS)": {
+  "url": "https://amg01438-amg01438c1-vizio-us-10865.playouts.now.amagi.tv/playlist.m3u8",
+  "alternatives": 0
+ },
+ "US - PBS KQED": {
+  "url": "https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8",
+  "alternatives": 0
+ },
+ "DE - Das Erste": {
+  "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+  "alternatives": 0
+ },
+ "DE - ARD-alpha": {
+  "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
+  "alternatives": 0
+ },
+ "DE - QVC": {
+  "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
+  "alternatives": 0
+ }
+}

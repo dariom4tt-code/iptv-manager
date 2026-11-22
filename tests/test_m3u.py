@@ -14,5 +14,10 @@ class T(unittest.TestCase):
         t = '#EXTM3U\n#EXTINF:-1 tvg-id="a" tvg-chno="1",A\nhttp://x/a.m3u8\n#EXTINF:-1 tvg-id="b" tvg-chno="1",B\nhttp://x/b.m3u8\n'
         errors, _ = m3u.validate(m3u.parse(t))
         self.assertTrue(any("duplicato" in e for e in errors))
+    def test_comma_inside_attribute(self):
+        pl = m3u.parse('#EXTM3U\n#EXTINF:-1 tvg-id="a" tvg-name="X, Y & Co.",Titolo\nhttp://x/a.m3u8\n')
+        self.assertEqual(pl.channels[0].attrs["tvg-name"], "X, Y & Co.")
+        self.assertEqual(pl.channels[0].title, "Titolo")
+
 if __name__ == "__main__":
     unittest.main()
