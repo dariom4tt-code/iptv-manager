@@ -532,14 +532,14 @@
   "suggestions": []
  },
  {
-  "title": "SN - Squadra Speciale Lipsia",
-  "tvg_id": "SonyTvSquadraSpecialeLipsia.it",
+  "title": "SN - Vita da Strega",
+  "tvg_id": "SonyTvVitaDaStrega.it",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "SN - Vita da Strega",
-  "tvg_id": "SonyTvVitaDaStrega.it",
+  "title": "SN - Filmrise Sci-Fi",
+  "tvg_id": "SonyTvFilmriseSciFi.it",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
@@ -552,12 +552,6 @@
  {
   "title": "SN - Cine Thriller",
   "tvg_id": "SonyTvCineThriller.it",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "SN - Cine Peplum",
-  "tvg_id": "SonyTvCinePeplum.it",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
@@ -622,12 +616,6 @@
   "suggestions": []
  },
  {
-  "title": "SN - Guardia Costiera",
-  "tvg_id": "SonyTvGuardiaCostiera.it",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
   "title": "SN - Soap Latino",
   "tvg_id": "SonyTvSoapLatino.it",
   "status": "ID_NOT_FOUND",
@@ -666,6 +654,36 @@
  {
   "title": "SN - Yu-Gi-Oh!",
   "tvg_id": "SonyTvYuGiOh.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Failarmy",
+  "tvg_id": "SonyTvFailarmy.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - People Are Awesome",
+  "tvg_id": "SonyTvPeopleAreAwesome.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Hot Ones",
+  "tvg_id": "SonyTvHotOnes.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - The Pet Collective",
+  "tvg_id": "SonyTvThePetCollective.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Smile",
+  "tvg_id": "SonyTvSmile.it",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
