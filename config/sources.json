@@ -1,19 +1,80 @@
 {
   "_note": "kind=catalog: serve solo per nomi/loghi/ID (URL plugin:// = solo Kodi, NON riproducibili). kind=streams: contiene URL HTTP veri. kind=redirector: URL stabile che reindirizza (303) allo stream attuale.",
   "sources": [
-    {"id": "wltv-pluto",   "kind": "catalog",    "url": "https://tvchannels.worldtvlive.eu/tv/_plutotv_kodi/list.m3u8"},
-    {"id": "wltv-rakuten", "kind": "catalog",    "url": "https://tvchannels.worldtvlive.eu/tv/_rakutentv_kodi/list.m3u8"},
-    {"id": "wltv-samsung", "kind": "catalog",    "url": "https://tvchannels.worldtvlive.eu/tv/_samsungtv_kodi/list.m3u8"},
-    {"id": "wltv-wedo",    "kind": "catalog",    "url": "https://tvchannels.worldtvlive.eu/tv/_wedotv_kodi/list.m3u8"},
-    {"id": "wltv-sony",    "kind": "redirector", "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/list.m3u8"},
-    {"id": "wltv-dtt",     "kind": "catalog",    "url": "https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/list.m3u8"},
-    {"id": "nanobuo-it",   "kind": "streams",    "url": "https://raw.githubusercontent.com/Nanobuo/iptv-italia/main/lista_nazionali.m3u"},
-    {"id": "iptvorg-es", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/es.m3u"},
-    {"id": "iptvorg-pe", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/pe.m3u"},
-    {"id": "iptvorg-uk", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/uk.m3u"},
-    {"id": "iptvorg-us", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/us.m3u"},
-    {"id": "iptvorg-fr", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/fr.m3u"},
-    {"id": "iptvorg-de", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/de.m3u"},
-    {"id": "iptvorg-ch", "kind": "streams", "url": "https://iptv-org.github.io/iptv/countries/ch.m3u"}
+    {
+      "id": "wltv-pluto",
+      "kind": "catalog",
+      "url": "https://tvchannels.worldtvlive.eu/tv/_plutotv_kodi/list.m3u8"
+    },
+    {
+      "id": "wltv-rakuten",
+      "kind": "catalog",
+      "url": "https://tvchannels.worldtvlive.eu/tv/_rakutentv_kodi/list.m3u8"
+    },
+    {
+      "id": "wltv-samsung",
+      "kind": "catalog",
+      "url": "https://tvchannels.worldtvlive.eu/tv/_samsungtv_kodi/list.m3u8"
+    },
+    {
+      "id": "wltv-wedo",
+      "kind": "catalog",
+      "url": "https://tvchannels.worldtvlive.eu/tv/_wedotv_kodi/list.m3u8"
+    },
+    {
+      "id": "wltv-sony",
+      "kind": "redirector",
+      "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/list.m3u8"
+    },
+    {
+      "id": "wltv-dtt",
+      "kind": "catalog",
+      "url": "https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/list.m3u8"
+    },
+    {
+      "id": "nanobuo-it",
+      "kind": "streams",
+      "url": "https://raw.githubusercontent.com/Nanobuo/iptv-italia/main/lista_nazionali.m3u"
+    },
+    {
+      "id": "iptvorg-es",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/es.m3u"
+    },
+    {
+      "id": "iptvorg-pe",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/pe.m3u"
+    },
+    {
+      "id": "iptvorg-uk",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/uk.m3u"
+    },
+    {
+      "id": "iptvorg-us",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
+    },
+    {
+      "id": "iptvorg-fr",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/fr.m3u"
+    },
+    {
+      "id": "iptvorg-de",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/de.m3u"
+    },
+    {
+      "id": "iptvorg-ch",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/ch.m3u"
+    },
+    {
+      "id": "iptvorg-news",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/news.m3u"
+    }
   ]
 }

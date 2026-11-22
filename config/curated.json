@@ -761,6 +761,150 @@
    "name": "SN - Bloomberg TV+",
    "chno": 1233,
    "group": "FAST | SN - Notizie"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "DW.de@English"
+   ],
+   "name": "EN - DW English",
+   "chno": 1301,
+   "group": "Lingue - Inglese",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "AlJazeera.qa@English"
+   ],
+   "name": "EN - Al Jazeera English",
+   "chno": 1302,
+   "group": "Lingue - Inglese",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "ABCNews.au@Sydney"
+   ],
+   "name": "EN - ABC News Australia",
+   "chno": 1304,
+   "group": "Lingue - Inglese",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "EuronewsEnglish.fr@SD"
+   ],
+   "name": "EN - Euronews English",
+   "chno": 1305,
+   "group": "Lingue - Inglese",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-de",
+   "tvg_ids": [
+    "tagesschau24.de@SD"
+   ],
+   "name": "DE - tagesschau24",
+   "chno": 1321,
+   "group": "Lingue - Tedesco",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "EuronewsGerman.fr@SD"
+   ],
+   "name": "DE - Euronews Deutsch",
+   "chno": 1322,
+   "group": "Lingue - Tedesco",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "DW.de@Espanol"
+   ],
+   "name": "ES - DW Español",
+   "chno": 1331,
+   "group": "Lingue - Spagnolo",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-es",
+   "tvg_ids": [
+    "24Horas.es@SD"
+   ],
+   "name": "ES - 24 Horas (RTVE)",
+   "chno": 1332,
+   "group": "Lingue - Spagnolo",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "France24.fr@Spanish"
+   ],
+   "name": "ES - France 24 Español",
+   "chno": 1333,
+   "group": "Lingue - Spagnolo",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "EuronewsSpanish.fr@SD"
+   ],
+   "name": "ES - Euronews Español",
+   "chno": 1334,
+   "group": "Lingue - Spagnolo",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-news",
+   "tvg_ids": [
+    "EuronewsFrench.fr@SD"
+   ],
+   "name": "FR - Euronews Français",
+   "chno": 1341,
+   "group": "Lingue - Francese",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-ch",
+   "tvg_ids": [
+    "RTSInfo.ch@SD"
+   ],
+   "name": "FR - RTS Info",
+   "chno": 1342,
+   "group": "Lingue - Francese",
+   "hold": true,
+   "note": "lingue: entra solo se STREAM_OK"
   }
  ]
 }
