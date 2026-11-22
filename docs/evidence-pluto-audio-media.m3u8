@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:5
+#EXT-X-TARGETDURATION:5
+#EXT-X-DISCONTINUITY-SEQUENCE:39
+#EXT-X-MEDIA-SEQUENCE:1187
+#EXT-X-PROGRAM-DATE-TIME:2026-11-22T14:27:09.495Z
+#EXT-X-KEY:METHOD=AES-128,URI="https://siloh-ns1.plutotv.net/672_MTV_IT/clip/6229e9ee35a07a001bfecdb3_Il_Testimone_Eleonora_Abbagnato_S01E105/720p/20220317_015131/hls/0-1421560/hls_300_keyfile_26.key",IV=0x0000000000000000000000000000009f
+#EXTINF:5,
+https://siloh-ns1.plutotv.net/v1/jit/rev(1)/c(ts)/h(default)/stream(a)/schm(aes)/iv(0x0000000000000000000000000000009f)/key(hls_300_keyfile_26.key)/p(%2F672_MTV_IT%2Fclip%2F6229e9ee35a07a001bfecdb3_Il_Testimone_Eleonora_Abbagnato_S01E105%2F720p%2F20220317_015131%2Fhls%2F0-1421560)/sign/v1/mk_mJc04AhN_B8jJumstyTBlM2S6iXRfIZGMwI9z04s=/hls_300-00158.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://siloh-ns1.plutotv.net/672_MTV_IT/clip/6229e9ee35a07a001bfecdb3_Il_Testimone_Eleonora_Abbagnato_S01E105/720p/20220317_015131/hls/0-1421560/hls_300_keyfile_26.key",IV=0x000000000000000000000000000000a0
+#EXTINF:5,
+https://siloh-ns1.plutotv.net/v1/jit/rev(1)/c(ts)/h(default)/stream(a)/schm(aes)/iv(0x000000000000000000000000000000a0)/key(hls_300_keyfile_26.key)/p(%2F672_MTV_IT%2Fclip%2F6229e9ee35a07a001bfecdb3_Il_Testimone_Eleonora_Abbagnato_S01E105%2F720p%2F20220317_015131%2Fhls%2F0-1421560)/sign/v1/MLHUbrgLzuEuYm9vDSNDpKzxMvaYEn-hc1c5KS6ZtNc=/hls_300-00159.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://siloh-ns1.plutotv.net/672_MTV_IT/clip/6229e9ee35a07a001bfecdb3_Il_Testimone_Eleonora_Abbagnato_S01E105/720p/20220317_015131/hls/0-1421560/hls_300_keyfile_26.key",IV=0x000000000000000000000000000000a1
+#EXTINF:5,

@@ -1,0 +1,13 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+# PLAYLIST DI PROVA (staging). NON e' quella di produzione. Vedi docs/TEST_SAMSUNG.md
+# T1 = identico a produzione (controllo: atteso video SI, audio NO come oggi)
+# C1/C2 = controlli: Rai 1 (audio muxato classico) e Rakuten (altro FAST) per isolare il problema
+#EXTINF:-1 tvg-id="IlTestimone.de@IT" tvg-name="T1 Il Testimone (jmp2 attuale)" tvg-chno="9001" group-title="TEST",T1 - Il Testimone (attuale)
+https://jmp2.uk/plu-61fbd3f0733df400076c9a2d.m3u8
+#EXTINF:-1 tvg-id="Rai1.it" tvg-name="C1 Rai 1" tvg-chno="9002" group-title="TEST",C1 - Rai 1 (controllo audio)
+https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="C2 Rakuten Film Commedia" tvg-chno="9003" group-title="TEST",C2 - Rakuten Film Commedia (controllo)
+https://rakuten-comedymovies-6-eu.rakuten.wurl.tv/playlist.m3u8
+# T2 = SOLO dopo approvazione del Worker (sostituire <WORKER> con l'URL reale):
+# #EXTINF:-1 tvg-id="IlTestimone.de@IT" tvg-chno="9004" group-title="TEST",T2 - Il Testimone (master piatto)
+# https://<WORKER>/pluto/61fbd3f0733df400076c9a2d.m3u8

@@ -1,0 +1,356 @@
+{
+ "ts": "2026-11-22T14:30:01+00:00",
+ "channels": [
+  {
+   "title": "PL - Cinema Italiano",
+   "chno": 1001,
+   "url": "https://jmp2.uk/plu-608aa7d8359b270007861489.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/608aa7d8359b270007861489/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 1374,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Totò",
+   "chno": 1002,
+   "url": "https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/65253f9881f942000833ccd5/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 1392,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Alberto Sordi",
+   "chno": 1003,
+   "url": "https://jmp2.uk/plu-661f8f01801af800083d9d81.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/661f8f01801af800083d9d81/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 686,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Distretto di Polizia",
+   "chno": 1004,
+   "url": "https://jmp2.uk/plu-691c5ba253a7a030e7c509d8.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/691c5ba253a7a030e7c509d8/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 2962,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - South Park",
+   "chno": 1005,
+   "url": "https://jmp2.uk/plu-62bc1f502b70e3000706298e.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/62bc1f502b70e3000706298e/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 1253,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      854,
+      480
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Top Gear",
+   "chno": 1006,
+   "url": "https://jmp2.uk/plu-64c109a4798def0008a6e03e.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/64c109a4798def0008a6e03e/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 1317,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Mayday: Disastro Aereo",
+   "chno": 1007,
+   "url": "https://jmp2.uk/plu-690cb9140d121b44ad925ac9.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/690cb9140d121b44ad925ac9/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 704,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Pluto TV Documentari",
+   "chno": 1008,
+   "url": "https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 915,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  },
+  {
+   "title": "PL - Il Testimone",
+   "chno": 1013,
+   "url": "https://jmp2.uk/plu-61fbd3f0733df400076c9a2d.m3u8",
+   "device": "NON_TESTATO_SU_SAMSUNG",
+   "consecutive_failures": 0,
+   "http": 200,
+   "final_url": "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/61fbd3f0733df400076c9a2d/master.m3u8?jwt=<REDACTED>&includeExtendedEvents=true",
+   "ms": 653,
+   "manifest": {
+    "is_hls": true,
+    "master": true,
+    "variants": 5,
+    "separate_audio": true,
+    "subtitles_group": true,
+    "aes128": false,
+    "discontinuities": 0,
+    "codecs_attr": []
+   },
+   "state": "STREAM_OK",
+   "ffprobe": {
+    "audio": [
+     [
+      "aac",
+      "LC",
+      2,
+      "48000"
+     ]
+    ],
+    "video": [
+     [
+      "h264",
+      640,
+      360
+     ]
+    ],
+    "error": ""
+   }
+  }
+ ]
+}

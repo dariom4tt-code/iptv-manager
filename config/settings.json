@@ -1,0 +1,5 @@
+{
+  "gist": {"id": "19eaabb7e385b1e6d1e2f98b011feb41", "owner": "dariom4tt-code", "filename": "tv-italia-38.m3u"},
+  "removal_proposal_after_failures": 5,
+  "notes": "Il token NON va qui: solo GitHub Actions Secret GIST_TOKEN (scope: gist)."
+}

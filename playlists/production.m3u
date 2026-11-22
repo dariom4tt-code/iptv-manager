@@ -1,0 +1,227 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz" url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+# SELEZIONE PRINCIPALE; canali stranieri da verificare
+# 47 canali italiani originali invariati; EPG italiano IT1 conservato.
+# I nuovi URL NON sono stati provati dal Samsung dall'Italia.
+# La presenza in una raccolta non prova che il flusso funzioni o che abbia diritti per l'Italia.
+# Per EPG esteri aggiungere eventualmente singole fonti in impostazioni della app.
+
+# === ITALIA / 47 CANALI ORIGINALI ORDINATI LCN ===
+#EXTINF:-1 tvg-id="Rai1.it" tvg-name="Rai 1" tvg-chno="1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="Rai",01 | Rai 1
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8
+#EXTINF:-1 tvg-id="Rai2.it" tvg-name="Rai 2" tvg-chno="2" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/2-rai2.png" group-title="Rai",02 | Rai 2
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raidue3-live.akamaized.net/hls/live/2017983/raidue3/raidue3/playlist.m3u8
+#EXTINF:-1 tvg-id="Rai3.it" tvg-name="Rai 3" tvg-chno="3" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/3-rai3.png" group-title="Rai",03 | Rai 3
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raitre3-live.akamaized.net/hls/live/2018002/raitre3/raitre3/playlist.m3u8
+#EXTINF:-1 tvg-id="Rete.4.it" tvg-name="Rete 4" tvg-chno="4" tvg-logo="https://i.imgur.com/GWx2Fkl.png" group-title="Mediaset",04 | Rete 4
+https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Canale.5.it" tvg-name="Canale 5" tvg-chno="5" tvg-logo="https://i.imgur.com/p6YdiR1.png" group-title="Mediaset",05 | Canale 5
+https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Italia.1.it" tvg-name="Italia 1" tvg-chno="6" tvg-logo="https://i.imgur.com/oCiOxBG.png" group-title="Mediaset",06 | Italia 1
+https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="LA7.HD.it" tvg-name="LA7" tvg-chno="7" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/7-la7hd.png" group-title="Nazionali",07 | LA7
+https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
+#EXTINF:-1 tvg-id="TV8.HD.it" tvg-name="TV8" tvg-chno="8" tvg-logo="https://i.imgur.com/xvoHVOU.png" group-title="Nazionali",08 | TV8
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
+#EXTINF:-1 tvg-id="Nove.it" tvg-name="NOVE" tvg-chno="9" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/9-novehd.png" group-title="Nazionali",09 | NOVE
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="Canale21.it" tvg-name="Canale 21" tvg-chno="10" tvg-logo="https://i.imgur.com/mU6Cq89.png" group-title="Locali Campania",10 | Canale 21
+https://ch21napoli-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-id="20.it" tvg-name="20 Mediaset" tvg-chno="20" tvg-logo="https://i.imgur.com/It13jwX.png" group-title="Mediaset",20 | 20 Mediaset
+https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Rai4.it" tvg-name="Rai 4" tvg-chno="21" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/21-rai4.png" group-title="Rai",21 | Rai 4
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/playlist.m3u8
+#EXTINF:-1 tvg-id="Iris.it" tvg-name="Iris" tvg-chno="22" tvg-logo="https://i.imgur.com/Ixz1BY3.png" group-title="Mediaset",22 | Iris
+https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Rai5.it" tvg-name="Rai 5" tvg-chno="23" tvg-logo="https://i.imgur.com/Leu2zTO.png" group-title="Rai",23 | Rai 5
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raicinque3-live.akamaized.net/hls/live/2018007/raicinque3/raicinque3/playlist.m3u8
+#EXTINF:-1 tvg-id="RaiMovie.it" tvg-name="Rai Movie" tvg-chno="24" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/24-raimovie.png" group-title="Rai",24 | Rai Movie
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raimovie3-live.akamaized.net/hls/live/2018010/raimovie3/raimovie3/playlist.m3u8
+#EXTINF:-1 tvg-id="RaiPremium.it" tvg-name="Rai Premium" tvg-chno="25" tvg-logo="https://i.imgur.com/RKI4nFy.png" group-title="Rai",25 | Rai Premium
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8
+#EXTINF:-1 tvg-id="27.Twentyseven.it" tvg-name="27 Twentyseven" tvg-chno="27" tvg-logo="https://i.imgur.com/y2PdPCK.png" group-title="Mediaset",27 | 27 Twentyseven
+https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="TV2000.it" tvg-name="TV2000" tvg-chno="28" tvg-logo="https://i.imgur.com/x7RaK3a.png" group-title="Nazionali",28 | TV2000
+https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
+#EXTINF:-1 tvg-id="La7Cinema.it" tvg-name="LA7 Cinema" tvg-chno="29" tvg-logo="https://i.imgur.com/khPweok.png" group-title="Nazionali",29 | LA7 Cinema
+https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
+#EXTINF:-1 tvg-id="La.5.it" tvg-name="La 5" tvg-chno="30" tvg-logo="https://i.imgur.com/UNyJaho.png" group-title="Mediaset",30 | La 5
+https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Real.Time.it" tvg-name="Real Time" tvg-chno="31" tvg-logo="https://i.imgur.com/9dcTYg1.png" group-title="Nazionali",31 | Real Time
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="QVC.it" tvg-name="QVC" tvg-chno="32" tvg-logo="https://i.imgur.com/Ea7iUX2.png" group-title="Nazionali",32 | QVC
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+#EXTINF:-1 tvg-id="Food.Network.it" tvg-name="Food Network" tvg-chno="33" tvg-logo="https://i.imgur.com/i60OYr9.png" group-title="Nazionali",33 | Food Network
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="Cine34.it" tvg-name="Cine34" tvg-chno="34" tvg-logo="https://i.imgur.com/YyldwhI.png" group-title="Mediaset",34 | Cine34
+https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Focus.it" tvg-name="Focus" tvg-chno="35" tvg-logo="https://i.imgur.com/M4smqpF.png" group-title="Mediaset",35 | Focus
+https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="RTL.102.5.HD.it" tvg-name="RTL 102.5" tvg-chno="36" tvg-logo="https://i.imgur.com/KdissvS.png" group-title="Musica",36 | RTL 102.5
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8
+#EXTINF:-1 tvg-id="Giallo.TV.it" tvg-name="Giallo" tvg-chno="38" tvg-logo="https://i.imgur.com/0PIRwZS.png" group-title="Nazionali",38 | Giallo
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="Top.Crime.it" tvg-name="Top Crime" tvg-chno="39" tvg-logo="https://i.imgur.com/RFIwv9O.png" group-title="Mediaset",39 | Top Crime
+https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Boing.it" tvg-name="Boing" tvg-chno="40" tvg-logo="https://i.imgur.com/niSlrqT.png" group-title="Bambini",40 | Boing
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="K2.it" tvg-name="K2" tvg-chno="41" tvg-logo="https://i.imgur.com/wlLgSiA.png" group-title="Bambini",41 | K2
+https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
+#EXTINF:-1 tvg-id="RaiGulp.it" tvg-name="Rai Gulp" tvg-chno="42" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/42-raigulp.png" group-title="Rai",42 | Rai Gulp
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raigulp3-live.akamaized.net/hls/live/2018015/raigulp3/raigulp3/playlist.m3u8
+#EXTINF:-1 tvg-id="RaiYoyo.it" tvg-name="Rai Yoyo" tvg-chno="43" tvg-logo="https://i.imgur.com/DRSa3ys.png" group-title="Rai",43 | Rai Yoyo
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raiyoyo3-live.akamaized.net/hls/live/2018014/raiyoyo3/raiyoyo3/playlist.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.it" tvg-name="Cartoonito" tvg-chno="46" tvg-logo="https://i.imgur.com/zqc0TrY.png" group-title="Bambini",46 | Cartoonito
+https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="Super.it" tvg-name="Super!" tvg-chno="47" tvg-logo="https://i.imgur.com/zDByOwo.png" group-title="Bambini",47 | Super!
+https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
+#EXTINF:-1 tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-chno="48" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/48-rainews24.png" group-title="Rai",48 | Rai News 24
+https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
+#EXTINF:-1 tvg-id="Italia.2.it" tvg-name="Italia 2" tvg-chno="49" tvg-logo="https://i.imgur.com/nq48sjO.png" group-title="Mediaset",49 | Italia 2
+https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="SkyTG24.it" tvg-name="Sky TG24" tvg-chno="50" tvg-logo="https://i.imgur.com/q4d3Dah.png" group-title="Notizie",50 | Sky TG24
+https://skyanywhere3-i.akamaihd.net/hls/live/510696/tg24/playlist.m3u8
+# Nuovo canale in fondo alla playlist; LCN 10 in Campania
+#EXTINF:-1 tvg-id="TGCom.it" tvg-name="TGCOM24" tvg-chno="51" tvg-logo="https://i.imgur.com/xautVD8.png" group-title="Notizie",51 | TGCOM24
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="DMAX.it" tvg-name="DMAX" tvg-chno="52" tvg-logo="https://i.imgur.com/dmEmRX7.png" group-title="Nazionali",52 | DMAX
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="RaiStoria.it" tvg-name="Rai Storia" tvg-chno="54" tvg-logo="https://i.imgur.com/K8y5q8x.png" group-title="Rai",54 | Rai Storia
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raistoria3-live.akamaized.net/hls/live/2018017/raistoria3/raistoria3/playlist.m3u8
+#EXTINF:-1 tvg-id="Mediaset.Extra.it" tvg-name="Mediaset Extra" tvg-chno="55" tvg-logo="https://i.imgur.com/mM8lopo.png" group-title="Mediaset",55 | Mediaset Extra
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="HGTV.it" tvg-name="HGTV" tvg-chno="56" tvg-logo="https://i.imgur.com/emLNC0U.png" group-title="Nazionali",56 | HGTV
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="RaiSport.it" tvg-name="Rai Sport" tvg-chno="58" tvg-logo="https://i.imgur.com/xsGljsb.png" group-title="Rai",58 | Rai Sport
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://raisportuno3-live.akamaized.net/hls/live/2018008/raisportuno3/raisportuno3/playlist.m3u8
+#EXTINF:-1 tvg-id="Sportitalia.HD.it" tvg-name="Sportitalia" tvg-chno="60" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sport",60 | Sportitalia
+https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SuperTennis.HD.it" tvg-name="SuperTennis" tvg-chno="64" tvg-logo="https://i.imgur.com/GzsPlbX.png" group-title="Sport",64 | SuperTennis
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+#EXTINF:-1 tvg-id="Deejay.TV.it" tvg-name="Deejay TV" tvg-chno="69" tvg-logo="https://i.imgur.com/rlaKH6k.png" group-title="Musica",69 | Deejay TV
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
+#EXTINF:-1 tvg-id="Radioitaliatv.it" tvg-name="Radio Italia TV" tvg-chno="70" tvg-logo="https://i.imgur.com/4VCEJuJ.png" group-title="Musica",70 | Radio Italia TV
+https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
+
+# === SAN MARINO ===
+#EXTINF:-1 tvg-id="San.Marino.RTV.it" tvg-name="San Marino RTV" tvg-chno="900" tvg-logo="https://i.imgur.com/ZJSWusT.png" group-title="Internazionali - San Marino",SM - San Marino RTV
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
+
+# === SPAGNA ===
+#EXTINF:-1 tvg-id="La.1.es" tvg-name="La 1 (RTVE)" tvg-chno="910" tvg-logo="https://i.imgur.com/NbesiPn.png" group-title="Internazionali - Spagna",ES - La 1 (RTVE)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8
+#EXTINF:-1 tvg-id="La.2.es" tvg-name="La 2 (RTVE)" tvg-chno="911" tvg-logo="https://i.imgur.com/DmuTwDw.png" group-title="Internazionali - Spagna",ES - La 2 (RTVE)
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8
+#EXTINF:-1 tvg-id="TVE.Internacional.fr" tvg-name="TVE Internacional" tvg-chno="912" group-title="Internazionali - Spagna",ES - TVE Internacional
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8
+#EXTINF:-1 tvg-id="Telemadrid.es" tvg-name="Telemadrid" tvg-chno="913" group-title="Internazionali - Spagna",ES - Telemadrid
+https://telemadrid-23-secure2.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-id="Canal.Sur.Andalucía.es" tvg-name="Canal Sur Andalucía" tvg-chno="914" group-title="Internazionali - Spagna",ES - Canal Sur Andalucía
+https://d4oe4cnrgi9c9.cloudfront.net/master.m3u8
+
+# === PERÙ ===
+#EXTINF:-1 tvg-id="LATINA.(Latina).pe" tvg-name="Latina Televisión" tvg-chno="920" group-title="Internazionali - Perù",PE - Latina Televisión
+https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PANAMERICANA.TELEVISION.(Panamericana.TV).pe" tvg-name="Panamericana TV" tvg-chno="921" group-title="Internazionali - Perù",PE - Panamericana TV
+http://45.171.108.253:8888/PANAMERICANA/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TVPerú" tvg-chno="922" group-title="Internazionali - Perù",PE - TVPerú
+https://cablered.iptvperu.tv:1936/cablered/tvperu_new/playlist.m3u8
+
+# === REGNO UNITO ===
+#EXTINF:-1 tvg-id="GREAT!.movies.uk" tvg-name="GREAT! Movies" tvg-chno="930" group-title="Internazionali - Regno Unito",UK - GREAT! Movies
+https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="GREAT!.romance.uk" tvg-name="GREAT! Romance" tvg-chno="931" group-title="Internazionali - Regno Unito",UK - GREAT! Romance
+https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="BLAZE.uk" tvg-name="BLAZE" tvg-chno="932" tvg-logo="https://i.imgur.com/6UcPWP9.png" group-title="Internazionali - Regno Unito",UK - BLAZE
+https://live.blaze.tv/live7/blaze/bitrate1.isml/live.m3u8
+#EXTINF:-1 tvg-id="Sky.News.HD.uk" tvg-name="Sky News" tvg-chno="933" group-title="Internazionali - Regno Unito",UK - Sky News
+https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_hd/Live/channel(skynews)/index_mob.m3u8
+#EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC News" tvg-chno="934" group-title="Internazionali - Regno Unito",UK - BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+# === CANADA ===
+#EXTINF:-1 tvg-id="GustoTV.ca" tvg-name="Gusto TV" tvg-chno="940" group-title="Internazionali - Canada",CA - Gusto TV
+https://e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8
+
+# === STATI UNITI ===
+#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" tvg-name="MyTime Movie Network" tvg-chno="941" group-title="Internazionali - Stati Uniti",US - MyTime Movie Network
+https://appletree-mytimeuk-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FailArmy.us" tvg-name="FailArmy" tvg-chno="942" group-title="Internazionali - Stati Uniti",US - FailArmy
+https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FilmRiseClassicTV.us" tvg-name="FilmRise Classic TV" tvg-chno="943" group-title="Internazionali - Stati Uniti",US - FilmRise Classic TV
+https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
+#EXTINF:-1 tvg-id="Create.us2" tvg-name="PBS Create" tvg-chno="944" group-title="Internazionali - Stati Uniti",US - PBS Create
+https://create.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="WorldChannel.us" tvg-name="PBS World Channel" tvg-chno="945" group-title="Internazionali - Stati Uniti",US - PBS World Channel
+https://world.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="HallmarkMoviesMore.us" tvg-name="Hallmark Movies & More" tvg-chno="946" group-title="Internazionali - Stati Uniti",US - Hallmark Movies & More
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-id="GritXtra.us" tvg-name="Grit Xtra" tvg-chno="947" group-title="Internazionali - Stati Uniti",US - Grit Xtra
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="PBS.Kids.Stream.us2" tvg-name="PBS Kids" tvg-chno="948" group-title="Internazionali - Stati Uniti",US - PBS Kids
+https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+
+# === FRANCIA ===
+#EXTINF:-1 tvg-id="Arte.fr" tvg-name="ARTE (Français)" tvg-chno="950" group-title="Internazionali - Francia",FR - ARTE (Français)
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1 tvg-id="TV5MONDEChefs.fr" tvg-name="TV5MONDE Chefs" tvg-chno="951" group-title="Internazionali - Francia",FR - TV5MONDE Chefs
+https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
+#EXTINF:-1 tvg-id="France.5.fr" tvg-name="France 5 (verifica disponibilità)" tvg-chno="952" group-title="Internazionali - Francia",FR - France 5 (verifica disponibilità)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_5/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="France.24.fr" tvg-name="France 24 Français" tvg-chno="953" group-title="Internazionali - Francia",FR - France 24 Français
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
+
+# === CANALI FAST: PLUTO TV / RAKUTEN TV / SAMSUNG TV PLUS ===
+# Playlist FAST di prova — non sostituisce i canali principali; i flussi devono essere verificati su Samsung M5
+# EPG: Pluto con tvg-id sorgente; Rakuten e Samsung da abbinare nell’app se disponibili.
+#EXTINF:-1 tvg-id="608aa7d8359b270007861489" tvg-name="Pluto TV Cinema Italiano" tvg-logo="https://images.pluto.tv/channels/608aa7d8359b270007861489/colorLogoPNG.png" tvg-chno="1001" group-title="FAST | PL - Pluto TV",PL - Cinema Italiano
+https://jmp2.uk/plu-608aa7d8359b270007861489.m3u8
+#EXTINF:-1 tvg-id="65253f9881f942000833ccd5" tvg-name="Pluto TV Totò" tvg-logo="https://images.pluto.tv/channels/65253f9881f942000833ccd5/colorLogoPNG_1774617972809.png" tvg-chno="1002" group-title="FAST | PL - Pluto TV",PL - Totò
+https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8
+#EXTINF:-1 tvg-id="661f8f01801af800083d9d81" tvg-name="Pluto TV Alberto Sordi" tvg-logo="https://images.pluto.tv/channels/661f8f01801af800083d9d81/colorLogoPNG.png" tvg-chno="1003" group-title="FAST | PL - Pluto TV",PL - Alberto Sordi
+https://jmp2.uk/plu-661f8f01801af800083d9d81.m3u8
+#EXTINF:-1 tvg-id="691c5ba253a7a030e7c509d8" tvg-name="Pluto TV Distretto di Polizia" tvg-logo="https://images.pluto.tv/channels/691c5ba253a7a030e7c509d8/colorLogoPNG_1794819146183.png" tvg-chno="1004" group-title="FAST | PL - Pluto TV",PL - Distretto di Polizia
+https://jmp2.uk/plu-691c5ba253a7a030e7c509d8.m3u8
+#EXTINF:-1 tvg-id="62bc1f502b70e3000706298e" tvg-name="Pluto TV South Park" tvg-logo="https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png" tvg-chno="1005" group-title="FAST | PL - Pluto TV",PL - South Park
+https://jmp2.uk/plu-62bc1f502b70e3000706298e.m3u8
+#EXTINF:-1 tvg-id="64c109a4798def0008a6e03e" tvg-name="Pluto TV Top Gear" tvg-logo="https://images.pluto.tv/channels/64c109a4798def0008a6e03e/colorLogoPNG.png" tvg-chno="1006" group-title="FAST | PL - Pluto TV",PL - Top Gear
+https://jmp2.uk/plu-64c109a4798def0008a6e03e.m3u8
+#EXTINF:-1 tvg-id="690cb9140d121b44ad925ac9" tvg-name="Pluto TV Mayday: Disastro Aereo" tvg-logo="https://images.pluto.tv/channels/690cb9140d121b44ad925ac9/colorLogoPNG_1762957819953.png" tvg-chno="1007" group-title="FAST | PL - Pluto TV",PL - Mayday: Disastro Aereo
+https://jmp2.uk/plu-690cb9140d121b44ad925ac9.m3u8
+#EXTINF:-1 tvg-id="608aa8a5709d6b0007b132fe" tvg-name="Pluto TV Documentari" tvg-logo="https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png" tvg-chno="1008" group-title="FAST | PL - Pluto TV",PL - Pluto TV Documentari
+https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Film Top – Rakuten TV" tvg-logo="https://i.imgur.com/OfD9hM9.jpeg" tvg-chno="1009" group-title="FAST | RK - Rakuten TV",RK - Film Top
+https://rakuten-topfree-6-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Film Commedia – Rakuten TV" tvg-logo="https://i.imgur.com/EKKXdIU.jpg" tvg-chno="1010" group-title="FAST | RK - Rakuten TV",RK - Film Commedia
+https://rakuten-comedymovies-6-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Film Azione – Rakuten TV" tvg-logo="" tvg-chno="1011" group-title="FAST | RK - Rakuten TV",RK - Film Azione
+https://rakuten-actionmovies-6-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BBC Earth" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/bbc.png" tvg-chno="1012" group-title="FAST | ST - Samsung TV Plus",ST - BBC Earth
+https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-id="IlTestimone.de@IT" tvg-name="Il Testimone" tvg-logo="https://images.pluto.tv/channels/61fbd3f0733df400076c9a2d/colorLogoPNG.png" tvg-chno="1013" group-title="FAST | PL - Pluto TV",PL - Il Testimone
+https://jmp2.uk/plu-61fbd3f0733df400076c9a2d.m3u8
+
+# === TELEVENDITE INTERNAZIONALI: LINK PUBBLICI DA TESTARE SUL SAMSUNG ===
+# US e UK = USA e Regno Unito; BO = Bolivia, lingua spagnola (NON Spagna).
+# FR e ES non inclusi: non trovati flussi HLS pubblici affidabili per emittenti di televendite di quei Paesi.
+#EXTINF:-1 tvg-id="QVC.us@SD" tvg-name="US - QVC" tvg-logo="" tvg-chno="1101" group-title="SHOP | USA",US - QVC
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
+#EXTINF:-1 tvg-id="HSN.us@East" tvg-name="US - HSN" tvg-logo="" tvg-chno="1102" group-title="SHOP | USA",US - HSN
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
+#EXTINF:-1 tvg-id="QVCUK.uk" tvg-name="UK - QVC" tvg-logo="https://i.imgur.com/6TWUVrh.png" tvg-chno="1103" group-title="SHOP | UK",UK - QVC
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8
+#EXTINF:-1 tvg-id="TJC.uk" tvg-name="UK - TJC" tvg-logo="https://i.imgur.com/fk5rEje.png" tvg-chno="1104" group-title="SHOP | UK",UK - TJC
+https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(HDTJCcustomGFX)/master.m3u8
+#EXTINF:-1 tvg-id="RedTVShop.bo" tvg-name="BO - Red TV Shop (spagnolo)" tvg-logo="https://i.imgur.com/I7yB176.png" tvg-chno="1105" group-title="SHOP | Bolivia (ES)",BO - Red TV Shop (spagnolo)
+https://master.tucableip.com/redtvshop/index.m3u8

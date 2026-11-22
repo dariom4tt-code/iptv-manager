@@ -1,0 +1,5 @@
+[
+  {"name": "IT1", "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "enabled": true, "note": "Guida italiana in uso sul Samsung: NON modificare"},
+  {"name": "PLUTO_IT", "url": "https://i.mjh.nz/PlutoTV/it.xml.gz", "enabled": false, "note": "CANDIDATA, da verificare con 'epg' prima di abilitare"},
+  {"name": "SAMSUNG_IT", "url": "https://i.mjh.nz/SamsungTVPlus/it.xml.gz", "enabled": false, "note": "CANDIDATA, da verificare"}
+]

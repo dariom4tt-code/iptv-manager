@@ -1,0 +1,23 @@
+name: publish-gist
+on:
+  workflow_dispatch:
+    inputs:
+      file: {description: "Playlist da pubblicare", default: "playlists/production.m3u"}
+      confirm: {description: "Scrivere 'PUBBLICA' per pubblicare davvero (altrimenti dry-run)", default: "no"}
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: production        # configurare 'Required reviewers' = approvazione utente
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          FLAG=""; [ "${{ inputs.confirm }}" = "PUBBLICA" ] && FLAG="--confirm"
+          python -m iptv_manager publish "${{ inputs.file }}" $FLAG
+      - name: Salva backup versione online
+        run: |
+          git config user.name "iptv-manager-bot"; git config user.email "bot@users.noreply.github.com"
+          git add backups && (git diff --cached --quiet || git commit -m "backup: versione online precedente") && git push
