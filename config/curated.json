@@ -9,6 +9,7 @@
     "FAST | Serie e soap",
     "FAST | Cartoni e famiglia",
     "FAST | Anime e cartoni",
+    "FAST | Divertimento",
     "FAST | Documentari e Top Gear",
     "FAST | Sport e motori",
     "FAST | Notizie"
@@ -660,13 +661,6 @@
   {
    "type": "redirector",
    "source": "wltv-sony",
-   "catalog_name": "SonyTv - Squadra Speciale Lipsia",
-   "name": "SN - Squadra Speciale Lipsia",
-   "group": "FAST | Film e serie"
-  },
-  {
-   "type": "redirector",
-   "source": "wltv-sony",
    "catalog_name": "SonyTv - Vita Da Strega",
    "name": "SN - Vita da Strega",
    "group": "FAST | Film e serie"
@@ -1063,13 +1057,6 @@
   {
    "type": "redirector",
    "source": "wltv-sony",
-   "catalog_name": "SonyTv - Cine Peplum",
-   "name": "SN - Cine Peplum",
-   "group": "FAST | Film d'azione e thriller"
-  },
-  {
-   "type": "redirector",
-   "source": "wltv-sony",
    "catalog_name": "SonyTv - Cinemalizia",
    "name": "SN - Cinemalizia",
    "group": "FAST | Film d'azione e thriller"
@@ -1161,13 +1148,6 @@
   {
    "type": "redirector",
    "source": "wltv-sony",
-   "catalog_name": "SonyTv - Guardia Costiera",
-   "name": "SN - Guardia Costiera",
-   "group": "FAST | Serie e soap"
-  },
-  {
-   "type": "redirector",
-   "source": "wltv-sony",
    "catalog_name": "SonyTv - Soap Latino",
    "name": "SN - Soap Latino",
    "group": "FAST | Serie e soap"
@@ -1213,6 +1193,48 @@
    "catalog_name": "SonyTv - Waterbear",
    "name": "SN - Waterbear",
    "group": "FAST | Documentari e Top Gear"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Failarmy",
+   "name": "SN - Failarmy",
+   "group": "FAST | Divertimento"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - People Are Awesome",
+   "name": "SN - People Are Awesome",
+   "group": "FAST | Divertimento"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Hot Ones",
+   "name": "SN - Hot Ones",
+   "group": "FAST | Divertimento"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - The Pet Collective",
+   "name": "SN - The Pet Collective",
+   "group": "FAST | Divertimento"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Smile",
+   "name": "SN - Smile",
+   "group": "FAST | Divertimento"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Filmrise Sci-Fi",
+   "name": "SN - Filmrise Sci-Fi",
+   "group": "FAST | Film e serie"
   }
  ]
 }
