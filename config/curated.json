@@ -10,7 +10,8 @@
     "Spagnolo - Sport",
     "Spagnolo - Cartoni",
     "Spagnolo - Documentari",
-    "Perù"
+    "Perù",
+    "Sudamerica - Generalisti"
    ]
   },
   {
@@ -1004,6 +1005,76 @@
    "type": "pinned",
    "from_title": "SM - San Marino RTV",
    "group": "Internazionali - San Marino",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "AMCThrillers.us@SD"
+   ],
+   "name": "US - AMC Thrillers",
+   "group": "Inglese - Intrattenimento",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "StoriesbyAMC.us@SD"
+   ],
+   "name": "US - Stories by AMC",
+   "group": "Inglese - Intrattenimento",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "ImagenTV.mx@SD"
+   ],
+   "name": "MX - Imagen Televisión",
+   "group": "Sudamerica - Generalisti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "AztecaUno.mx@Plus1"
+   ],
+   "name": "MX - Azteca Uno (+1)",
+   "group": "Sudamerica - Generalisti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "SBTNacional.br@SD"
+   ],
+   "name": "BR - SBT",
+   "group": "Sudamerica - Generalisti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Mega.cl@SD"
+   ],
+   "name": "CL - Mega",
+   "group": "Sudamerica - Generalisti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Globovision.ve@SD"
+   ],
+   "name": "VE - Globovisión",
+   "group": "Sudamerica - Generalisti",
    "hold": true
   }
  ]

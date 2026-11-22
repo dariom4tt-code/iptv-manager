@@ -1,0 +1,23 @@
+name: search-channels
+on:
+  workflow_dispatch:
+    inputs:
+      pattern: {description: "Regex (case-insensitive)", default: "miami|swim|bikini"}
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cerca nei grandi aggregatori FAST pubblici
+        run: |
+          mkdir -p reports; : > reports/search.txt
+          for u in https://i.mjh.nz/SamsungTVPlus/all.m3u8 https://i.mjh.nz/SamsungTVPlus/us.m3u8 https://i.mjh.nz/SamsungTVPlus/gb.m3u8 https://i.mjh.nz/SamsungTVPlus/it.m3u8 https://i.mjh.nz/Plex/all.m3u8 https://i.mjh.nz/Roku/all.m3u8 https://i.mjh.nz/PlutoTV/all.m3u8 https://i.mjh.nz/Stirr/all.m3u8 https://www.apsattv.com/ssungusa.m3u https://www.apsattv.com/rok.m3u https://www.apsattv.com/tubi.m3u https://www.apsattv.com/localnow.m3u https://iptv-org.github.io/iptv/index.m3u; do
+            code=$(curl -sSL -m 90 -o /tmp/l.m3u -w "%{http_code}" "$u" || echo ERR)
+            echo "## $u -> $code $(wc -c < /tmp/l.m3u 2>/dev/null)" >> reports/search.txt
+            grep -iA1 -E "^#EXTINF.*(${{ inputs.pattern }})" /tmp/l.m3u 2>/dev/null | grep -v '^--' | sed -E 's/tvg-logo="[^"]*"//' | cut -c1-260 >> reports/search.txt || true
+          done
+      - run: |
+          git config user.name "iptv-manager-bot"; git config user.email "bot@users.noreply.github.com"
+          git add reports/search.txt; git diff --cached --quiet || git commit -m "search: risultati"; git pull -q --rebase; git push
