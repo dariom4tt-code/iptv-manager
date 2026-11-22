@@ -1,4 +1,499 @@
 {
+ "01 | Rai 1": {
+  "url": "https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "raiuno3-live.akamaized.net",
+  "content_type": "",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "05 | Canale 5": {
+  "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "live02-seg.msf.cdn.mediaset.net",
+  "content_type": "",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "31 | Real Time": {
+  "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "streaming.aurora.enhanced.live",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "6",
+   "master": true,
+   "codecs": [
+    "avc1.4D401E",
+    "avc1.4D401F",
+    "avc1.4D4028",
+    "mp4a.40.2,avc1.4D401E"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [
+    "#EXT-X-MEDIA:LANGUAGE=\"ita\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"index__5.m3u8\",GROUP-ID=\"audio_0\",DEFAULT=NO,NAME=\"ita\""
+   ],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [
+    "SDR"
+   ],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:6",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-MEDIA:LANGUAGE=\"ita\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"index__5.m3u8\",GROUP-ID=\"audio_0\",DEFA",
+    "#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4028\",AVERAGE-BANDWIDTH=6850800,RESOLUTION=1920x1080,VIDEO-RANGE=SD",
+    "index__1.m3u8"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0",
+    "bit_rate": "125500"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "7727601"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "4130243"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "2336782"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "1676847"
+   }
+  ]
+ },
+ "32 | QVC": {
+  "url": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "qrg.akamaized.net",
+  "content_type": "application/x-mpegURL",
+  "manifest": {
+   "version": "4",
+   "master": true,
+   "codecs": [
+    "avc1.4d401e,mp4a.40.2",
+    "avc1.4d401f,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "720x480",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:4",
+    "#EXT-X-STREAM-INF:BANDWIDTH=491353,CODECS=\"avc1.4d401e,mp4a.40.2\",RESOLUTION=720x480,FRAME-RATE=25.000",
+    "4/480p.m3u8",
+    "#EXT-X-STREAM-INF:BANDWIDTH=2739179,CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=25.000",
+    "1/720p.m3u8"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 720,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 0,
+    "height": 0,
+    "level": -99,
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "aac",
+    "codec_type": "audio",
+    "sample_rate": "0",
+    "channels": 0,
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 0,
+    "height": 0,
+    "level": -99,
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "aac",
+    "codec_type": "audio",
+    "sample_rate": "0",
+    "channels": 0,
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "33 | Food Network": {
+  "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "streaming.aurora.enhanced.live",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "6",
+   "master": true,
+   "codecs": [
+    "avc1.4D401E",
+    "avc1.4D401F",
+    "avc1.4D4028",
+    "mp4a.40.2,avc1.4D401E"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [
+    "#EXT-X-MEDIA:LANGUAGE=\"ita\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"index__5.m3u8\",GROUP-ID=\"audio_0\",DEFAULT=NO,NAME=\"ita\""
+   ],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [
+    "SDR"
+   ],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:6",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-MEDIA:LANGUAGE=\"ita\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"index__5.m3u8\",GROUP-ID=\"audio_0\",DEFA",
+    "#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4028\",AVERAGE-BANDWIDTH=6850800,RESOLUTION=1920x1080,VIDEO-RANGE=SD",
+    "index__1.m3u8"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0",
+    "bit_rate": "125666"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "6667718"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "3246156"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "2066294"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "25/1",
+    "bit_rate": "1547728"
+   }
+  ]
+ },
+ "41 | K2": {
+  "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "d1pmpe0hs35ka5.cloudfront.net",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d401f,mp4a.40.2",
+    "avc1.4d4028,mp4a.40.2",
+    "avc1.77.30,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d4028,mp4a.40.2\",AVERAGE-BANDWIDTH=6884532,RESOLUTION=1920x1080,FRAME-RATE=25.",
+    "../../../manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/fbe6ea0d-b23e-45d5-a465-444622cf6f",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d401f,mp4a.40.2\",AVERAGE-BANDWIDTH=3804532,RESOLUTION=1280x720,FRAME-RATE=25.0"
+   ]
+  },
+  "streams": []
+ },
+ "60 | Sportitalia": {
+  "url": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "sportsitalia-samsungitaly.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d4028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:BANDWIDTH=1020800,AVERAGE-BANDWIDTH=985600,CODECS=\"avc1.4d4028,mp4a.40.2\",RESOLUTION=640x360",
+    "playlist360p.m3u8",
+    "#EXT-X-STREAM-INF:BANDWIDTH=1249600,AVERAGE-BANDWIDTH=1205600,CODECS=\"avc1.4d4028,mp4a.40.2\",RESOLUTION=848x48"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 848,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "ES - La 1 (RTVE)": {
+  "url": "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "rtvelivestream.rtve.es",
+  "content_type": "",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "ES - La 2 (RTVE)": {
+  "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "rtvelivestream.rtve.es",
+  "content_type": "",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "RK - Film Top": {
+  "url": "https://rakuten-topfree-6-eu.rakuten.wurl.tv/playlist.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "rakuten-topfree-6-eu.rakuten.wurl.tv",
+  "content_type": "",
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ "RK - Film Commedia": {
+  "url": "https://rakuten-comedymovies-6-eu.rakuten.wurl.tv/playlist.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "rakuten-comedymovies-6-eu.rakuten.wurl.tv",
+  "content_type": "",
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ "RK - Film Azione": {
+  "url": "https://rakuten-actionmovies-6-eu.rakuten.wurl.tv/playlist.m3u8",
+  "http": 0,
+  "redirects": [],
+  "final_host": "rakuten-actionmovies-6-eu.rakuten.wurl.tv",
+  "content_type": "",
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ "ST - BBC Earth": {
+  "url": "https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d5015,mp4a.40.2",
+    "avc1.4d501e,mp4a.40.2",
+    "avc1.64101e,mp4a.40.2",
+    "avc1.64101f,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=511680,AVERAGE-BANDWIDTH=393600,CODECS=\"avc1.4d5015,mp4a.40.2\",RESOLU",
+    "https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bb",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1057680,AVERAGE-BANDWIDTH=813600,CODECS=\"avc1.4d501e,mp4a.40.2\",RESOL",
+    "https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bb"
+   ]
+  },
+  "streams": []
+ },
  "PL - Il Testimone": {
   "url": "https://jmp2.uk/plu-61fbd3f0733df400076c9a2d.m3u8",
   "http": 200,
@@ -32,6 +527,1984 @@
     "1042180/playlist.m3u8?sid=e6e2d797-e66f-11f1-9903-46fccb5ef791&deviceId=2c76de82-53af-4481-96d0-396d335893a3&a"
    ]
   },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0",
+    "bit_rate": "90375"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 854,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "US - QVC": {
+  "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "qvc-amd-live.akamaized.net",
+  "content_type": "application/x-mpegURL",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.64001e",
+    "avc1.64001e,mp4a.40.2",
+    "avc1.64001f",
+    "avc1.64001f,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "",
+    "",
+    "#EXT-X-STREAM-INF:BANDWIDTH=3575976,CODECS=\"avc1.64001f,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=30.000,CLOSE",
+    "medhigh.m3u8"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "30/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "UK - QVC": {
+  "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "qvcuk-live.akamaized.net",
+  "content_type": "application/x-mpegURL",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4D4015,mp4a.40.2",
+    "avc1.4D401E,mp4a.40.2",
+    "avc1.4D401F,mp4a.40.2"
+   ],
+   "resolutions": [
+    "480x270",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1781313,AVERAGE-BANDWIDTH=1484428,CODECS=\"avc1.4D401E,mp4a.40.2\",RESO",
+    "stream_02/index.m3u8",
+    "#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=111332,AVERAGE-BANDWIDTH=92776,CODECS=\"avc1.4D401E,mp4a.40.2\""
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 480,
+    "height": 270,
+    "pix_fmt": "yuv420p",
+    "level": 21,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "DE - QVC": {
+  "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
+  "http": 200,
+  "redirects": [],
+  "final_host": "qvcde-live.akamaized.net",
+  "content_type": "application/x-mpegURL",
+  "manifest": {
+   "version": "4",
+   "master": true,
+   "codecs": [
+    "avc1.64001e,mp4a.40.2",
+    "avc1.64001f,mp4a.40.2"
+   ],
+   "resolutions": [
+    "640x360",
+    "768x432",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:4",
+    "#EXT-X-STREAM-INF:BANDWIDTH=1717440,CODECS=\"avc1.64001f,mp4a.40.2\",RESOLUTION=960x540,FRAME-RATE=25.000",
+    "1/1.m3u8",
+    "#EXT-X-STREAM-INF:BANDWIDTH=1452810,CODECS=\"avc1.64001e,mp4a.40.2\",RESOLUTION=768x432,FRAME-RATE=25.000",
+    "2/2.m3u8"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 768,
+    "height": 432,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 30,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Cinema Italiano": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvCinemaItaliano.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://658efedf.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfQ2luZW1hU2VncmV0by0xX0hMUw/playlist.m3u8?ads.device_id"
+   ]
+  ],
+  "final_host": "658efedf.wurl.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d0029,mp4a.40.2",
+    "avc1.4d0029,mp4a.40.5"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=YES,TYPE=SUBTITLES,URI=\"../../../manifest/f36d25e7e52f1ba8d7e56eb859c636",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=NO,INSTREAM-ID=\"CC1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"captions\",DEFAULT=NO",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.2\",RESOLUTION=640x360,SUBTITLES=\"subtitles\",BANDWIDTH=921600,CLO",
+    "../../../manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfQ2luZW1hU2VncmV0by0xX0hMUw/5ffd20e6-f1e"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 384,
+    "height": 216,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   }
+  ]
+ },
+ "SN - Totò & Co": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvTot%C3%B2%26Co.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://bd415166274e424db84c1dc09cec415b.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Titan-it_Fil"
+   ]
+  ],
+  "final_host": "bd415166274e424db84c1dc09cec415b.mediatailor.us-east-1.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d0029,mp4a.40.2",
+    "avc1.4d0029,mp4a.40.5"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=NO,INSTREAM-ID=\"CC1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"captions\",DEFAULT=NO",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.2\",RESOLUTION=640x360,BANDWIDTH=921600,CLOSED-CAPTIONS=\"captions",
+    "https://bd415166274e424db84c1dc09cec415b.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.5\",RESOLUTION=384x216,BANDWIDTH=524288,CLOSED-CAPTIONS=\"captions"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 384,
+    "height": 216,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "HE-AAC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Alberto Sordi & Co": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvAlbertoSordi%26Co.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://dadb2ccd.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfUmlzYXRlYWxsaXRhbGlhbmEtMV9ITFM/playlist.m3u8?ads.devi"
+   ]
+  ],
+  "final_host": "dadb2ccd.wurl.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d0029,mp4a.40.2",
+    "avc1.4d0029,mp4a.40.5"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=YES,TYPE=SUBTITLES,URI=\"../../../manifest/f36d25e7e52f1ba8d7e56eb859c636",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=NO,INSTREAM-ID=\"CC1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"captions\",DEFAULT=NO",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.2\",RESOLUTION=640x360,SUBTITLES=\"subtitles\",BANDWIDTH=921600,CLO",
+    "../../../manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfUmlzYXRlYWxsaXRhbGlhbmEtMV9ITFM/9b5bdd5"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 384,
+    "height": 216,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   }
+  ]
+ },
+ "SN - Marcello, Sophia & Co": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvMarcelloSophia%26Co.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://d0fa61e95e514d6a8c7d757665261d20.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Titan-it_CGC"
+   ]
+  ],
+  "final_host": "d0fa61e95e514d6a8c7d757665261d20.mediatailor.us-east-1.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d0029,mp4a.40.2",
+    "avc1.4d0029,mp4a.40.5"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:LANGUAGE=\"it\",AUTOSELECT=NO,INSTREAM-ID=\"CC1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"captions\",DEFAULT=NO",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.2\",RESOLUTION=640x360,BANDWIDTH=921600,CLOSED-CAPTIONS=\"captions",
+    "https://d0fa61e95e514d6a8c7d757665261d20.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9b",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.5\",RESOLUTION=384x216,BANDWIDTH=524288,CLOSED-CAPTIONS=\"captions"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 384,
+    "height": 216,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "HE-AAC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "Main",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Film Divertenti": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvSonyOneFilmDivertenti.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://7b301312fa394033843406a1008d6261.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-824-I"
+   ]
+  ],
+  "final_host": "7b301312fa394033843406a1008d6261.mediatailor.us-west-2.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4D400D,mp4a.40.2",
+    "avc1.4D401E,mp4a.40.2",
+    "avc1.64001F,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1024x576",
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.640028,mp4a.40.2\",AVERAGE-BANDWIDTH=4726360,RESOLUTION=1920x1080,FRAME-RATE=29.",
+    "../../../manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-824-IT-SONYONEFILMDIVERTENTI-HLS-TITAN_OS_IT",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001F,mp4a.40.2\",AVERAGE-BANDWIDTH=3076324,RESOLUTION=1280x720,FRAME-RATE=29.9"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "timed_id3",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Serie da Ridere": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvSonyOneSerieDaRidere.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://74ea7ff8974c42efaeb7040fd25049b4.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-825-I"
+   ]
+  ],
+  "final_host": "74ea7ff8974c42efaeb7040fd25049b4.mediatailor.us-west-2.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4D400D,mp4a.40.2",
+    "avc1.4D401E,mp4a.40.2",
+    "avc1.64001F,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1024x576",
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.640028,mp4a.40.2\",AVERAGE-BANDWIDTH=4726058,RESOLUTION=1920x1080,FRAME-RATE=29.",
+    "../../../manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-825-IT-SONYONESERIEDARIDERE-HLS-TITAN_OS_IT/",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001F,mp4a.40.2\",AVERAGE-BANDWIDTH=3076023,RESOLUTION=1280x720,FRAME-RATE=29.9"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "timed_id3",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Film d'Azione": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvSonyOneFilmDAzione.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://724640154714497ca695513f8eb992e1.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-823-I"
+   ]
+  ],
+  "final_host": "724640154714497ca695513f8eb992e1.mediatailor.us-west-2.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4D400D,mp4a.40.2",
+    "avc1.4D401E,mp4a.40.2",
+    "avc1.64001F,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1024x576",
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.640028,mp4a.40.2\",AVERAGE-BANDWIDTH=4726081,RESOLUTION=1920x1080,FRAME-RATE=29.",
+    "../../../manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-823-IT-SONYONEFILMDAZIONE-HLS-TITAN_OS_IT/a2",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001F,mp4a.40.2\",AVERAGE-BANDWIDTH=3076046,RESOLUTION=1280x720,FRAME-RATE=29.9"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "timed_id3",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Gli Imperdibili": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvSonyOneGliImperdibili.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://38acdbc26b4f4829804e32d126be2530.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-826-I"
+   ]
+  ],
+  "final_host": "38acdbc26b4f4829804e32d126be2530.mediatailor.us-west-2.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4D400D,mp4a.40.2",
+    "avc1.4D401E,mp4a.40.2",
+    "avc1.64001F,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1024x576",
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.640028,mp4a.40.2\",AVERAGE-BANDWIDTH=4725868,RESOLUTION=1920x1080,FRAME-RATE=29.",
+    "../../../manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-826-IT-SONYONEPOPOLARI-HLS-TITAN_OS_IT/3d5f8",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001F,mp4a.40.2\",AVERAGE-BANDWIDTH=3075833,RESOLUTION=1280x720,FRAME-RATE=29.9"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "timed_id3",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Duri a Morire": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvDuriAMorire.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg02512-amg02512c5-philipstv-emea-10751.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02512-nexodigital-duriamorire-philipstvemea/p"
+   ]
+  ],
+  "final_host": "amg02512-amg02512c5-philipstv-emea-10751.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d4029,mp4a.40.2",
+    "avc1.640029,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "854x480"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:TYPE=CLOSED-CAPTIONS,GROUP-ID=\"CC\",NAME=\"English\",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE=\"en\",INSTRE",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=5130400,AVERAGE-BANDWIDTH=4941200,CODECS=\"avc1.640029,mp4a.40.2\",RESO",
+    "https://amg02512-amg02512c5-philipstv-emea-10751.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02512-nexodigit",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=871200,AVERAGE-BANDWIDTH=840400,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLU"
+   ]
+  },
   "streams": []
+ },
+ "SN - Grandi Nomi": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvGrandiNomi.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://54a13d28df114b3187334ac7732d6d97.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Titan-it_Gra"
+   ]
+  ],
+  "final_host": "54a13d28df114b3187334ac7732d6d97.mediatailor.us-east-1.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d0029,mp4a.40.2",
+    "avc1.4d0029,mp4a.40.5"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=NO,INSTREAM-ID=\"CC1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"captions\",DEFAULT=NO",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.2\",RESOLUTION=640x360,BANDWIDTH=921600,CLOSED-CAPTIONS=\"captions",
+    "https://54a13d28df114b3187334ac7732d6d97.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.5\",RESOLUTION=384x216,BANDWIDTH=524288,CLOSED-CAPTIONS=\"captions"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 384,
+    "height": 216,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Crime Time": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvCrimeTime.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg02512-amg02512c9-philipstv-emea-10747.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02512-nexodigital-crimetime-philipstvemea/pla"
+   ]
+  ],
+  "final_host": "amg02512-amg02512c9-philipstv-emea-10747.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d4029,mp4a.40.2",
+    "avc1.640029,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "854x480"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:TYPE=CLOSED-CAPTIONS,GROUP-ID=\"CC\",NAME=\"English\",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE=\"en\",INSTRE",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=470800,AVERAGE-BANDWIDTH=455400,CODECS=\"avc1.4d4029,mp4a.40.2\",RESOLU",
+    "https://amg02512-amg02512c9-philipstv-emea-10747.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02512-nexodigit",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=3000800,AVERAGE-BANDWIDTH=2890800,CODECS=\"avc1.640029,mp4a.40.2\",RESO"
+   ]
+  },
+  "streams": []
+ },
+ "SN - Squadra Speciale Lipsia": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvSquadraSpecialeLipsia.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://72376bb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfU3F1YWRyYVNwZWNpYWxlTGlwc2lhX0hMUw/playlist.m3u8?ads.d"
+   ]
+  ],
+  "final_host": "72376bb3.wurl.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d0029,mp4a.40.2",
+    "avc1.4d0029,mp4a.40.5"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=YES,TYPE=SUBTITLES,URI=\"../../../manifest/f36d25e7e52f1ba8d7e56eb859c636",
+    "#EXT-X-MEDIA:LANGUAGE=\"en\",AUTOSELECT=NO,INSTREAM-ID=\"CC1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"captions\",DEFAULT=NO",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.4d0029,mp4a.40.2\",RESOLUTION=640x360,SUBTITLES=\"subtitles\",BANDWIDTH=921600,CLO",
+    "../../../manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfU3F1YWRyYVNwZWNpYWxlTGlwc2lhX0hMUw/2afe"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 384,
+    "height": 216,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 960,
+    "height": 540,
+    "pix_fmt": "yuv420p",
+    "level": 41,
+    "avg_frame_rate": "30000/1001"
+   }
+  ]
+ },
+ "SN - Vita da Strega": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvVitaDaStrega.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://b9f2cfdb4dde447fb105ccfc068c2018.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-LINEA"
+   ]
+  ],
+  "final_host": "b9f2cfdb4dde447fb105ccfc068c2018.mediatailor.us-west-2.amazonaws.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4D400D,mp4a.40.2",
+    "avc1.4D401E,mp4a.40.2",
+    "avc1.64001F,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1024x576",
+    "1280x720",
+    "1920x1080",
+    "384x216",
+    "640x360"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-INDEPENDENT-SEGMENTS",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.640028,mp4a.40.2\",AVERAGE-BANDWIDTH=4792425,RESOLUTION=1920x1080,FRAME-RATE=29.",
+    "../../../manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-LINEAR-1073-IT-VITADASTREGA-TITAN_OS_IT/3243",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001F,mp4a.40.2\",AVERAGE-BANDWIDTH=3142389,RESOLUTION=1280x720,FRAME-RATE=29.9"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 40,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "timed_id3",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "30000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Top Gear": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvTopGear.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg00793-amg00793c43-philipstv-worldwide-7766.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearitaly-philipstvworldwide/pla"
+   ]
+  ],
+  "final_host": "amg00793-amg00793c43-philipstv-worldwide-7766.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d501e,mp4a.40.2",
+    "avc1.64101e,mp4a.40.2",
+    "avc1.64101f,mp4a.40.2",
+    "avc1.641028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1057680,AVERAGE-BANDWIDTH=813600,CODECS=\"avc1.4d501e,mp4a.40.2\",RESOL",
+    "https://amg00793-amg00793c43-philipstv-worldwide-7766.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcs",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1686360,AVERAGE-BANDWIDTH=1297200,CODECS=\"avc1.64101e,mp4a.40.2\",RESO",
+    "https://amg00793-amg00793c43-philipstv-worldwide-7766.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcs"
+   ]
+  },
+  "streams": []
+ },
+ "SN - Mayday": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvMaydayDisastroAereo.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg01821-amg01821c38-philipstv-emea-10988.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaydisastroaereo-philips"
+   ]
+  ],
+  "final_host": "amg01821-amg01821c38-philipstv-emea-10988.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d401e,mp4a.40.2",
+    "avc1.64001e,mp4a.40.2",
+    "avc1.64001f,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=511680,AVERAGE-BANDWIDTH=393600,CODECS=\"avc1.4d401e,mp4a.40.2\",RESOLU",
+    "https://amg01821-amg01821c38-philipstv-emea-10988.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfa",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1057680,AVERAGE-BANDWIDTH=813600,CODECS=\"avc1.4d401e,mp4a.40.2\",RESOL",
+    "https://amg01821-amg01821c38-philipstv-emea-10988.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfa"
+   ]
+  },
+  "streams": []
+ },
+ "SN - Gambero Rosso": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvGamberoRosso.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg14891-amg14891c3-amgplt0433.playout.now3.amagi.tv/playlist/amg14891-amg14891c3-amgplt0433/playlist.m3u8?did=&gdpr_consent=&ifa_ty"
+   ]
+  ],
+  "final_host": "amg14891-amg14891c3-amgplt0433.playout.now3.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d4029,mp4a.40.2",
+    "avc1.640029,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID=\"subs\",NAME=\"English\",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE=\"eng\",URI=\"http",
+    "#EXT-X-MEDIA:TYPE=CLOSED-CAPTIONS,GROUP-ID=\"CC\",NAME=\"English\",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE=\"eng\",INSTR",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=5060000,AVERAGE-BANDWIDTH=4870800,CODECS=\"avc1.640029,mp4a.40.2\",RESO",
+    "https://amg14891-amg14891c3-amgplt0433.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg14891-amg14891c3-amgplt04"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - BBC Earth": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvBbcEarth.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg00793-amg00793c23-philipstv-emea-9951.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbcearthitaly-philipstvemea/"
+   ]
+  ],
+  "final_host": "amg00793-amg00793c23-philipstv-emea-9951.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d5015,mp4a.40.2",
+    "avc1.4d501e,mp4a.40.2",
+    "avc1.64101e,mp4a.40.2",
+    "avc1.64101f,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=511680,AVERAGE-BANDWIDTH=393600,CODECS=\"avc1.4d5015,mp4a.40.2\",RESOLU",
+    "https://amg00793-amg00793c23-philipstv-emea-9951.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudio",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1057680,AVERAGE-BANDWIDTH=813600,CODECS=\"avc1.4d501e,mp4a.40.2\",RESOL",
+    "https://amg00793-amg00793c23-philipstv-emea-9951.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudio"
+   ]
+  },
+  "streams": []
+ },
+ "SN - BBC Series": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvBbcSeries.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg00793-amg00793c41-philipstv-worldwide-7768.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramaitaly-philipstvworldwide/pl"
+   ]
+  ],
+  "final_host": "amg00793-amg00793c41-philipstv-worldwide-7768.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d501e,mp4a.40.2",
+    "avc1.64101e,mp4a.40.2",
+    "avc1.64101f,mp4a.40.2",
+    "avc1.641028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1057680,AVERAGE-BANDWIDTH=813600,CODECS=\"avc1.4d501e,mp4a.40.2\",RESOL",
+    "https://amg00793-amg00793c41-philipstv-worldwide-7768.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcs",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1686360,AVERAGE-BANDWIDTH=1297200,CODECS=\"avc1.64101e,mp4a.40.2\",RESO",
+    "https://amg00793-amg00793c41-philipstv-worldwide-7768.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcs"
+   ]
+  },
+  "streams": []
+ },
+ "SN - Euronews Italiano": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvEuronewsItaliano.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://cc394e6c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfRXVyb25ld3NJdGFsaWFub19ITFM/playlist.m3u8?ads.device_i"
+   ]
+  ],
+  "final_host": "cc394e6c.wurl.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.64001f,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1024x576",
+    "1280x720",
+    "428x240",
+    "640x360",
+    "854x480"
+   ],
+   "audio_groups": [],
+   "subtitles": false,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001f,mp4a.40.2\",AVERAGE-BANDWIDTH=409632,RESOLUTION=428x240,FRAME-RATE=25.0,B",
+    "../../../manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfRXVyb25ld3NJdGFsaWFub19ITFM/b6233fe5-96",
+    "#EXT-X-STREAM-INF:CODECS=\"avc1.64001f,mp4a.40.2\",AVERAGE-BANDWIDTH=526231,RESOLUTION=640x360,FRAME-RATE=25.0,B",
+    "../../../manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfRXVyb25ld3NJdGFsaWFub19ITFM/b6233fe5-96"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 428,
+    "height": 240,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 640,
+    "height": 360,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 854,
+    "height": 480,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "avg_frame_rate": "25/1"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 1,
+    "channel_layout": "mono",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - Il Sole 24 Ore TV": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvIlSole24OreTv.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg14891-amg14891c8-amgplt0433.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg14891-amg14891c8-amgplt0433/playlist.m3u8?did=&gdpr_con"
+   ]
+  ],
+  "final_host": "amg14891-amg14891c8-amgplt0433.playout.now3.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d4015,mp4a.40.2",
+    "avc1.64001e,mp4a.40.2",
+    "avc1.64001f,mp4a.40.2",
+    "avc1.640028,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "426x240",
+    "640x360",
+    "848x480"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID=\"subs\",NAME=\"caption_1\",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE=\"eng\",URI=\"ht",
+    "#EXT-X-MEDIA:TYPE=CLOSED-CAPTIONS,GROUP-ID=\"CC\",NAME=\"English\",DEFAULT=NO,LANGUAGE=\"eng\",INSTREAM-ID=\"CC1\"",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=5060000,AVERAGE-BANDWIDTH=4870800,CODECS=\"avc1.640028,mp4a.40.2\",RESO",
+    "https://amg14891-amg14891c8-amgplt0433.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg14891-amg14891c8-amgplt04"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   }
+  ]
+ },
+ "SN - CNN Headlines": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvCnnHeadlinesInternational.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://amg00803-amg00803c5-philipstv-worldwide-5072.playouts.now.amagi.tv/playlist/amg00803-cnnfastinternational-cnnfastinternationalall-ph"
+   ]
+  ],
+  "final_host": "amg00803-amg00803c5-philipstv-worldwide-5072.playouts.now.amagi.tv",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "3",
+   "master": true,
+   "codecs": [
+    "avc1.4d401f,mp4a.40.2",
+    "avc1.4d4028,mp4a.40.2",
+    "avc1.77.30,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "640x360",
+    "960x540"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:3",
+    "#EXT-X-MEDIA:TYPE=CLOSED-CAPTIONS,GROUP-ID=\"CC\",NAME=\"english\",DEFAULT=NO,LANGUAGE=\"eng\",INSTREAM-ID=\"CC1\"",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1020588,AVERAGE-BANDWIDTH=985600,CODECS=\"avc1.77.30,mp4a.40.2\",RESOLU",
+    "https://amg00803-amg00803c5-philipstv-worldwide-5072.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00803-cnnfa",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1856404,AVERAGE-BANDWIDTH=1790800,CODECS=\"avc1.4d401f,mp4a.40.2\",RESO"
+   ]
+  },
+  "streams": []
+ },
+ "SN - Bloomberg TV+": {
+  "url": "https://tvchannels.worldtvlive.eu/tv/_sonytv/live?channel=SonyTvBloombergTv.it&group=SonyTv",
+  "http": 200,
+  "redirects": [
+   [
+    303,
+    "https://445938d4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VGl0YW4taXRfQmxvb21iZXJnVFZQbHVzLTFfSExT/playlist.m3u8?ads.device_"
+   ]
+  ],
+  "final_host": "445938d4.wurl.com",
+  "content_type": "application/vnd.apple.mpegurl",
+  "manifest": {
+   "version": "1",
+   "master": true,
+   "codecs": [
+    "avc1.64001e,mp4a.40.2",
+    "avc1.64001f,mp4a.40.2",
+    "avc1.640020,mp4a.40.2",
+    "avc1.64002a,mp4a.40.2"
+   ],
+   "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "480x272",
+    "640x360"
+   ],
+   "audio_groups": [],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:1",
+    "#EXT-X-MEDIA:AUTOSELECT=YES,INSTREAM-ID=\"SERVICE1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"Source-USPhx-16k-1-s6lk2-BP-",
+    "#EXT-X-MEDIA:AUTOSELECT=YES,INSTREAM-ID=\"SERVICE1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"Source-USPhx-16k-1-s6lk2-BP-",
+    "#EXT-X-MEDIA:AUTOSELECT=YES,INSTREAM-ID=\"SERVICE1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"Source-USPhx-16k-1-s6lk2-BP-",
+    "#EXT-X-MEDIA:AUTOSELECT=YES,INSTREAM-ID=\"SERVICE1\",TYPE=CLOSED-CAPTIONS,GROUP-ID=\"Source-USPhx-16k-1-s6lk2-BP-"
+   ]
+  },
+  "streams": [
+   {
+    "codec_name": "webvtt",
+    "codec_type": "subtitle",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 42,
+    "avg_frame_rate": "60000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "scte_35",
+    "codec_type": "data",
+    "avg_frame_rate": "0/0"
+   },
+   {
+    "codec_name": "h264",
+    "profile": "High",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "level": 42,
+    "avg_frame_rate": "60000/1001"
+   },
+   {
+    "codec_name": "aac",
+    "profile": "LC",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "avg_frame_rate": "0/0"
+   }
+  ]
  }
 }
