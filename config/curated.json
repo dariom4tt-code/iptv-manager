@@ -4,65 +4,40 @@
   {
    "base": 100,
    "groups": [
-    "Spagnolo - Generalisti",
-    "Spagnolo - News",
-    "Spagnolo - Intrattenimento",
-    "Spagnolo - Sport",
-    "Spagnolo - Cartoni",
-    "Spagnolo - Documentari",
-    "Perù",
-    "Sudamerica - Generalisti",
-    "Argentina",
-    "Cile"
-   ]
-  },
-  {
-   "base": 200,
-   "groups": [
-    "Inglese - News",
-    "Inglese - Generalisti UK",
-    "Inglese - Network USA",
-    "Inglese - Intrattenimento",
-    "Inglese - Sport",
-    "Inglese - Cartoni",
-    "Inglese - Documentari",
-    "Inglese - Shopping",
-    "Irlanda, Malta, Australia, Canada"
-   ]
-  },
-  {
-   "base": 300,
-   "groups": [
-    "Francese - Generalisti",
-    "Francese - News"
+    "FAST | Film e serie",
+    "FAST | Film d'azione e thriller",
+    "FAST | Serie e soap",
+    "FAST | Cartoni e famiglia",
+    "FAST | Anime e cartoni",
+    "FAST | Documentari e Top Gear",
+    "FAST | Sport e motori",
+    "FAST | Notizie"
    ]
   },
   {
    "base": 400,
    "groups": [
-    "Tedesco"
-   ]
-  },
-  {
-   "base": 500,
-   "groups": [
-    "FAST | Film e serie",
-    "FAST | Cartoni e famiglia",
-    "FAST | Documentari e Top Gear",
-    "FAST | Notizie",
-    "FAST | PL (senza audio sul Samsung)"
-   ]
+    "Argentina",
+    "Australia",
+    "Canada",
+    "Svizzera italiana",
+    "Cile",
+    "Germania",
+    "Spagna",
+    "Francia",
+    "Irlanda",
+    "Malta",
+    "Messico",
+    "Perù",
+    "Regno Unito",
+    "Stati Uniti"
+   ],
+   "sort_title": true
   },
   {
    "base": 900,
    "groups": [
     "Internazionali - San Marino"
-   ]
-  },
-  {
-   "base": 600,
-   "groups": [
-    "Svizzera italiana"
    ]
   }
  ],
@@ -70,37 +45,17 @@
   {
    "type": "pinned",
    "from_title": "ES - La 1 (RTVE)",
-   "group": "Spagnolo - Generalisti"
+   "group": "Spagna"
   },
   {
    "type": "pinned",
    "from_title": "ES - La 2 (RTVE)",
-   "group": "Spagnolo - Generalisti"
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "La1Canarias.es@SD"
-   ],
-   "name": "ES - La 1 (alt. Canarias)",
-   "group": "Spagnolo - Generalisti",
-   "hold": false
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "La2Canarias.es@SD"
-   ],
-   "name": "ES - La 2 (alt. Canarias)",
-   "group": "Spagnolo - Generalisti",
-   "hold": false
+   "group": "Spagna"
   },
   {
    "type": "pinned",
    "from_title": "ES - TVE Internacional",
-   "group": "Spagnolo - Generalisti"
+   "group": "Spagna"
   },
   {
    "type": "streams",
@@ -109,7 +64,7 @@
     "24Horas.es@SD"
    ],
    "name": "ES - 24 Horas (RTVE)",
-   "group": "Spagnolo - News",
+   "group": "Spagna",
    "hold": false
   },
   {
@@ -119,7 +74,7 @@
     "DW.de@Espanol"
    ],
    "name": "ES - DW Español",
-   "group": "Spagnolo - News",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -129,7 +84,7 @@
     "France24.fr@Spanish"
    ],
    "name": "ES - France 24 Español",
-   "group": "Spagnolo - News",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -139,7 +94,7 @@
     "EuronewsSpanish.fr@SD"
    ],
    "name": "ES - Euronews Español",
-   "group": "Spagnolo - News",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -149,17 +104,7 @@
     "CNNenEspanol.us@SD"
    ],
    "name": "ES - CNN en Español",
-   "group": "Spagnolo - News",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "AMCenEspanol.us@SD"
-   ],
-   "name": "ES - AMC en Español",
-   "group": "Spagnolo - Intrattenimento",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -169,7 +114,7 @@
     "EstrellaTV.us@SD"
    ],
    "name": "ES - Estrella TV",
-   "group": "Spagnolo - Intrattenimento",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -179,7 +124,7 @@
     "beINSPORTSXTRAenEspanol.us@SD"
    ],
    "name": "ES - beIN SPORTS XTRA",
-   "group": "Spagnolo - Sport",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -189,7 +134,7 @@
     "Clan.es@SD"
    ],
    "name": "ES - Clan (RTVE)",
-   "group": "Spagnolo - Cartoni",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -199,7 +144,7 @@
     "Historia.es@SD"
    ],
    "name": "ES - Historia",
-   "group": "Spagnolo - Documentari",
+   "group": "Spagna",
    "hold": true
   },
   {
@@ -216,18 +161,8 @@
   },
   {
    "type": "pinned",
-   "from_title": "PE - TVPerú",
-   "group": "Perù"
-  },
-  {
-   "type": "pinned",
    "from_title": "UK - BBC News",
-   "group": "Inglese - News"
-  },
-  {
-   "type": "pinned",
-   "from_title": "UK - Sky News",
-   "group": "Inglese - News"
+   "group": "Regno Unito"
   },
   {
    "type": "streams",
@@ -235,8 +170,8 @@
    "tvg_ids": [
     "CNNInternational.us@Europe"
    ],
-   "name": "EN - CNN International",
-   "group": "Inglese - News",
+   "name": "US - CNN International",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -246,7 +181,7 @@
     "BloombergOriginals.us@US"
    ],
    "name": "US - Bloomberg",
-   "group": "Inglese - News",
+   "group": "Stati Uniti",
    "hold": true,
    "epg_id": "Bloomberg.HD.us2"
   },
@@ -254,30 +189,10 @@
    "type": "streams",
    "source": "iptvorg-all",
    "tvg_ids": [
-    "AlJazeera.qa@English"
-   ],
-   "name": "EN - Al Jazeera English",
-   "group": "Inglese - News",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
     "DW.de@English"
    ],
-   "name": "EN - DW English",
-   "group": "Inglese - News",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "EuronewsEnglish.fr@SD"
-   ],
-   "name": "EN - Euronews English",
-   "group": "Inglese - News",
+   "name": "DE - DW English",
+   "group": "Germania",
    "hold": true
   },
   {
@@ -287,7 +202,7 @@
     "ABCNewsLive1.us@SD"
    ],
    "name": "US - ABC News Live",
-   "group": "Inglese - News",
+   "group": "Stati Uniti",
    "hold": true,
    "epg_id": "ABC.News.Live.us2"
   },
@@ -298,17 +213,7 @@
     "NBCNewsNOW.us@SD"
    ],
    "name": "US - NBC News NOW",
-   "group": "Inglese - News",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "CBSNews247.us@SD"
-   ],
-   "name": "US - CBS News 24/7",
-   "group": "Inglese - News",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -317,8 +222,8 @@
    "tvg_ids": [
     "ReutersTV.us@SD"
    ],
-   "name": "EN - Reuters TV",
-   "group": "Inglese - News",
+   "name": "US - Reuters TV",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -328,7 +233,7 @@
     "ABCNews.au@Sydney"
    ],
    "name": "AU - ABC News Australia",
-   "group": "Inglese - News",
+   "group": "Australia",
    "hold": true
   },
   {
@@ -338,7 +243,7 @@
     "GBNews.uk@SD"
    ],
    "name": "UK - GB News",
-   "group": "Inglese - News",
+   "group": "Regno Unito",
    "hold": true,
    "epg_id": "GB.News.HD.uk"
   },
@@ -349,7 +254,7 @@
     "BBCOne.uk@London"
    ],
    "name": "UK - BBC One",
-   "group": "Inglese - Generalisti UK",
+   "group": "Regno Unito",
    "hold": true
   },
   {
@@ -359,7 +264,7 @@
     "BBCTwo.uk@HD"
    ],
    "name": "UK - BBC Two",
-   "group": "Inglese - Generalisti UK",
+   "group": "Regno Unito",
    "hold": true
   },
   {
@@ -369,7 +274,7 @@
     "Channel4.uk@UK"
    ],
    "name": "UK - Channel 4",
-   "group": "Inglese - Generalisti UK",
+   "group": "Regno Unito",
    "hold": true
   },
   {
@@ -379,7 +284,7 @@
     "Baywatch.us@US"
    ],
    "name": "US - Baywatch",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -389,7 +294,7 @@
     "Mythbusters.us@UK"
    ],
    "name": "US - Mythbusters",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -399,7 +304,7 @@
     "GordonRamsaysHellsKitchen.us@SD"
    ],
    "name": "US - Hell's Kitchen",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -409,27 +314,7 @@
     "Cops.us@SD"
    ],
    "name": "US - Cops",
-   "group": "Inglese - Intrattenimento",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "Dateline247.us@SD"
-   ],
-   "name": "US - Dateline 24/7",
-   "group": "Inglese - Intrattenimento",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "LawCrime.us@SD"
-   ],
-   "name": "US - Law & Crime",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -439,7 +324,7 @@
     "Tastemade.us@US"
    ],
    "name": "US - Tastemade",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -449,19 +334,19 @@
     "TopGear.uk@SD"
    ],
    "name": "UK - Top Gear",
-   "group": "Inglese - Intrattenimento",
+   "group": "Regno Unito",
    "hold": true
   },
   {
    "type": "pinned",
    "from_title": "US - Hallmark Movies & More",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
    "type": "pinned",
    "from_title": "UK - GREAT! Movies",
-   "group": "Inglese - Intrattenimento"
+   "group": "Regno Unito"
   },
   {
    "type": "streams",
@@ -470,7 +355,7 @@
     "beINSPORTSXTRA.us@SD"
    ],
    "name": "US - beIN SPORTS XTRA",
-   "group": "Inglese - Sport",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -480,67 +365,7 @@
     "TennisChannel.us@SD"
    ],
    "name": "US - Tennis Channel",
-   "group": "Inglese - Sport",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "Stadium.us@SD"
-   ],
-   "name": "US - Stadium",
-   "group": "Inglese - Sport",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "FIFAPlus.uk@UnitedStates"
-   ],
-   "name": "US - FIFA+",
-   "group": "Inglese - Sport",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "ESPN8TheOcho.us@ESPN8TheOchoHD"
-   ],
-   "name": "US - ESPN8 The Ocho",
-   "group": "Inglese - Sport",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "RedBullTV.at@SD"
-   ],
-   "name": "AT - Red Bull TV",
-   "group": "Inglese - Sport",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "MrBeanAnimated.uk@English"
-   ],
-   "name": "UK - Mr Bean Animated",
-   "group": "Inglese - Cartoni",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "MrBeanLiveAction.uk@SD"
-   ],
-   "name": "UK - Mr Bean Live Action",
-   "group": "Inglese - Cartoni",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -550,7 +375,7 @@
     "Teletubbies.uk@SD"
    ],
    "name": "UK - Teletubbies",
-   "group": "Inglese - Cartoni",
+   "group": "Regno Unito",
    "hold": true
   },
   {
@@ -560,17 +385,7 @@
     "MeTVToons.us@SD"
    ],
    "name": "US - MeTV Toons (cartoni classici)",
-   "group": "Inglese - Cartoni",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "RealWild.uk@SD"
-   ],
-   "name": "UK - Real Wild",
-   "group": "Inglese - Documentari",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -580,17 +395,7 @@
     "LoveNature.ca@SD"
    ],
    "name": "CA - Love Nature",
-   "group": "Inglese - Documentari",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "PBSNature.us@SD"
-   ],
-   "name": "US - PBS Nature",
-   "group": "Inglese - Documentari",
+   "group": "Canada",
    "hold": true
   },
   {
@@ -600,7 +405,7 @@
     "Docurama.us@SD"
    ],
    "name": "US - Docurama",
-   "group": "Inglese - Documentari",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -610,36 +415,31 @@
     "HistoryHit.uk@SD"
    ],
    "name": "UK - History Hit",
-   "group": "Inglese - Documentari",
+   "group": "Regno Unito",
    "hold": true
   },
   {
    "type": "pinned",
    "from_title": "US - QVC",
-   "group": "Inglese - Shopping",
+   "group": "Stati Uniti",
    "epg_id": "QVC.HD.us2"
   },
   {
    "type": "pinned",
    "from_title": "US - HSN",
-   "group": "Inglese - Shopping",
+   "group": "Stati Uniti",
    "epg_id": "HSN.Home.Shopping.Network.HD.us2"
   },
   {
    "type": "pinned",
    "from_title": "UK - QVC",
-   "group": "Inglese - Shopping",
+   "group": "Regno Unito",
    "epg_id": "QVC.HD.uk"
   },
   {
    "type": "pinned",
-   "from_title": "FR - ARTE (Français)",
-   "group": "Francese - Generalisti"
-  },
-  {
-   "type": "pinned",
    "from_title": "FR - France 5 (verifica disponibilità)",
-   "group": "Francese - Generalisti",
+   "group": "Francia",
    "name": "FR - France 5"
   },
   {
@@ -649,7 +449,7 @@
     "TF1.fr@SD"
    ],
    "name": "FR - TF1",
-   "group": "Francese - Generalisti",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -659,7 +459,7 @@
     "France2.fr@SD"
    ],
    "name": "FR - France 2",
-   "group": "Francese - Generalisti",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -669,7 +469,7 @@
     "France3.fr@National"
    ],
    "name": "FR - France 3",
-   "group": "Francese - Generalisti",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -679,13 +479,13 @@
     "M6.fr@SD"
    ],
    "name": "FR - M6",
-   "group": "Francese - Generalisti",
+   "group": "Francia",
    "hold": true
   },
   {
    "type": "pinned",
    "from_title": "FR - France 24 Français",
-   "group": "Francese - News"
+   "group": "Francia"
   },
   {
    "type": "streams",
@@ -694,7 +494,7 @@
     "Franceinfo.fr@SD"
    ],
    "name": "FR - franceinfo",
-   "group": "Francese - News",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -704,7 +504,7 @@
     "BFMTV.fr@SD"
    ],
    "name": "FR - BFM TV",
-   "group": "Francese - News",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -714,7 +514,7 @@
     "EuronewsFrench.fr@SD"
    ],
    "name": "FR - Euronews Français",
-   "group": "Francese - News",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -724,7 +524,7 @@
     "RTSInfo.ch@SD"
    ],
    "name": "FR - RTS Info",
-   "group": "Francese - News",
+   "group": "Francia",
    "hold": true
   },
   {
@@ -734,7 +534,7 @@
     "DasErste.de@HD"
    ],
    "name": "DE - Das Erste",
-   "group": "Tedesco",
+   "group": "Germania",
    "hold": true,
    "epg_id": "Das.Erste.de"
   },
@@ -745,7 +545,7 @@
     "ZDF.de@HD"
    ],
    "name": "DE - ZDF",
-   "group": "Tedesco",
+   "group": "Germania",
    "hold": true
   },
   {
@@ -755,7 +555,7 @@
     "ARDalpha.de@SD"
    ],
    "name": "DE - ARD-alpha",
-   "group": "Tedesco",
+   "group": "Germania",
    "hold": true,
    "epg_id": "ARD.alpha.de"
   },
@@ -766,17 +566,7 @@
     "tagesschau24.de@SD"
    ],
    "name": "DE - tagesschau24",
-   "group": "Tedesco",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "EuronewsGerman.fr@SD"
-   ],
-   "name": "DE - Euronews Deutsch",
-   "group": "Tedesco",
+   "group": "Germania",
    "hold": true
   },
   {
@@ -786,7 +576,7 @@
     "QVC.de@SD"
    ],
    "name": "DE - QVC",
-   "group": "Tedesco",
+   "group": "Germania",
    "hold": true,
    "epg_id": "QVC.de"
   },
@@ -962,54 +752,63 @@
    "type": "pluto",
    "catalog_name": "PlutoTv - Cinema Italiano",
    "name": "PL - Cinema Italiano",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - Totò",
    "name": "PL - Totò",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - Alberto Sordi",
    "name": "PL - Alberto Sordi",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - South Park",
    "name": "PL - South Park",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - Top Gear",
    "name": "PL - Top Gear",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - Mayday: Disastro Aereo",
    "name": "PL - Mayday: Disastro Aereo",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - Documentari",
    "name": "PL - Documentari",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pluto",
    "catalog_name": "PlutoTv - Il Testimone",
    "name": "PL - Il Testimone",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pinned",
    "from_title": "PL - Distretto di Polizia",
-   "group": "FAST | PL (senza audio sul Samsung)"
+   "group": "(Pluto - sospeso: audio non funziona sul Samsung)",
+   "disabled": true
   },
   {
    "type": "pinned",
@@ -1024,7 +823,7 @@
     "AMCThrillers.us@SD"
    ],
    "name": "US - AMC Thrillers",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1034,7 +833,7 @@
     "StoriesbyAMC.us@SD"
    ],
    "name": "US - Stories by AMC",
-   "group": "Inglese - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1044,7 +843,7 @@
     "ImagenTV.mx@SD"
    ],
    "name": "MX - Imagen Televisión",
-   "group": "Sudamerica - Generalisti",
+   "group": "Messico",
    "hold": true
   },
   {
@@ -1054,57 +853,7 @@
     "AztecaUno.mx@Plus1"
    ],
    "name": "MX - Azteca Uno (+1)",
-   "group": "Sudamerica - Generalisti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "SBTNacional.br@SD"
-   ],
-   "name": "BR - SBT",
-   "group": "Sudamerica - Generalisti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "Mega.cl@SD"
-   ],
-   "name": "CL - Mega",
-   "group": "Sudamerica - Generalisti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "Globovision.ve@SD"
-   ],
-   "name": "VE - Globovisión",
-   "group": "Sudamerica - Generalisti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "ElTrece.ar@SD"
-   ],
-   "name": "AR - El Trece",
-   "group": "Argentina",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "AmericaTV.ar@SD"
-   ],
-   "name": "AR - América TV",
-   "group": "Argentina",
+   "group": "Messico",
    "hold": true
   },
   {
@@ -1125,26 +874,6 @@
    ],
    "name": "AR - TyC Sports",
    "group": "Argentina",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "FIFAPlus.uk@HispanicAmerica"
-   ],
-   "name": "AR - FIFA+ Hispanoamérica",
-   "group": "Argentina",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "T13EnVivo.cl@SD"
-   ],
-   "name": "CL - T13",
-   "group": "Cile",
    "hold": true
   },
   {
@@ -1174,7 +903,7 @@
     "NBC.us@KNTV"
    ],
    "name": "US - NBC (KNTV San Francisco)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1184,7 +913,7 @@
     "NBC.us@WMAQTV"
    ],
    "name": "US - NBC (WMAQ Chicago)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1194,7 +923,7 @@
     "NBC.us@KXASTV"
    ],
    "name": "US - NBC (KXAS Dallas)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1204,7 +933,7 @@
     "ABC.us@WJLATV"
    ],
    "name": "US - ABC (WJLA Washington)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1214,7 +943,7 @@
     "ABC.us@KGTV"
    ],
    "name": "US - ABC (KGTV San Diego)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1224,7 +953,7 @@
     "CBS.us@KUTV"
    ],
    "name": "US - CBS (KUTV Salt Lake City)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1234,7 +963,7 @@
     "CBS.us@KIROTV"
    ],
    "name": "US - CBS (KIRO Seattle)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1244,7 +973,7 @@
     "Fox.us@WNYW"
    ],
    "name": "US - FOX (WNYW New York)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1254,7 +983,7 @@
     "Fox.us@KTTV"
    ],
    "name": "US - FOX (KTTV Los Angeles)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1264,7 +993,7 @@
     "Fox.us@WTXFTV"
    ],
    "name": "US - FOX (WTXF Philadelphia)",
-   "group": "Inglese - Network USA",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1274,7 +1003,7 @@
     "Telemundo.us@WCAU"
    ],
    "name": "US - Telemundo (WCAU Philadelphia)",
-   "group": "Spagnolo - Intrattenimento",
+   "group": "Stati Uniti",
    "hold": true
   },
   {
@@ -1284,7 +1013,7 @@
     "TG4.ie@SD"
    ],
    "name": "IE - TG4",
-   "group": "Irlanda, Malta, Australia, Canada",
+   "group": "Irlanda",
    "hold": true
   },
   {
@@ -1294,27 +1023,7 @@
     "One.mt@SD"
    ],
    "name": "MT - One",
-   "group": "Irlanda, Malta, Australia, Canada",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "SkyNewsExtra3.au@SD"
-   ],
-   "name": "AU - Sky News Extra 3",
-   "group": "Irlanda, Malta, Australia, Canada",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "10Bold.au@Sydney"
-   ],
-   "name": "AU - 10 Bold",
-   "group": "Irlanda, Malta, Australia, Canada",
+   "group": "Malta",
    "hold": true
   },
   {
@@ -1324,17 +1033,7 @@
     "CBCNewsNetwork.ca@SD"
    ],
    "name": "CA - CBC News Network",
-   "group": "Irlanda, Malta, Australia, Canada",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "CityNewsToronto.ca@SD"
-   ],
-   "name": "CA - CityNews Toronto",
-   "group": "Irlanda, Malta, Australia, Canada",
+   "group": "Canada",
    "hold": true
   },
   {
@@ -1346,6 +1045,188 @@
    "name": "CH - TeleTicino",
    "group": "Svizzera italiana",
    "hold": true
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Cine Paura",
+   "name": "SN - Cine Paura",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Cine Thriller",
+   "name": "SN - Cine Thriller",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Cine Peplum",
+   "name": "SN - Cine Peplum",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Cinemalizia",
+   "name": "SN - Cinemalizia",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Adrenaline Movies",
+   "name": "SN - Adrenaline Movies",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Alta Tensione",
+   "name": "SN - Alta Tensione",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Grjngo - Film Western",
+   "name": "SN - Western",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Charlie - Silent Movies",
+   "name": "SN - Charlie (film muti)",
+   "group": "FAST | Film d'azione e thriller"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Inazuma Eleven Collection",
+   "name": "SN - Inazuma Eleven",
+   "group": "FAST | Anime e cartoni"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Inuyasha",
+   "name": "SN - Inuyasha",
+   "group": "FAST | Anime e cartoni"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Yu-Gi-Oh",
+   "name": "SN - Yu-Gi-Oh!",
+   "group": "FAST | Anime e cartoni"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Top Serie – Elisa Di Rivombrosa",
+   "name": "SN - Elisa di Rivombrosa",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Hercules: The Legendary Journeys",
+   "name": "SN - Hercules",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Xena: Warrior Princess",
+   "name": "SN - Xena",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Quantum Leap",
+   "name": "SN - Quantum Leap",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Storie Criminali",
+   "name": "SN - Storie Criminali",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Guardia Costiera",
+   "name": "SN - Guardia Costiera",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Soap Latino",
+   "name": "SN - Soap Latino",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Soap Turco",
+   "name": "SN - Soap Turco",
+   "group": "FAST | Serie e soap"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Inter 24/7",
+   "name": "SN - Inter 24/7",
+   "group": "FAST | Sport e motori"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Tennis+",
+   "name": "SN - Tennis+",
+   "group": "FAST | Sport e motori"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Golf Television",
+   "name": "SN - Golf",
+   "group": "FAST | Sport e motori"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Motoretrò",
+   "name": "SN - Motoretrò",
+   "group": "FAST | Sport e motori"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Automoto",
+   "name": "SN - Automoto",
+   "group": "FAST | Sport e motori"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Naturetime",
+   "name": "SN - Naturetime",
+   "group": "FAST | Documentari e Top Gear"
+  },
+  {
+   "type": "redirector",
+   "source": "wltv-sony",
+   "catalog_name": "SonyTv - Waterbear",
+   "name": "SN - Waterbear",
+   "group": "FAST | Documentari e Top Gear"
   }
  ]
 }

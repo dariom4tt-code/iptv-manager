@@ -1,12 +1,4 @@
 {
- "ES - La 1 (alt. Canarias)": {
-  "url": "https://ztnr.rtve.es/ztnr/5190066.m3u8",
-  "alternatives": 1
- },
- "ES - La 2 (alt. Canarias)": {
-  "url": "https://ztnr.rtve.es/ztnr/5468585.m3u8",
-  "alternatives": 1
- },
  "ES - 24 Horas (RTVE)": {
   "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
   "alternatives": 2
@@ -27,10 +19,6 @@
   "url": "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8",
   "alternatives": 2
  },
- "ES - AMC en Español": {
-  "url": "https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8",
-  "alternatives": 2
- },
  "ES - Estrella TV": {
   "url": "https://estrellatv-oando.amagi.tv/playlist.m3u8",
   "alternatives": 3
@@ -47,7 +35,7 @@
   "url": "https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8",
   "alternatives": 2
  },
- "EN - CNN International": {
+ "US - CNN International": {
   "url": "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
   "alternatives": 1
  },
@@ -55,16 +43,8 @@
   "url": "https://bloomberg.com/media-manifest/streams/qt.m3u8",
   "alternatives": 2
  },
- "EN - Al Jazeera English": {
-  "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "alternatives": 1
- },
- "EN - DW English": {
+ "DE - DW English": {
   "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
-  "alternatives": 1
- },
- "EN - Euronews English": {
-  "url": "https://jmp2.uk/plu-61de96114757070008d33cae.m3u8",
   "alternatives": 1
  },
  "US - ABC News Live": {
@@ -74,10 +54,6 @@
  "US - NBC News NOW": {
   "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
   "alternatives": 3
- },
- "US - CBS News 24/7": {
-  "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
-  "alternatives": 2
  },
  "EN - Reuters TV": {
   "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8",
@@ -119,14 +95,6 @@
   "url": "https://langleyproductions-cops-2-eu.rakuten.wurl.tv/playlist.m3u8",
   "alternatives": 1
  },
- "US - Dateline 24/7": {
-  "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896029/hls/master.m3u8?ads.xumo_channelId=88896029",
-  "alternatives": 2
- },
- "US - Law & Crime": {
-  "url": "https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8",
-  "alternatives": 2
- },
  "US - Tastemade": {
   "url": "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8",
   "alternatives": 1
@@ -143,30 +111,6 @@
   "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
   "alternatives": 2
  },
- "US - Stadium": {
-  "url": "https://wurl120sports.global.transmit.live/hls/6865b0ce3b41686108809e5a/v1/stadium_gracenote/vizio_us/latest/main/hls/playlist.m3u8",
-  "alternatives": 2
- },
- "US - FIFA+": {
-  "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8",
-  "alternatives": 3
- },
- "US - ESPN8 The Ocho": {
-  "url": "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8",
-  "alternatives": 1
- },
- "AT - Red Bull TV": {
-  "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-  "alternatives": 1
- },
- "UK - Mr Bean Animated": {
-  "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8",
-  "alternatives": 6
- },
- "UK - Mr Bean Live Action": {
-  "url": "https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8",
-  "alternatives": 3
- },
  "UK - Teletubbies": {
   "url": "https://dv8lsrd8fecw9.cloudfront.net/master.m3u8",
   "alternatives": 2
@@ -175,17 +119,9 @@
   "url": "https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8",
   "alternatives": 3
  },
- "UK - Real Wild": {
-  "url": "https://lds-realwild-samsungau.amagi.tv/playlist.m3u8",
-  "alternatives": 1
- },
  "CA - Love Nature": {
   "url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8",
   "alternatives": 2
- },
- "US - PBS Nature": {
-  "url": "https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8",
-  "alternatives": 1
  },
  "US - Docurama": {
   "url": "https://docurama-plex-ingest.cinedigm.com/playlist.m3u8",
@@ -243,10 +179,6 @@
   "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
   "alternatives": 0
  },
- "DE - Euronews Deutsch": {
-  "url": "https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8",
-  "alternatives": 0
- },
  "DE - QVC": {
   "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
   "alternatives": 0
@@ -267,36 +199,12 @@
   "url": "https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8",
   "alternatives": 1
  },
- "BR - SBT": {
-  "url": "https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8",
-  "alternatives": 0
- },
- "VE - Globovisión": {
-  "url": "https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8",
-  "alternatives": 1
- },
- "AR - El Trece": {
-  "url": "https://livetrx01.vodgc.net/eltrecetv/index.m3u8",
-  "alternatives": 1
- },
- "AR - América TV": {
-  "url": "https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8",
-  "alternatives": 1
- },
  "AR - Canal 26 (news)": {
   "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
   "alternatives": 2
  },
  "AR - TyC Sports": {
   "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8",
-  "alternatives": 2
- },
- "AR - FIFA+ Hispanoamérica": {
-  "url": "https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8",
-  "alternatives": 2
- },
- "CL - T13": {
-  "url": "https://redirector.dps.live/hls/t13/playlist.m3u8",
   "alternatives": 2
  },
  "CL - La Red": {
@@ -359,20 +267,8 @@
   "url": "https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/playlist.m3u8",
   "alternatives": 0
  },
- "AU - Sky News Extra 3": {
-  "url": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
-  "alternatives": 2
- },
- "AU - 10 Bold": {
-  "url": "https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8",
-  "alternatives": 1
- },
  "CA - CBC News Network": {
   "url": "https://aka-live1050.delivery.roku.com/0c24a9ef-e9c3-485c-bf68-3f1ae5ef3e85/t2-origin/out/v1/live.m3u8",
-  "alternatives": 2
- },
- "CA - CityNews Toronto": {
-  "url": "https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8",
   "alternatives": 2
  },
  "CH - TeleTicino": {

@@ -126,6 +126,10 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
     kept_titles = set()
     for e in curated["entries"]:
         key, t = e.get("name") or e.get("from_title"), e["type"]
+        if e.get("disabled"):  # voce tenuta in config ma non pubblicata
+            kept_titles.add(e.get("from_title", ""))
+            rep.setdefault("disabled", []).append(key)
+            continue
         ch = None
         if t == "pinned":
             src = by_title.get(e["from_title"])
@@ -213,7 +217,8 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
     for blk in curated.get("blocks", []):
         n = blk["base"]
         for g in blk["groups"]:
-            members = sorted((c for c in out if c.group == g), key=lambda c: order.get(c.title, 9999))
+            members = sorted((c for c in out if c.group == g),
+                             key=(lambda c: c.title.casefold()) if blk.get("sort_title") else (lambda c: order.get(c.title, 9999)))
             for c in members:
                 c.attrs["tvg-chno"] = str(n)
                 n += 1
