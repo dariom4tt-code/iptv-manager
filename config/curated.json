@@ -11,7 +11,9 @@
     "Spagnolo - Cartoni",
     "Spagnolo - Documentari",
     "Perù",
-    "Sudamerica - Generalisti"
+    "Sudamerica - Generalisti",
+    "Argentina",
+    "Cile"
    ]
   },
   {
@@ -19,11 +21,13 @@
    "groups": [
     "Inglese - News",
     "Inglese - Generalisti UK",
+    "Inglese - Network USA",
     "Inglese - Intrattenimento",
     "Inglese - Sport",
     "Inglese - Cartoni",
     "Inglese - Documentari",
-    "Inglese - Shopping"
+    "Inglese - Shopping",
+    "Irlanda, Malta, Australia, Canada"
    ]
   },
   {
@@ -53,6 +57,12 @@
    "base": 900,
    "groups": [
     "Internazionali - San Marino"
+   ]
+  },
+  {
+   "base": 600,
+   "groups": [
+    "Svizzera italiana"
    ]
   }
  ],
@@ -1075,6 +1085,266 @@
    ],
    "name": "VE - Globovisión",
    "group": "Sudamerica - Generalisti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "ElTrece.ar@SD"
+   ],
+   "name": "AR - El Trece",
+   "group": "Argentina",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "AmericaTV.ar@SD"
+   ],
+   "name": "AR - América TV",
+   "group": "Argentina",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Canal26.ar@SD"
+   ],
+   "name": "AR - Canal 26 (news)",
+   "group": "Argentina",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "TyCSports.ar@SD"
+   ],
+   "name": "AR - TyC Sports",
+   "group": "Argentina",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "FIFAPlus.uk@HispanicAmerica"
+   ],
+   "name": "AR - FIFA+ Hispanoamérica",
+   "group": "Argentina",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "T13EnVivo.cl@SD"
+   ],
+   "name": "CL - T13",
+   "group": "Cile",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "LaRed.cl@SD"
+   ],
+   "name": "CL - La Red",
+   "group": "Cile",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "BioBioTV.cl@SD"
+   ],
+   "name": "CL - Bío Bío TV (news)",
+   "group": "Cile",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "NBC.us@KNTV"
+   ],
+   "name": "US - NBC (KNTV San Francisco)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "NBC.us@WMAQTV"
+   ],
+   "name": "US - NBC (WMAQ Chicago)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "NBC.us@KXASTV"
+   ],
+   "name": "US - NBC (KXAS Dallas)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "ABC.us@WJLATV"
+   ],
+   "name": "US - ABC (WJLA Washington)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "ABC.us@KGTV"
+   ],
+   "name": "US - ABC (KGTV San Diego)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "CBS.us@KUTV"
+   ],
+   "name": "US - CBS (KUTV Salt Lake City)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "CBS.us@KIROTV"
+   ],
+   "name": "US - CBS (KIRO Seattle)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Fox.us@WNYW"
+   ],
+   "name": "US - FOX (WNYW New York)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Fox.us@KTTV"
+   ],
+   "name": "US - FOX (KTTV Los Angeles)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Fox.us@WTXFTV"
+   ],
+   "name": "US - FOX (WTXF Philadelphia)",
+   "group": "Inglese - Network USA",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Telemundo.us@WCAU"
+   ],
+   "name": "US - Telemundo (WCAU Philadelphia)",
+   "group": "Spagnolo - Intrattenimento",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "TG4.ie@SD"
+   ],
+   "name": "IE - TG4",
+   "group": "Irlanda, Malta, Australia, Canada",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "One.mt@SD"
+   ],
+   "name": "MT - One",
+   "group": "Irlanda, Malta, Australia, Canada",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "SkyNewsExtra3.au@SD"
+   ],
+   "name": "AU - Sky News Extra 3",
+   "group": "Irlanda, Malta, Australia, Canada",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "10Bold.au@Sydney"
+   ],
+   "name": "AU - 10 Bold",
+   "group": "Irlanda, Malta, Australia, Canada",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "CBCNewsNetwork.ca@SD"
+   ],
+   "name": "CA - CBC News Network",
+   "group": "Irlanda, Malta, Australia, Canada",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "CityNewsToronto.ca@SD"
+   ],
+   "name": "CA - CityNews Toronto",
+   "group": "Irlanda, Malta, Australia, Canada",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "TeleTicino.ch@SD"
+   ],
+   "name": "CH - TeleTicino",
+   "group": "Svizzera italiana",
    "hold": true
   }
  ]

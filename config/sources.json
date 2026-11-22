@@ -120,6 +120,56 @@
       "id": "iptvorg-movies",
       "kind": "streams",
       "url": "https://iptv-org.github.io/iptv/categories/movies.m3u"
+    },
+    {
+      "id": "iptvorg-ar",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/ar.m3u"
+    },
+    {
+      "id": "iptvorg-cl",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/cl.m3u"
+    },
+    {
+      "id": "iptvorg-ie",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/ie.m3u"
+    },
+    {
+      "id": "iptvorg-mt",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/mt.m3u"
+    },
+    {
+      "id": "iptvorg-au",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/au.m3u"
+    },
+    {
+      "id": "iptvorg-ca",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/ca.m3u"
+    },
+    {
+      "id": "iptvorg-mx",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/mx.m3u"
+    },
+    {
+      "id": "iptvorg-br",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/br.m3u"
+    },
+    {
+      "id": "iptvorg-ve",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/ve.m3u"
+    },
+    {
+      "id": "iptvorg-co",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/countries/co.m3u"
     }
   ]
 }
