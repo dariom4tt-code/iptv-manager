@@ -547,6 +547,12 @@
   ]
  },
  {
+  "title": "US - Telemundo (WCAU Philadelphia)",
+  "tvg_id": "Telemundo.us@WCAU",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
   "title": "ES - beIN SPORTS XTRA",
   "tvg_id": "beINSPORTSXTRAenEspanol.us@SD",
   "status": "ID_NOT_FOUND",
@@ -602,6 +608,42 @@
  {
   "title": "VE - Globovisión",
   "tvg_id": "Globovision.ve@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "AR - El Trece",
+  "tvg_id": "ElTrece.ar@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "AR - América TV",
+  "tvg_id": "AmericaTV.ar@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "AR - Canal 26 (news)",
+  "tvg_id": "Canal26.ar@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "AR - FIFA+ Hispanoamérica",
+  "tvg_id": "FIFAPlus.uk@HispanicAmerica",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "CL - T13",
+  "tvg_id": "T13EnVivo.cl@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "CL - La Red",
+  "tvg_id": "LaRed.cl@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
@@ -695,6 +737,30 @@
   ]
  },
  {
+  "title": "US - NBC (KNTV San Francisco)",
+  "tvg_id": "NBC.us@KNTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - NBC (WMAQ Chicago)",
+  "tvg_id": "NBC.us@WMAQTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - NBC (KXAS Dallas)",
+  "tvg_id": "NBC.us@KXASTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - ABC (KGTV San Diego)",
+  "tvg_id": "ABC.us@KGTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
   "title": "US - Dateline 24/7",
   "tvg_id": "Dateline247.us@SD",
   "status": "ID_NOT_FOUND",
@@ -742,6 +808,12 @@
   "suggestions": []
  },
  {
+  "title": "US - FIFA+",
+  "tvg_id": "FIFAPlus.uk@UnitedStates",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
   "title": "US - ESPN8 The Ocho",
   "tvg_id": "ESPN8TheOcho.us@ESPN8TheOchoHD",
   "status": "ID_NOT_FOUND",
@@ -762,12 +834,6 @@
  {
   "title": "UK - Mr Bean Live Action",
   "tvg_id": "MrBeanLiveAction.uk@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - Teletubbies",
-  "tvg_id": "Teletubbies.uk@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
@@ -829,6 +895,42 @@
    "UK1"
   ],
   "programmes": 90
+ },
+ {
+  "title": "IE - TG4",
+  "tvg_id": "TG4.ie@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "MT - One",
+  "tvg_id": "One.mt@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "AU - Sky News Extra 3",
+  "tvg_id": "SkyNewsExtra3.au@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "AU - 10 Bold",
+  "tvg_id": "10Bold.au@Sydney",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "CA - CBC News Network",
+  "tvg_id": "CBCNewsNetwork.ca@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "CA - CityNews Toronto",
+  "tvg_id": "CityNewsToronto.ca@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
   "title": "FR - ARTE (Français)",
@@ -918,7 +1020,7 @@
   "sources": [
    "DE1"
   ],
-  "programmes": 114
+  "programmes": 138
  },
  {
   "title": "DE - ZDF",
@@ -935,7 +1037,7 @@
   "sources": [
    "DE1"
   ],
-  "programmes": 137
+  "programmes": 172
  },
  {
   "title": "DE - tagesschau24",
@@ -958,7 +1060,7 @@
   "sources": [
    "DE1"
   ],
-  "programmes": 76
+  "programmes": 92
  },
  {
   "title": "SN - Cinema Italiano",
@@ -1184,5 +1286,13 @@
    "MJH_PLUTO_IT"
   ],
   "programmes": 18
+ },
+ {
+  "title": "CH - TeleTicino",
+  "tvg_id": "TeleTicino.ch@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Tele.Ticino.ch"
+  ]
  }
 ]
