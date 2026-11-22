@@ -1061,5 +1061,59 @@
   "tvg_id": "SonyTvBloombergTv.it",
   "status": "ID_NOT_FOUND",
   "suggestions": []
+ },
+ {
+  "title": "EN - Al Jazeera English",
+  "tvg_id": "AlJazeera.qa@English",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Al.Jazeera.English.fr",
+   "Al.Jazeera.English.es",
+   "Al.Jazeera.English.ch"
+  ]
+ },
+ {
+  "title": "EN - ABC News Australia",
+  "tvg_id": "ABCNews.au@Sydney",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "EN - Euronews English",
+  "tvg_id": "EuronewsEnglish.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "DE - tagesschau24",
+  "tvg_id": "tagesschau24.de@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "tagesschau24.de"
+  ]
+ },
+ {
+  "title": "DE - Euronews Deutsch",
+  "tvg_id": "EuronewsGerman.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - DW Español",
+  "tvg_id": "DW.de@Espanol",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - France 24 Español",
+  "tvg_id": "France24.fr@Spanish",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "FR - Euronews Français",
+  "tvg_id": "EuronewsFrench.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  }
 ]
