@@ -7,6 +7,9 @@
  ],
  "new": [
   "UK - GB News",
+  "UK - BBC One",
+  "UK - BBC Two",
+  "UK - Channel 4",
   "US - ABC News Live",
   "US - NBC News NOW",
   "US - CBS News 24/7",
@@ -17,8 +20,15 @@
   "US - CBS Seattle (KIRO)",
   "US - ABC Cleveland (WEWS)",
   "US - PBS KQED",
+  "FR - TF1",
+  "FR - France 2",
+  "FR - France 3",
+  "FR - M6",
+  "FR - franceinfo",
+  "FR - BFM TV",
   "DE - Das Erste",
   "DE - ARD-alpha",
+  "DE - ZDF",
   "DE - QVC",
   "PL - Cinema Italiano",
   "PL - Totò",
@@ -63,21 +73,21 @@
   "SN - Bloomberg TV+"
  ],
  "held": [
-  "SM - San Marino RTV"
+  "SM - San Marino RTV",
+  "UK - BBC One",
+  "UK - BBC Two",
+  "UK - Channel 4",
+  "FR - TF1",
+  "FR - France 2",
+  "FR - France 3",
+  "FR - M6",
+  "FR - franceinfo",
+  "FR - BFM TV",
+  "DE - ZDF"
  ],
  "not_found": [
   "CH - RSI La 1: nessun candidato valido in wltv-dtt",
-  "UK - BBC One: nessun candidato valido in iptvorg-uk",
-  "UK - BBC Two: nessun candidato valido in iptvorg-uk",
-  "UK - Channel 4: nessun candidato valido in iptvorg-uk",
-  "UK - Channel 5: nessun candidato valido in iptvorg-uk",
-  "FR - TF1: nessun candidato valido in iptvorg-fr",
-  "FR - France 2: nessun candidato valido in iptvorg-fr",
-  "FR - France 3: nessun candidato valido in iptvorg-fr",
-  "FR - M6: nessun candidato valido in iptvorg-fr",
-  "FR - franceinfo: nessun candidato valido in iptvorg-fr",
-  "FR - BFM TV: nessun candidato valido in iptvorg-fr",
-  "DE - ZDF: nessun candidato valido in iptvorg-de"
+  "UK - Channel 5: nessun candidato valido in iptvorg-uk"
  ],
  "proposed_removal": [
   "UK - GREAT! Romance",
@@ -94,21 +104,23 @@
  ],
  "excluded": [
   "CH - RSI La 1: https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-da... (non HLS)",
-  "UK - BBC One: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
-  "UK - BBC Two: host grigio, serve include_grey_new (n-5-1.eu.cdn-redge.media)",
-  "UK - Channel 4: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
-  "UK - Channel 5: https://lb.iptvnetwork.net/ls28/10105/playlist.m3u8... (host bloccato (iptvnetwork))",
-  "FR - TF1: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
-  "FR - France 2: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
-  "FR - France 3: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
-  "FR - M6: host grigio, serve include_grey_new (n-5-2.eu.cdn-redge.media)",
-  "FR - franceinfo: host grigio, serve include_grey_new (r.eu.cdn-redge.media)",
-  "FR - BFM TV: host grigio, serve include_grey_new (n-5-2.eu.cdn-redge.media)",
-  "DE - ZDF: host grigio, serve include_grey_new (r.eu.cdn-redge.media)"
+  "UK - Channel 5: https://lb.iptvnetwork.net/ls28/10105/playlist.m3u8... (host bloccato (iptvnetwork))"
  ],
  "selected": {
   "UK - GB News": {
    "url": "https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8",
+   "alternatives": 0
+  },
+  "UK - BBC One": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_one/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "UK - BBC Two": {
+   "url": "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_two/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "UK - Channel 4": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8",
    "alternatives": 0
   },
   "US - ABC News Live": {
@@ -151,12 +163,40 @@
    "url": "https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8",
    "alternatives": 0
   },
+  "FR - TF1": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "FR - France 2": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_2/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "FR - France 3": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "FR - M6": {
+   "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/m6_fr/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "FR - franceinfo": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_info/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
+  "FR - BFM TV": {
+   "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/bfm_tv/live.livx/playlist.m3u8",
+   "alternatives": 0
+  },
   "DE - Das Erste": {
    "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
    "alternatives": 0
   },
   "DE - ARD-alpha": {
    "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
+   "alternatives": 0
+  },
+  "DE - ZDF": {
+   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8",
    "alternatives": 0
   },
   "DE - QVC": {
@@ -167,6 +207,19 @@
  "dropped_from_prod": [
   "CA - Gusto TV",
   "PL - Pluto TV Documentari"
+ ],
+ "held_excluded_unchecked": [
+  "SM - San Marino RTV",
+  "UK - BBC One",
+  "UK - BBC Two",
+  "UK - Channel 4",
+  "FR - TF1",
+  "FR - France 2",
+  "FR - France 3",
+  "FR - M6",
+  "FR - franceinfo",
+  "FR - BFM TV",
+  "DE - ZDF"
  ],
  "source_errors": {},
  "warnings": [

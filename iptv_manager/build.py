@@ -133,9 +133,11 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
                 if not ok:
                     rep["excluded"].append(f"{key}: {c.url[:60]}... ({why})")
                     continue
-                if is_grey(c.url, policy) and not policy["include_grey_new"]:
-                    rep["excluded"].append(f"{key}: host grigio, serve include_grey_new ({urlparse(c.url).hostname})")
-                    continue
+                if is_grey(c.url, policy):
+                    if not policy["include_grey_new"]:
+                        rep["excluded"].append(f"{key}: host grigio, serve include_grey_new ({urlparse(c.url).hostname})")
+                        continue
+                    e = {**e, "hold": True}  # restreamer: entra SOLO se il controllo lo vede STREAM_OK
                 cands.append(c)
             if e.get("tvg_ids"):
                 cands.sort(key=lambda c: e["tvg_ids"].index(c.tvg_id))
@@ -165,6 +167,9 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
             res = list(ex.map(lambda c: checker.check_channel(c.url), out))
         out = [c for c, r in zip(out, res) if not (c.attrs.get("x-hold") and r["state"] != "STREAM_OK")]
         rep["check"] = {c.title: r["state"] for c, r in zip(out, res)}
+    else:
+        out = [c for c in out if not c.attrs.get("x-hold")]
+        rep["held_excluded_unchecked"] = rep["held"]
     for c in out:
         c.attrs.pop("x-hold", None)
     # LCN duplicati: l'ultimo viene spostato in coda (mai silenzioso)

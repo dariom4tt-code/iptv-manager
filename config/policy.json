@@ -1,11 +1,30 @@
 {
   "require_https": true,
   "require_hls": true,
-  "block_url_substrings": ["stmify", "jsdelivr", "github.io/", "githubusercontent", "ignac16", "antik.sk", "hopslan", "iptvnetwork", "freem3u", "aynaott", "aynascope", "tinyurl", "bit.ly"],
+  "block_url_substrings": [
+    "stmify",
+    "jsdelivr",
+    "github.io/",
+    "githubusercontent",
+    "ignac16",
+    "antik.sk",
+    "hopslan",
+    "iptvnetwork",
+    "freem3u",
+    "aynaott",
+    "aynascope",
+    "tinyurl",
+    "bit.ly"
+  ],
   "block_raw_ip_hosts": true,
-  "skip_title_tags": ["[Geo-blocked]", "[Not 24/7]"],
-  "grey_url_substrings": ["cdn-redge.media"],
-  "include_grey_new": false,
+  "skip_title_tags": [
+    "[Geo-blocked]",
+    "[Not 24/7]"
+  ],
+  "grey_url_substrings": [
+    "cdn-redge.media"
+  ],
+  "include_grey_new": true,
   "pluto_base": "https://jmp2.uk/plu-{id}.m3u8",
-  "_note_grey": "Host che rilanciano emittenti commerciali (TF1, France 2, BBC One...) senza diritti evidenti: i NUOVI canali su questi host sono esclusi salvo include_grey_new=true, decisione tua."
+  "_note_grey": "Decisione utente 22/11/2026: i restreamer restano SE il controllo li vede STREAM_OK (entrano come 'hold')."
 }

@@ -66,12 +66,14 @@
   {
    "type": "pinned",
    "from_title": "UK - GREAT! Romance",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "UK - BLAZE",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "streams",
@@ -137,32 +139,38 @@
   {
    "type": "pinned",
    "from_title": "US - MyTime Movie Network",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "US - FailArmy",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "US - FilmRise Classic TV",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "US - Hallmark Movies & More",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "US - Grit Xtra",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "US - PBS Kids",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "streams",
@@ -288,7 +296,8 @@
   {
    "type": "pinned",
    "from_title": "FR - TV5MONDE Chefs",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "streams",
@@ -411,12 +420,14 @@
   {
    "type": "pinned",
    "from_title": "UK - TJC",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pinned",
    "from_title": "BO - Red TV Shop (spagnolo)",
-   "proposed_removal": true
+   "proposed_removal": true,
+   "removal_approved": "2026-11-22"
   },
   {
    "type": "pluto",

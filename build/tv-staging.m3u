@@ -105,8 +105,6 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 tvg-id="Radio.Italia.TV.HD.it" tvg-name="Radio Italia TV" tvg-chno="70" tvg-logo="https://i.imgur.com/4VCEJuJ.png" group-title="Musica",70 | Radio Italia TV
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
-#EXTINF:-1 tvg-id="San.Marino.RTV.it" tvg-name="San Marino RTV" tvg-chno="900" tvg-logo="https://i.imgur.com/ZJSWusT.png" group-title="Internazionali - San Marino",SM - San Marino RTV
-https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="La.1.es" tvg-name="La 1 (RTVE)" tvg-chno="910" tvg-logo="https://i.imgur.com/NbesiPn.png" group-title="Internazionali - Spagna",ES - La 1 (RTVE)
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8
 #EXTINF:-1 tvg-id="La.2.es" tvg-name="La 2 (RTVE)" tvg-chno="911" tvg-logo="https://i.imgur.com/DmuTwDw.png" group-title="Internazionali - Spagna",ES - La 2 (RTVE)

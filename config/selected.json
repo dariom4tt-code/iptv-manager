@@ -3,6 +3,18 @@
   "url": "https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8",
   "alternatives": 0
  },
+ "UK - BBC One": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_one/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "UK - BBC Two": {
+  "url": "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_two/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "UK - Channel 4": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
  "US - ABC News Live": {
   "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
   "alternatives": 0
@@ -43,12 +55,40 @@
   "url": "https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8",
   "alternatives": 0
  },
+ "FR - TF1": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "FR - France 2": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_2/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "FR - France 3": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "FR - M6": {
+  "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/m6_fr/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "FR - franceinfo": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_info/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
+ "FR - BFM TV": {
+  "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/bfm_tv/live.livx/playlist.m3u8",
+  "alternatives": 0
+ },
  "DE - Das Erste": {
   "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
   "alternatives": 0
  },
  "DE - ARD-alpha": {
   "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
+  "alternatives": 0
+ },
+ "DE - ZDF": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8",
   "alternatives": 0
  },
  "DE - QVC": {
