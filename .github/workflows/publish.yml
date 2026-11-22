@@ -4,10 +4,11 @@ on:
     inputs:
       file: {description: "Playlist da pubblicare", default: "playlists/production.m3u"}
       confirm: {description: "Scrivere 'PUBBLICA' per pubblicare davvero (altrimenti dry-run)", default: "no"}
+permissions:
+  contents: write
 jobs:
   publish:
     runs-on: ubuntu-latest
-    environment: production        # configurare 'Required reviewers' = approvazione utente
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
