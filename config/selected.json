@@ -1,63 +1,203 @@
 {
- "UK - GB News": {
-  "url": "https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8",
-  "alternatives": 0
+ "ES - La 1 (alt. Canarias)": {
+  "url": "https://ztnr.rtve.es/ztnr/5190066.m3u8",
+  "alternatives": 1
  },
- "UK - BBC One": {
-  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_one/live.livx/playlist.m3u8",
-  "alternatives": 0
+ "ES - La 2 (alt. Canarias)": {
+  "url": "https://ztnr.rtve.es/ztnr/5468585.m3u8",
+  "alternatives": 1
  },
- "UK - BBC Two": {
-  "url": "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_two/live.livx/playlist.m3u8",
-  "alternatives": 0
+ "ES - 24 Horas (RTVE)": {
+  "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
+  "alternatives": 2
  },
- "UK - Channel 4": {
-  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8",
-  "alternatives": 0
+ "ES - DW Español": {
+  "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+  "alternatives": 1
  },
- "US - ABC News Live": {
-  "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
-  "alternatives": 0
+ "ES - France 24 Español": {
+  "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+  "alternatives": 2
  },
- "US - NBC News NOW": {
-  "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
-  "alternatives": 0
+ "ES - Euronews Español": {
+  "url": "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8",
+  "alternatives": 1
  },
- "US - CBS News 24/7": {
-  "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
-  "alternatives": 0
+ "ES - CNN en Español": {
+  "url": "https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8",
+  "alternatives": 2
  },
- "US - Fox Weather": {
-  "url": "https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8",
-  "alternatives": 0
+ "ES - AMC en Español": {
+  "url": "https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8",
+  "alternatives": 2
+ },
+ "ES - Estrella TV": {
+  "url": "https://estrellatv-oando.amagi.tv/playlist.m3u8",
+  "alternatives": 2
+ },
+ "ES - beIN SPORTS XTRA": {
+  "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
+  "alternatives": 2
+ },
+ "ES - Clan (RTVE)": {
+  "url": "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8",
+  "alternatives": 2
+ },
+ "ES - Historia": {
+  "url": "https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8",
+  "alternatives": 2
+ },
+ "EN - CNN International": {
+  "url": "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
+  "alternatives": 1
  },
  "US - Bloomberg": {
   "url": "https://bloomberg.com/media-manifest/streams/qt.m3u8",
-  "alternatives": 0
+  "alternatives": 2
  },
- "US - Court TV": {
-  "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
-  "alternatives": 0
+ "EN - Al Jazeera English": {
+  "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+  "alternatives": 1
  },
- "US - FOX New York (WNYW)": {
-  "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8",
-  "alternatives": 0
+ "EN - DW English": {
+  "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
+  "alternatives": 1
  },
- "US - CBS Seattle (KIRO)": {
-  "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8",
-  "alternatives": 0
+ "EN - Euronews English": {
+  "url": "https://jmp2.uk/plu-61de96114757070008d33cae.m3u8",
+  "alternatives": 1
  },
- "US - ABC Cleveland (WEWS)": {
-  "url": "https://amg01438-amg01438c1-vizio-us-10865.playouts.now.amagi.tv/playlist.m3u8",
-  "alternatives": 0
+ "US - ABC News Live": {
+  "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+  "alternatives": 2
  },
- "US - PBS KQED": {
-  "url": "https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8",
-  "alternatives": 0
+ "US - NBC News NOW": {
+  "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
+  "alternatives": 3
+ },
+ "US - CBS News 24/7": {
+  "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
+  "alternatives": 2
+ },
+ "EN - Reuters TV": {
+  "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8",
+  "alternatives": 2
+ },
+ "AU - ABC News Australia": {
+  "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+  "alternatives": 1
+ },
+ "UK - GB News": {
+  "url": "https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8",
+  "alternatives": 2
+ },
+ "UK - BBC One": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_one/live.livx/playlist.m3u8",
+  "alternatives": 1
+ },
+ "UK - BBC Two": {
+  "url": "https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_two/live.livx/playlist.m3u8",
+  "alternatives": 1
+ },
+ "UK - Channel 4": {
+  "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/channel_4/live.livx/playlist.m3u8",
+  "alternatives": 1
+ },
+ "US - Baywatch": {
+  "url": "https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8",
+  "alternatives": 1
+ },
+ "US - Mythbusters": {
+  "url": "https://d2bog959vw5xq.cloudfront.net/playlist/amg00627-banijayfast-mythbusters-samsungau/playlist.m3u8",
+  "alternatives": 1
+ },
+ "US - Hell's Kitchen": {
+  "url": "https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8",
+  "alternatives": 1
+ },
+ "US - Cops": {
+  "url": "https://langleyproductions-cops-2-eu.rakuten.wurl.tv/playlist.m3u8",
+  "alternatives": 1
+ },
+ "US - Dateline 24/7": {
+  "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896029/hls/master.m3u8?ads.xumo_channelId=88896029",
+  "alternatives": 2
+ },
+ "US - Law & Crime": {
+  "url": "https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - Tastemade": {
+  "url": "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8",
+  "alternatives": 1
+ },
+ "UK - Top Gear": {
+  "url": "https://amg00793-amg00793c5-vizio-us-2666.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbctopgear8minother-vizious/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - beIN SPORTS XTRA": {
+  "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - Tennis Channel": {
+  "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - Stadium": {
+  "url": "https://wurl120sports.global.transmit.live/hls/6865b0ce3b41686108809e5a/v1/stadium_gracenote/vizio_us/latest/main/hls/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - FIFA+": {
+  "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8",
+  "alternatives": 2
+ },
+ "US - ESPN8 The Ocho": {
+  "url": "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8",
+  "alternatives": 1
+ },
+ "AT - Red Bull TV": {
+  "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+  "alternatives": 1
+ },
+ "UK - Mr Bean Animated": {
+  "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8",
+  "alternatives": 4
+ },
+ "UK - Mr Bean Live Action": {
+  "url": "https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8",
+  "alternatives": 3
+ },
+ "UK - Teletubbies": {
+  "url": "https://dv8lsrd8fecw9.cloudfront.net/master.m3u8",
+  "alternatives": 2
+ },
+ "US - MeTV Toons (cartoni classici)": {
+  "url": "https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8",
+  "alternatives": 3
+ },
+ "UK - Real Wild": {
+  "url": "https://lds-realwild-samsungau.amagi.tv/playlist.m3u8",
+  "alternatives": 1
+ },
+ "CA - Love Nature": {
+  "url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8",
+  "alternatives": 1
+ },
+ "US - PBS Nature": {
+  "url": "https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8",
+  "alternatives": 1
+ },
+ "US - Docurama": {
+  "url": "https://docurama-plex-ingest.cinedigm.com/playlist.m3u8",
+  "alternatives": 2
+ },
+ "UK - History Hit": {
+  "url": "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8",
+  "alternatives": 2
  },
  "FR - TF1": {
   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1/live.livx/playlist.m3u8",
-  "alternatives": 0
+  "alternatives": 1
  },
  "FR - France 2": {
   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_2/live.livx/playlist.m3u8",
@@ -69,46 +209,34 @@
  },
  "FR - M6": {
   "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/m6_fr/live.livx/playlist.m3u8",
-  "alternatives": 0
+  "alternatives": 1
  },
  "FR - franceinfo": {
   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_info/live.livx/playlist.m3u8",
-  "alternatives": 0
+  "alternatives": 1
  },
  "FR - BFM TV": {
   "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/bfm_tv/live.livx/playlist.m3u8",
-  "alternatives": 0
+  "alternatives": 1
+ },
+ "FR - Euronews Français": {
+  "url": "https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8",
+  "alternatives": 1
+ },
+ "FR - RTS Info": {
+  "url": "https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8",
+  "alternatives": 1
  },
  "DE - Das Erste": {
   "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
-  "alternatives": 0
- },
- "DE - ARD-alpha": {
-  "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
   "alternatives": 0
  },
  "DE - ZDF": {
   "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8",
   "alternatives": 0
  },
- "DE - QVC": {
-  "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
-  "alternatives": 0
- },
- "EN - DW English": {
-  "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
-  "alternatives": 0
- },
- "EN - Al Jazeera English": {
-  "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-  "alternatives": 0
- },
- "EN - ABC News Australia": {
-  "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
-  "alternatives": 0
- },
- "EN - Euronews English": {
-  "url": "https://jmp2.uk/plu-61de96114757070008d33cae.m3u8",
+ "DE - ARD-alpha": {
+  "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8",
   "alternatives": 0
  },
  "DE - tagesschau24": {
@@ -119,28 +247,8 @@
   "url": "https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8",
   "alternatives": 0
  },
- "ES - DW Español": {
-  "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
-  "alternatives": 0
- },
- "ES - 24 Horas (RTVE)": {
-  "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
-  "alternatives": 0
- },
- "ES - France 24 Español": {
-  "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
-  "alternatives": 0
- },
- "ES - Euronews Español": {
-  "url": "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8",
-  "alternatives": 0
- },
- "FR - Euronews Français": {
-  "url": "https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8",
-  "alternatives": 0
- },
- "FR - RTS Info": {
-  "url": "https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8",
+ "DE - QVC": {
+  "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
   "alternatives": 0
  }
 }

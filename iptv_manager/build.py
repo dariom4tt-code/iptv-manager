@@ -14,6 +14,8 @@ import concurrent.futures as cf
 import json
 import pathlib
 import re
+import urllib.error
+import urllib.parse
 import urllib.request
 from urllib.parse import urlparse
 
@@ -31,6 +33,32 @@ def fetch_text(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         return r.read().decode("utf-8", "replace")
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def resolve_location(url: str, hops: int = 4) -> str:
+    """Segue i redirect 3xx SENZA scaricare i flussi e ritorna l'URL finale.
+    Il Samsung/M3U IPTV non parte con il 303 del redirector Sony: si pubblica l'URL finale
+    (la build giornaliera lo rinnova). In caso di errore ritorna l'URL originale."""
+    op = urllib.request.build_opener(_NoRedirect)
+    cur = url
+    for _ in range(hops):
+        try:
+            op.open(urllib.request.Request(cur, headers={"User-Agent": UA}), timeout=25).close()
+            return cur
+        except urllib.error.HTTPError as e:
+            loc = e.headers.get("Location")
+            if e.code in (301, 302, 303, 307, 308) and loc:
+                cur = urllib.parse.urljoin(cur, loc)
+                continue
+            return cur  # 200/403/404 dall'ultimo host: l'URL finale e' comunque quello
+        except Exception:  # noqa: BLE001  (es. host non raggiungibile da qui)
+            return cur
+    return cur
 
 
 def url_allowed(url: str, policy: dict) -> tuple[bool, str]:
@@ -58,6 +86,9 @@ def load_sources(fetch=fetch_text) -> tuple[dict, dict]:
             pls[s["id"]] = m3u.parse(fetch(s["url"]))
         except Exception as e:  # noqa: BLE001  una fonte giù non deve bloccare la build
             errors[s["id"]] = f"{type(e).__name__}: {e}"
+    # fonte virtuale: tutte le liste iptv-org insieme (stessi filtri di policy)
+    allc = [c for k, v in pls.items() if k.startswith("iptvorg-") for c in v.channels]
+    pls["iptvorg-all"] = m3u.Playlist("#EXTM3U", allc)
     return pls, errors
 
 
@@ -117,7 +148,10 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
             if not cat or not cat.url.startswith("http"):
                 rep["not_found"].append(f"{key}: non nel redirector")
             else:
-                ch = finish(e, {"tvg-id": cat.tvg_id, "tvg-logo": cat.attrs.get("tvg-logo", "")}, cat.url)
+                final = resolve_location(cat.url) if e.get("resolve", True) else cat.url
+                ch = finish(e, {"tvg-id": cat.tvg_id, "tvg-logo": cat.attrs.get("tvg-logo", "")}, final)
+                if final != cat.url:
+                    rep.setdefault("resolved", []).append(key)
         elif t == "streams":
             pl = sources.get(e["source"])
             cands = []
@@ -172,6 +206,17 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
         rep["held_excluded_unchecked"] = rep["held"]
     for c in out:
         c.attrs.pop("x-hold", None)
+    # Numerazione a blocchi (stranieri vicini): config/curated.json -> "blocks". Italia (LCN<100) invariata.
+    order = {}  # titolo -> posizione nella configurazione
+    for i, e in enumerate(curated["entries"]):
+        order.setdefault(e.get("name") or e.get("from_title"), i)
+    for blk in curated.get("blocks", []):
+        n = blk["base"]
+        for g in blk["groups"]:
+            members = sorted((c for c in out if c.group == g), key=lambda c: order.get(c.title, 9999))
+            for c in members:
+                c.attrs["tvg-chno"] = str(n)
+                n += 1
     # LCN duplicati: l'ultimo viene spostato in coda (mai silenzioso)
     seen = set()
     for c in out:
@@ -179,5 +224,6 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
             rep.setdefault("chno_conflicts", []).append(f"{c.title} (LCN {c.chno})")
         seen.add(c.chno)
     out.sort(key=lambda c: (c.chno is None, c.chno or 0))
-    header = prod.header
+    guide = json.loads((ROOT / "config" / "settings.json").read_text()).get("epg_merged_url")
+    header = f'#EXTM3U x-tvg-url="{guide}" url-tvg="{guide}"' if guide else prod.header
     return {"playlist": m3u.Playlist(header, out), "report": rep}

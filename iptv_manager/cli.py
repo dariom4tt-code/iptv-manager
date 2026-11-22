@@ -134,6 +134,26 @@ def cmd_build(a) -> int:
     return 0
 
 
+def cmd_epgmerge(a) -> int:
+    pl = load(a.file)
+    srcs = [x for x in json.loads((ROOT / "config" / "epg_sources.json").read_text()) if x.get("enabled", True)]
+    wanted = {c.tvg_id for c in pl.channels if c.tvg_id}
+    # id italiani che OGGI hanno guida in IT1: devono restare (non si perde la guida funzionante)
+    it1 = epg.load_channels(next(x["url"] for x in srcs if x["name"] == "IT1"))
+    if not it1["ok"]:
+        print("IT1 non raggiungibile: guida NON rigenerata (resta quella precedente)")
+        return 2
+    must = {i for i in wanted if it1["programmes"].get(i)}
+    try:
+        rep = epg.merge(wanted, srcs, str(ROOT / "build" / "guida.xml.gz"), must)
+    except ValueError as e:
+        print("GUIDA NON SCRITTA:", e)
+        return 2
+    (REPORTS / "epg-merge.json").write_text(json.dumps(rep, indent=1, ensure_ascii=False))
+    print(f"guida: {len(rep['found'])}/{len(wanted)} id con programmi; mancanti: {len(rep['missing'])}")
+    return 0
+
+
 def cmd_diagnose(a) -> int:
     from . import diagnose
     res = diagnose.run(a.file, a.needles)
@@ -154,6 +174,8 @@ def main(argv=None) -> int:
         if name == "publish":
             s.add_argument("--confirm", action="store_true")
             s.add_argument("--auto", action="store_true", help="pubblica solo se auto_guard conferma che sono correzioni tecniche")
+    s = sp.add_parser("epgmerge")
+    s.add_argument("file")
     s = sp.add_parser("diagnose")
     s.add_argument("file")
     s.add_argument("needles", nargs="+")
@@ -167,7 +189,7 @@ def main(argv=None) -> int:
         return publish.publish(pathlib.Path(a.file or ROOT / "playlists" / "production.m3u"), a.confirm, a.auto)
     if a.cmd == "restore":
         return publish.publish(pathlib.Path(a.file), a.confirm)
-    return {"validate": cmd_validate, "check": cmd_check, "epg": cmd_epg, "build": cmd_build, "diagnose": cmd_diagnose}[a.cmd](a)
+    return {"validate": cmd_validate, "check": cmd_check, "epg": cmd_epg, "build": cmd_build, "diagnose": cmd_diagnose, "epgmerge": cmd_epgmerge}[a.cmd](a)
 
 
 if __name__ == "__main__":

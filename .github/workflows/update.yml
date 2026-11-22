@@ -15,6 +15,7 @@ jobs:
       - run: python -m unittest discover -s tests
       # Ricostruisce dalle fonti pubbliche; i canali 'hold' entrano solo se STREAM_OK
       - run: python -m iptv_manager build --check
+      - run: python -m iptv_manager epgmerge build/tv-staging.m3u   # build/guida.xml.gz (unica guida)
       - run: python -m iptv_manager epg build/tv-staging.m3u
       - name: Commit staging, report e stato
         run: |

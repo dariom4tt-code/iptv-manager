@@ -75,6 +75,51 @@
       "id": "iptvorg-news",
       "kind": "streams",
       "url": "https://iptv-org.github.io/iptv/categories/news.m3u"
+    },
+    {
+      "id": "iptvorg-eng",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/languages/eng.m3u"
+    },
+    {
+      "id": "iptvorg-spa",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/languages/spa.m3u"
+    },
+    {
+      "id": "iptvorg-sports",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/sports.m3u"
+    },
+    {
+      "id": "iptvorg-animation",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/animation.m3u"
+    },
+    {
+      "id": "iptvorg-kids",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/kids.m3u"
+    },
+    {
+      "id": "iptvorg-documentary",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u"
+    },
+    {
+      "id": "iptvorg-entertainment",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/entertainment.m3u"
+    },
+    {
+      "id": "iptvorg-comedy",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/comedy.m3u"
+    },
+    {
+      "id": "iptvorg-movies",
+      "kind": "streams",
+      "url": "https://iptv-org.github.io/iptv/categories/movies.m3u"
     }
   ]
 }

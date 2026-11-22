@@ -3,60 +3,69 @@
   "name": "IT1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
   "enabled": true,
-  "note": "Guida italiana in uso sul Samsung: NON modificare"
+  "note": "Guida italiana in uso: NON modificare"
  },
  {
   "name": "ES1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
-  "enabled": true,
-  "note": "Spagna - candidata, verificata col comando epg"
+  "enabled": true
  },
  {
   "name": "PE1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz",
-  "enabled": true,
-  "note": "Perù - candidata, verificata col comando epg"
+  "enabled": true
  },
  {
   "name": "UK1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
-  "enabled": true,
-  "note": "Regno Unito - candidata, verificata col comando epg"
+  "enabled": true
  },
  {
   "name": "US2",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
-  "enabled": true,
-  "note": "USA - candidata, verificata col comando epg"
- },
- {
-  "name": "US_LOCALS1",
-  "url": "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
-  "enabled": true,
-  "note": "USA emittenti locali - candidata, verificata col comando epg"
+  "enabled": true
  },
  {
   "name": "FR1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
-  "enabled": true,
-  "note": "Francia - candidata, verificata col comando epg"
+  "enabled": true
  },
  {
   "name": "DE1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
-  "enabled": true,
-  "note": "Germania - candidata, verificata col comando epg"
+  "enabled": true
  },
  {
   "name": "CH1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
+  "enabled": true
+ },
+ {
+  "name": "NANOBUO",
+  "url": "https://github.com/Nanobuo/iptv-italia/releases/download/dati/guida.xml.gz",
   "enabled": true,
-  "note": "Svizzera - candidata, verificata col comando epg"
+  "note": "candidata: Canale 21? Pluto?"
+ },
+ {
+  "name": "MJH_PLUTO_IT",
+  "url": "https://i.mjh.nz/PlutoTV/it.xml.gz",
+  "enabled": true,
+  "note": "candidata per Pluto"
+ },
+ {
+  "name": "MJH_SAMSUNG_IT",
+  "url": "https://i.mjh.nz/SamsungTVPlus/it.xml.gz",
+  "enabled": true,
+  "note": "candidata"
+ },
+ {
+  "name": "US_LOCALS1",
+  "url": "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+  "enabled": false
  },
  {
   "name": "RAKUTEN1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN1.xml.gz",
-  "enabled": true,
-  "note": "Rakuten - candidata, verificata col comando epg"
+  "enabled": false
  }
 ]

@@ -64,3 +64,57 @@ def reconcile(channels, sources: dict[str, dict]) -> list[dict]:
             row["suggestions"] = get_close_matches(c.tvg_id, all_ids, n=3, cutoff=0.8)  # solo informativo
         report.append(row)
     return report
+
+
+def merge(wanted_ids: set[str], sources: list[dict], out_path: str, must_keep: set[str] | None = None) -> dict:
+    """Scrive un XMLTV (.xml.gz) con SOLO i canali richiesti, prendendo ogni id dalla prima fonte
+    (in ordine di config) che lo contiene con programmi. `must_keep`: id che DEVONO essere presenti
+    (la guida italiana oggi funzionante): se mancano, ValueError e il file NON viene scritto."""
+    chan_el, prog_el, origin = {}, {}, {}
+    report = {"sources": {}, "found": {}, "missing": []}
+    for s in sources:
+        data = load_raw(s["url"])
+        if data is None:
+            report["sources"][s["name"]] = "NON RAGGIUNGIBILE"
+            continue
+        n = 0
+        local_ch, local_pr = {}, {}
+        try:
+            for _, el in ET.iterparse(io.BytesIO(data), events=("end",)):
+                if el.tag == "channel" and el.get("id") in wanted_ids and el.get("id") not in chan_el:
+                    local_ch[el.get("id")] = ET.fromstring(ET.tostring(el))
+                elif el.tag == "programme" and el.get("channel") in wanted_ids and el.get("channel") not in chan_el:
+                    local_pr.setdefault(el.get("channel"), []).append(ET.fromstring(ET.tostring(el)))
+                if el.tag in ("channel", "programme"):
+                    el.clear()
+        except ET.ParseError as e:
+            report["sources"][s["name"]] = f"XML non valido: {e}"
+            continue
+        for cid, prs in local_pr.items():
+            if cid in local_ch and cid not in chan_el:
+                chan_el[cid], prog_el[cid], origin[cid] = local_ch[cid], prs, s["name"]
+                n += 1
+        report["sources"][s["name"]] = f"OK, {n} canali usati"
+    missing_must = sorted((must_keep or set()) - set(chan_el))
+    if missing_must:
+        raise ValueError(f"id italiani che oggi hanno guida e mancherebbero: {missing_must}")
+    root = ET.Element("tv", {"generator-info-name": "iptv-manager"})
+    for cid in sorted(chan_el):
+        root.append(chan_el[cid])
+    for cid in sorted(prog_el):
+        root.extend(prog_el[cid])
+    with gzip.open(out_path, "wb") as f:
+        ET.ElementTree(root).write(f, encoding="utf-8", xml_declaration=True)
+    report["found"] = {cid: origin[cid] for cid in sorted(origin)}
+    report["missing"] = sorted(wanted_ids - set(origin))
+    return report
+
+
+def load_raw(url: str, timeout: int = 180) -> bytes | None:
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            raw = r.read()
+    except Exception:  # noqa: BLE001
+        return None
+    return gzip.decompress(raw) if raw[:2] == b"\x1f\x8b" else raw
