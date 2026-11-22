@@ -1,0 +1,27 @@
+## https://i.mjh.nz/SamsungTVPlus/all.m3u8 -> 404 146
+## https://i.mjh.nz/SamsungTVPlus/us.m3u8 -> 404 146
+## https://i.mjh.nz/SamsungTVPlus/gb.m3u8 -> 404 146
+## https://i.mjh.nz/SamsungTVPlus/it.m3u8 -> 404 146
+## https://i.mjh.nz/Plex/all.m3u8 -> 404 146
+## https://i.mjh.nz/Roku/all.m3u8 -> 404 146
+## https://i.mjh.nz/PlutoTV/all.m3u8 -> 404 146
+## https://i.mjh.nz/Stirr/all.m3u8 -> 404 146
+## https://www.apsattv.com/ssungusa.m3u -> 000ERR 146
+## https://www.apsattv.com/rok.m3u -> 000ERR 146
+## https://www.apsattv.com/tubi.m3u -> 000ERR 146
+## https://www.apsattv.com/localnow.m3u -> 000ERR 146
+## https://iptv-org.github.io/iptv/index.m3u -> 200 2658001
+#EXTINF:-1 tvg-id="AdultSwim.us@West"  group-title="Entertainment",Adult Swim West [Not 24/7;Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="CBSNewsMiami.us@SD"  group-title="News",CBS News Miami (720p)
+https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
+#EXTINF:-1 tvg-id="CSIMiami.us@SD"  group-title="Series",CSI: Miami
+https://jmp2.uk/plu-62f54c11b3af68000702c304.m3u8
+#EXTINF:-1 tvg-id="CSIMiami.us@BR"  group-title="Series",CSI: Miami BR
+https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
+#EXTINF:-1 tvg-id="CSIMiami.us@LatAm"  group-title="Series",CSI: Miami LatAm
+https://jmp2.uk/plu-63eb9255c111bc0008fe6ec4.m3u8
+#EXTINF:-1 tvg-id="CSIMiamienespanol.us@SD"  group-title="Entertainment",CSI: Miami en espanol
+https://jmp2.uk/plu-632b5950b515b000079e6b81.m3u8
+#EXTINF:-1 tvg-id="KaloopyTV.us@SD"  group-title="Lifestyle",Kaloopy TV (1080p)
+https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
