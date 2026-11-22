@@ -1,0 +1,22 @@
+name: diagnose
+on:
+  workflow_dispatch:
+    inputs:
+      file: {description: "Playlist", default: "build/tv-staging.m3u"}
+      needles: {description: "Parti dei titoli, separate da |", default: "RK - |SN - |ST - |PL - Il Testimone"}
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: |
+          IFS='|' read -ra N <<< "${{ inputs.needles }}"
+          python -m iptv_manager diagnose "${{ inputs.file }}" "${N[@]}"
+      - run: |
+          git config user.name "iptv-manager-bot"; git config user.email "bot@users.noreply.github.com"
+          git add reports/diagnose.json; git diff --cached --quiet || git commit -m "diagnose: report" ; git pull -q --rebase; git push

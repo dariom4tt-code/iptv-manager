@@ -134,6 +134,14 @@ def cmd_build(a) -> int:
     return 0
 
 
+def cmd_diagnose(a) -> int:
+    from . import diagnose
+    res = diagnose.run(a.file, a.needles)
+    (REPORTS / "diagnose.json").write_text(json.dumps(res, indent=1, ensure_ascii=False))
+    print(f"{len(res)} flussi analizzati -> reports/diagnose.json")
+    return 0
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="iptv_manager")
     sp = p.add_subparsers(dest="cmd", required=True)
@@ -146,6 +154,9 @@ def main(argv=None) -> int:
         if name == "publish":
             s.add_argument("--confirm", action="store_true")
             s.add_argument("--auto", action="store_true", help="pubblica solo se auto_guard conferma che sono correzioni tecniche")
+    s = sp.add_parser("diagnose")
+    s.add_argument("file")
+    s.add_argument("needles", nargs="+")
     s = sp.add_parser("build")
     s.add_argument("--check", action="store_true")
     s = sp.add_parser("restore")
@@ -156,7 +167,7 @@ def main(argv=None) -> int:
         return publish.publish(pathlib.Path(a.file or ROOT / "playlists" / "production.m3u"), a.confirm, a.auto)
     if a.cmd == "restore":
         return publish.publish(pathlib.Path(a.file), a.confirm)
-    return {"validate": cmd_validate, "check": cmd_check, "epg": cmd_epg, "build": cmd_build}[a.cmd](a)
+    return {"validate": cmd_validate, "check": cmd_check, "epg": cmd_epg, "build": cmd_build, "diagnose": cmd_diagnose}[a.cmd](a)
 
 
 if __name__ == "__main__":

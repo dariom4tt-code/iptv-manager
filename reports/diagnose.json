@@ -1,0 +1,37 @@
+{
+ "PL - Il Testimone": {
+  "url": "https://jmp2.uk/plu-61fbd3f0733df400076c9a2d.m3u8",
+  "http": 200,
+  "redirects": [
+   [
+    302,
+    "https://ipv4.pluto.tv/api/tn/video/playout/v2/stitch/hls/channel/61fbd3f0733df400076c9a2d/master.m3u8?jwt=<R>&includeExtendedEvents=true"
+   ]
+  ],
+  "final_host": "ipv4.pluto.tv",
+  "content_type": "application/x-mpegURL",
+  "manifest": {
+   "version": "5",
+   "master": true,
+   "codecs": [],
+   "resolutions": [],
+   "audio_groups": [
+    "#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID=\"audio\",LANGUAGE=\"it\",NAME=\"Italian [Original]\",AUTOSELECT=YES,DEFAULT=YES,CHANNELS=\"2\",URI=\"audio/audio/Italian/audio.m3u8?sid=e6e2d797-e66f-11f1-9903-46fccb5ef791&deviceId=2c76de82-53af-4481-96d0-396d335893a3&appName=web&deviceMake=chrome&jwt=eyJhbGciOiJIUzI1NiIsImtpZCI6IjU0OTkzYWVhLWYwNTMtNDIxZS05OWJlLTcyZTcxODNmM2IzZCIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSUQiOiJlNmUyZDc5Ny1lNjZmLTExZjEtOTkwMy00NmZjY2I1ZWY3OTEiLCJjbGllbnRJUCI6IjEzMS4xMTQuMTMwLjIzOSIsImNpdHkiOiJQaXNhIiwicG9zdGFsQ29kZSI6IjU2MTI0IiwiY291bnRyeSI6IklUIiwiZG1hIjowLCJhY3RpdmVSZWdpb24iOiJJVCIsImRldmljZUxhdCI6NDMuNzAwMDAwNzYyOTM5NDUsImRldmljZUxvbiI6MTAuMzkwMDAwMzQzMzIyNzU0LCJwcmVmZXJyZWRMYW5ndWFnZSI6ImVuIiwiZGV2aWNlVHlwZSI6IndlYiIsImRldmljZVZlcnNpb24iOiIxMjIuMC4wIiwiZGV2aWNlTWFrZSI6ImNocm9tZSIsImRldmljZU1vZGVsIjoid2ViIiwiYXBwTmFtZSI6IndlYiIsImFwcFZlcnNpb24iOiI5LjIwLjAtODkyNTgyOTAyNjQ4Mzg1MTVlMjY0ZjViMDUxYjdjMTYwMmE1ODQ4MiIsImNsaWVudElEIjoiMmM3NmRlODItNTNhZi00NDgxLTk2ZDAtMzk2ZDMzNTg5M2EzIiwiY21BdWRpZW5jZUlEIjoiIiwiaXNDbGllbnRETlQiOmZhbHNlLCJ1c2VySUQiOiIiLCJsb2dMZXZlbCI6IkRFRkFVTFQiLCJ0aW1lWm9uZSI6IkV1cm9wZS9Sb21lIiwic2VydmVyU2lkZUFkcyI6ZmFsc2UsImUyZUJlYWNvbnMiOmZhbHNlLCJmZWF0dXJlcyI6eyJtdWx0aVBvZEFkcyI6eyJjb2hvcnQiOiIiLCJlbmFibGVkIjp0cnVlfSwic3RpdGNoZXJBZFNlc3Npb25FdmVudCI6eyJlbmFibGVkIjp0cnVlfSwic3RpdGNoZXJEYXNoTmciOnsiaml0UGFjayI6InJlcGFja0ppdCxkZWNyeXB0In0sInN0aXRjaGVySGxzTmciOnsiZGVtdXhlZEF1ZGlvIjoiaml0In0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVySGxzTmdWb2QiOnsiZW5hYmxlZCI6dHJ1ZX19LCJmbXNQYXJhbXMiOnsiZndWY0lEMiI6IjJjNzZkZTgyLTUzYWYtNDQ4MS05NmQwLTM5NmQzMzU4OTNhMyIsImZ3VmNJRDJDb3BwYSI6IjJjNzZkZTgyLTUzYWYtNDQ4MS05NmQwLTM5NmQzMzU4OTNhMyIsImN1c3RvbVBhcmFtcyI6eyJmbXNfbGl2ZXJhbXBfaWRsIjoiIiwiZm1zX2VtYWlsaGFzaCI6IiIsImZtc19zdWJzY3JpYmVyaWQiOiIiLCJmbXNfaWZhIjoiIiwiZm1zX2lkZnYiOiIiLCJmbXNfdXNlcmlkIjoiMmM3NmRlODItNTNhZi00NDgxLTk2ZDAtMzk2ZDMzNTg5M2EzIiwiZm1zX3ZjaWQydHlwZSI6InVzZXJpZCIsImZtc19yYW1wX2lkIjoiIiwiZm1zX2hoX3JhbXBfaWQiOiIiLCJmbXNfYmlkaWR0eXBlIjoiIiwiX2Z3XzNQX1VJRCI6IiIsImZtc19ydWxlaWQiOiIxMDAyMCwxMDAyMywxMDAyNSwxMDAwOSwxMDAxMywxMDAxNiwxMDAxNSwxMDAyMSwxMDAyMiwxMDAwMCwxMDAxNCJ9fSwic2Vzc2lvblN0YXJ0VGltZSI6MTc5NTM1MDM3MTQ1OCwiaXNzIjoiYm9vdC5wbHV0by50diIsInN1YiI6InByaTp2MTpwbHV0bzpkZXZpY2VzOklUOk1tTTNObVJsT0RJdE5UTmhaaTAwTkRneExUazJaREF0TXprMlpETXpOVGc1TTJFeiIsImF1ZCI6IioucGx1dG8udHYiLCJleHAiOjE3OTU0MzY3NzEsImlhdCI6MTc5NTM1MDM3MSwianRpIjoiZDkyNGUyZGEtMjBhMy00MGNlLWFkZjMtMzFiNDQ3YjY0NmQ2In0.sQSBs7O3v-XhJoOF1i01HBEJpkZ8nLYMR4zEJPqc5pc\""
+   ],
+   "subtitles": true,
+   "fmp4_init": false,
+   "ext_x_define": false,
+   "encrypted": [],
+   "video_range": [],
+   "first_lines": [
+    "#EXTM3U",
+    "#EXT-X-VERSION:5",
+    "#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID=\"subs\",NAME=\"English\",DEFAULT=NO,FORCED=NO,URI=\"subtitle/subs/en/playlist",
+    "#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID=\"audio\",LANGUAGE=\"it\",NAME=\"Italian [Original]\",AUTOSELECT=YES,DEFAULT=YES,CH",
+    "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1042180,SUBTITLES=\"subs\",AUDIO=\"audio\"",
+    "1042180/playlist.m3u8?sid=e6e2d797-e66f-11f1-9903-46fccb5ef791&deviceId=2c76de82-53af-4481-96d0-396d335893a3&a"
+   ]
+  },
+  "streams": []
+ }
+}
