@@ -466,603 +466,6 @@
   "programmes": 38
  },
  {
-  "title": "ES - La 1 (RTVE)",
-  "tvg_id": "La.1.es",
-  "status": "EPG_OK",
-  "sources": [
-   "ES1"
-  ],
-  "programmes": 75
- },
- {
-  "title": "ES - La 2 (RTVE)",
-  "tvg_id": "La.2.es",
-  "status": "EPG_OK",
-  "sources": [
-   "ES1"
-  ],
-  "programmes": 127
- },
- {
-  "title": "ES - La 1 (alt. Canarias)",
-  "tvg_id": "La1Canarias.es@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "La.1.Canarias.es"
-  ]
- },
- {
-  "title": "ES - La 2 (alt. Canarias)",
-  "tvg_id": "La2Canarias.es@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "La.2.Canarias.es"
-  ]
- },
- {
-  "title": "ES - TVE Internacional",
-  "tvg_id": "TVE.Internacional.fr",
-  "status": "EPG_OK",
-  "sources": [
-   "FR1"
-  ],
-  "programmes": 96
- },
- {
-  "title": "ES - 24 Horas (RTVE)",
-  "tvg_id": "24Horas.es@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - DW Español",
-  "tvg_id": "DW.de@Espanol",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - France 24 Español",
-  "tvg_id": "France24.fr@Spanish",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - CNN en Español",
-  "tvg_id": "CNNenEspanol.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - AMC en Español",
-  "tvg_id": "AMCenEspanol.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - Estrella TV",
-  "tvg_id": "EstrellaTV.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "Estrella.TV.us2"
-  ]
- },
- {
-  "title": "US - Telemundo (WCAU Philadelphia)",
-  "tvg_id": "Telemundo.us@WCAU",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - beIN SPORTS XTRA",
-  "tvg_id": "beINSPORTSXTRAenEspanol.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - Clan (RTVE)",
-  "tvg_id": "Clan.es@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "ES - Historia",
-  "tvg_id": "Historia.es@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "PE - Latina Televisión",
-  "tvg_id": "LATINA.HD.(Latina.HD).pe",
-  "status": "EPG_OK",
-  "sources": [
-   "PE1"
-  ],
-  "programmes": 70
- },
- {
-  "title": "PE - Panamericana TV",
-  "tvg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
-  "status": "EPG_OK",
-  "sources": [
-   "PE1"
-  ],
-  "programmes": 78
- },
- {
-  "title": "PE - TVPerú",
-  "tvg_id": "",
-  "status": "NO_TVG_ID"
- },
- {
-  "title": "MX - Imagen Televisión",
-  "tvg_id": "ImagenTV.mx@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "MX - Azteca Uno (+1)",
-  "tvg_id": "AztecaUno.mx@Plus1",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "VE - Globovisión",
-  "tvg_id": "Globovision.ve@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AR - El Trece",
-  "tvg_id": "ElTrece.ar@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AR - América TV",
-  "tvg_id": "AmericaTV.ar@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AR - Canal 26 (news)",
-  "tvg_id": "Canal26.ar@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AR - FIFA+ Hispanoamérica",
-  "tvg_id": "FIFAPlus.uk@HispanicAmerica",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "CL - T13",
-  "tvg_id": "T13EnVivo.cl@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "CL - La Red",
-  "tvg_id": "LaRed.cl@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - BBC News",
-  "tvg_id": "BBC.NEWS.HD.uk",
-  "status": "EPG_OK",
-  "sources": [
-   "UK1"
-  ],
-  "programmes": 194
- },
- {
-  "title": "UK - Sky News",
-  "tvg_id": "Sky.News.HD.uk",
-  "status": "EPG_OK",
-  "sources": [
-   "UK1"
-  ],
-  "programmes": 158
- },
- {
-  "title": "EN - CNN International",
-  "tvg_id": "CNNInternational.us@Europe",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "CNN.International.us2"
-  ]
- },
- {
-  "title": "US - Bloomberg",
-  "tvg_id": "Bloomberg.HD.us2",
-  "status": "EPG_OK",
-  "sources": [
-   "US2"
-  ],
-  "programmes": 97
- },
- {
-  "title": "EN - Al Jazeera English",
-  "tvg_id": "AlJazeera.qa@English",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "Al.Jazeera.English.fr",
-   "Al.Jazeera.English.es",
-   "Al.Jazeera.English.ch"
-  ]
- },
- {
-  "title": "EN - Euronews English",
-  "tvg_id": "EuronewsEnglish.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - NBC News NOW",
-  "tvg_id": "NBCNewsNOW.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - CBS News 24/7",
-  "tvg_id": "CBSNews247.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AU - ABC News Australia",
-  "tvg_id": "ABCNews.au@Sydney",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - BBC One",
-  "tvg_id": "BBCOne.uk@London",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - BBC Two",
-  "tvg_id": "BBCTwo.uk@HD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - Channel 4",
-  "tvg_id": "Channel4.uk@UK",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "Channel.44.uk"
-  ]
- },
- {
-  "title": "US - NBC (KNTV San Francisco)",
-  "tvg_id": "NBC.us@KNTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - NBC (WMAQ Chicago)",
-  "tvg_id": "NBC.us@WMAQTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - NBC (KXAS Dallas)",
-  "tvg_id": "NBC.us@KXASTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - ABC (KGTV San Diego)",
-  "tvg_id": "ABC.us@KGTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - Dateline 24/7",
-  "tvg_id": "Dateline247.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - Law & Crime",
-  "tvg_id": "LawCrime.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - GREAT! Movies",
-  "tvg_id": "GREAT!.movies.uk",
-  "status": "EPG_OK",
-  "sources": [
-   "UK1"
-  ],
-  "programmes": 131
- },
- {
-  "title": "US - AMC Thrillers",
-  "tvg_id": "AMCThrillers.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - Stories by AMC",
-  "tvg_id": "StoriesbyAMC.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "Stories.by.AMC.us2"
-  ]
- },
- {
-  "title": "US - beIN SPORTS XTRA",
-  "tvg_id": "beINSPORTSXTRA.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - Stadium",
-  "tvg_id": "Stadium.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - FIFA+",
-  "tvg_id": "FIFAPlus.uk@UnitedStates",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - ESPN8 The Ocho",
-  "tvg_id": "ESPN8TheOcho.us@ESPN8TheOchoHD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AT - Red Bull TV",
-  "tvg_id": "RedBullTV.at@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - Mr Bean Animated",
-  "tvg_id": "MrBeanAnimated.uk@English",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - Mr Bean Live Action",
-  "tvg_id": "MrBeanLiveAction.uk@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - MeTV Toons (cartoni classici)",
-  "tvg_id": "MeTVToons.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "MeTV.Toons.us2"
-  ]
- },
- {
-  "title": "UK - Real Wild",
-  "tvg_id": "RealWild.uk@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "CA - Love Nature",
-  "tvg_id": "LoveNature.ca@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - PBS Nature",
-  "tvg_id": "PBSNature.us@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "UK - History Hit",
-  "tvg_id": "HistoryHit.uk@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - QVC",
-  "tvg_id": "QVC.HD.us2",
-  "status": "EPG_OK",
-  "sources": [
-   "US2"
-  ],
-  "programmes": 63
- },
- {
-  "title": "US - HSN",
-  "tvg_id": "HSN.Home.Shopping.Network.HD.us2",
-  "status": "EPG_OK",
-  "sources": [
-   "US2"
-  ],
-  "programmes": 96
- },
- {
-  "title": "UK - QVC",
-  "tvg_id": "QVC.HD.uk",
-  "status": "EPG_OK",
-  "sources": [
-   "UK1"
-  ],
-  "programmes": 90
- },
- {
-  "title": "IE - TG4",
-  "tvg_id": "TG4.ie@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "MT - One",
-  "tvg_id": "One.mt@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AU - Sky News Extra 3",
-  "tvg_id": "SkyNewsExtra3.au@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "AU - 10 Bold",
-  "tvg_id": "10Bold.au@Sydney",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "CA - CBC News Network",
-  "tvg_id": "CBCNewsNetwork.ca@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "CA - CityNews Toronto",
-  "tvg_id": "CityNewsToronto.ca@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "FR - ARTE (Français)",
-  "tvg_id": "Arte.fr",
-  "status": "EPG_OK",
-  "sources": [
-   "FR1"
-  ],
-  "programmes": 106
- },
- {
-  "title": "FR - France 5",
-  "tvg_id": "France.5.fr",
-  "status": "EPG_OK",
-  "sources": [
-   "FR1"
-  ],
-  "programmes": 241
- },
- {
-  "title": "FR - TF1",
-  "tvg_id": "TF1.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "TF1.fr"
-  ]
- },
- {
-  "title": "FR - France 2",
-  "tvg_id": "France2.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "France.2.fr",
-   "France.24.fr",
-   "France.2..fr"
-  ]
- },
- {
-  "title": "FR - France 3",
-  "tvg_id": "France3.fr@National",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "FR - M6",
-  "tvg_id": "M6.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "FR - France 24 Français",
-  "tvg_id": "France.24.fr",
-  "status": "EPG_OK",
-  "sources": [
-   "FR1"
-  ],
-  "programmes": 799
- },
- {
-  "title": "FR - franceinfo",
-  "tvg_id": "Franceinfo.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "Franceinfo.fr",
-   "France.info.fr",
-   "franceinfo:.fr"
-  ]
- },
- {
-  "title": "FR - BFM TV",
-  "tvg_id": "BFMTV.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "BFM.TV.fr"
-  ]
- },
- {
-  "title": "FR - Euronews Français",
-  "tvg_id": "EuronewsFrench.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "DE - Das Erste",
-  "tvg_id": "Das.Erste.de",
-  "status": "EPG_OK",
-  "sources": [
-   "DE1"
-  ],
-  "programmes": 138
- },
- {
-  "title": "DE - ZDF",
-  "tvg_id": "ZDF.de@HD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "ZDF.de"
-  ]
- },
- {
-  "title": "DE - ARD-alpha",
-  "tvg_id": "ARD.alpha.de",
-  "status": "EPG_OK",
-  "sources": [
-   "DE1"
-  ],
-  "programmes": 172
- },
- {
-  "title": "DE - tagesschau24",
-  "tvg_id": "tagesschau24.de@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "tagesschau24.de"
-  ]
- },
- {
-  "title": "DE - Euronews Deutsch",
-  "tvg_id": "EuronewsGerman.fr@SD",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "DE - QVC",
-  "tvg_id": "QVC.de",
-  "status": "EPG_OK",
-  "sources": [
-   "DE1"
-  ],
-  "programmes": 92
- },
- {
   "title": "SN - Cinema Italiano",
   "tvg_id": "SonyTvCinemaItaliano.it",
   "status": "ID_NOT_FOUND",
@@ -1141,6 +544,102 @@
   "suggestions": []
  },
  {
+  "title": "SN - Cine Paura",
+  "tvg_id": "SonyTvCinePaura.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Cine Thriller",
+  "tvg_id": "SonyTvCineThriller.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Cine Peplum",
+  "tvg_id": "SonyTvCinePeplum.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Cinemalizia",
+  "tvg_id": "SonyTvCinemalizia.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Adrenaline Movies",
+  "tvg_id": "SonyTvAdrenalineMovies.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Alta Tensione",
+  "tvg_id": "SonyTvAltaTensione.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Western",
+  "tvg_id": "SonyTvGrjngoFilmWestern.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Charlie (film muti)",
+  "tvg_id": "SonyTvCharlieSilentMovies.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Elisa di Rivombrosa",
+  "tvg_id": "SonyTvTopSerie–ElisaDiRivombrosa.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Hercules",
+  "tvg_id": "SonyTvHerculesTheLegendaryJourneys.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Xena",
+  "tvg_id": "SonyTvXenaWarriorPrincess.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Quantum Leap",
+  "tvg_id": "SonyTvQuantumLeap.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Storie Criminali",
+  "tvg_id": "SonyTvStorieCriminali.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Guardia Costiera",
+  "tvg_id": "SonyTvGuardiaCostiera.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Soap Latino",
+  "tvg_id": "SonyTvSoapLatino.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Soap Turco",
+  "tvg_id": "SonyTvSoapTurco.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
   "title": "SN - Masha e Orso",
   "tvg_id": "SonyTvMashaAndTheBear.it",
   "status": "ID_NOT_FOUND",
@@ -1149,6 +648,24 @@
  {
   "title": "SN - Baby Shark",
   "tvg_id": "SonyTvBabySharkTv.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Inazuma Eleven",
+  "tvg_id": "SonyTvInazumaElevenCollection.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Inuyasha",
+  "tvg_id": "SonyTvInuyasha.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Yu-Gi-Oh!",
+  "tvg_id": "SonyTvYuGiOh.it",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
@@ -1195,6 +712,48 @@
   "suggestions": []
  },
  {
+  "title": "SN - Naturetime",
+  "tvg_id": "SonyTvNaturetime.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Waterbear",
+  "tvg_id": "SonyTvWaterbear.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Inter 24/7",
+  "tvg_id": "SonyTvInter247.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Tennis+",
+  "tvg_id": "SonyTvTennis.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Golf",
+  "tvg_id": "SonyTvGolfTelevision.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Motoretrò",
+  "tvg_id": "SonyTvMotoretrò.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "SN - Automoto",
+  "tvg_id": "SonyTvAutomoto.it",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
   "title": "SN - Euronews Italiano",
   "tvg_id": "SonyTvEuronewsItaliano.it",
   "status": "ID_NOT_FOUND",
@@ -1207,85 +766,28 @@
   "suggestions": []
  },
  {
-  "title": "PL - Cinema Italiano",
-  "tvg_id": "608aa7d8359b270007861489",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 11
+  "title": "AR - Canal 26 (news)",
+  "tvg_id": "Canal26.ar@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
-  "title": "PL - Totò",
-  "tvg_id": "65253f9881f942000833ccd5",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 10
+  "title": "AU - ABC News Australia",
+  "tvg_id": "ABCNews.au@Sydney",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
-  "title": "PL - Alberto Sordi",
-  "tvg_id": "661f8f01801af800083d9d81",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 10
+  "title": "CA - CBC News Network",
+  "tvg_id": "CBCNewsNetwork.ca@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
-  "title": "PL - South Park",
-  "tvg_id": "62bc1f502b70e3000706298e",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 39
- },
- {
-  "title": "PL - Top Gear",
-  "tvg_id": "64c109a4798def0008a6e03e",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 16
- },
- {
-  "title": "PL - Mayday: Disastro Aereo",
-  "tvg_id": "690cb9140d121b44ad925ac9",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 18
- },
- {
-  "title": "PL - Documentari",
-  "tvg_id": "608aa8a5709d6b0007b132fe",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 18
- },
- {
-  "title": "PL - Il Testimone",
-  "tvg_id": "61fbd3f0733df400076c9a2d",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 26
- },
- {
-  "title": "PL - Distretto di Polizia",
-  "tvg_id": "691c5ba253a7a030e7c509d8",
-  "status": "EPG_OK",
-  "sources": [
-   "MJH_PLUTO_IT"
-  ],
-  "programmes": 18
+  "title": "CA - Love Nature",
+  "tvg_id": "LoveNature.ca@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  },
  {
   "title": "CH - TeleTicino",
@@ -1294,5 +796,397 @@
   "suggestions": [
    "Tele.Ticino.ch"
   ]
+ },
+ {
+  "title": "CL - La Red",
+  "tvg_id": "LaRed.cl@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "DE - ARD-alpha",
+  "tvg_id": "ARD.alpha.de",
+  "status": "EPG_OK",
+  "sources": [
+   "DE1"
+  ],
+  "programmes": 172
+ },
+ {
+  "title": "DE - Das Erste",
+  "tvg_id": "Das.Erste.de",
+  "status": "EPG_OK",
+  "sources": [
+   "DE1"
+  ],
+  "programmes": 138
+ },
+ {
+  "title": "DE - QVC",
+  "tvg_id": "QVC.de",
+  "status": "EPG_OK",
+  "sources": [
+   "DE1"
+  ],
+  "programmes": 92
+ },
+ {
+  "title": "DE - tagesschau24",
+  "tvg_id": "tagesschau24.de@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "tagesschau24.de"
+  ]
+ },
+ {
+  "title": "DE - ZDF",
+  "tvg_id": "ZDF.de@HD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "ZDF.de"
+  ]
+ },
+ {
+  "title": "ES - 24 Horas (RTVE)",
+  "tvg_id": "24Horas.es@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - beIN SPORTS XTRA",
+  "tvg_id": "beINSPORTSXTRAenEspanol.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - Clan (RTVE)",
+  "tvg_id": "Clan.es@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - CNN en Español",
+  "tvg_id": "CNNenEspanol.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - DW Español",
+  "tvg_id": "DW.de@Espanol",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - Estrella TV",
+  "tvg_id": "EstrellaTV.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Estrella.TV.us2"
+  ]
+ },
+ {
+  "title": "ES - France 24 Español",
+  "tvg_id": "France24.fr@Spanish",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - Historia",
+  "tvg_id": "Historia.es@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "ES - La 1 (RTVE)",
+  "tvg_id": "La.1.es",
+  "status": "EPG_OK",
+  "sources": [
+   "ES1"
+  ],
+  "programmes": 75
+ },
+ {
+  "title": "ES - La 2 (RTVE)",
+  "tvg_id": "La.2.es",
+  "status": "EPG_OK",
+  "sources": [
+   "ES1"
+  ],
+  "programmes": 127
+ },
+ {
+  "title": "ES - TVE Internacional",
+  "tvg_id": "TVE.Internacional.fr",
+  "status": "EPG_OK",
+  "sources": [
+   "FR1"
+  ],
+  "programmes": 96
+ },
+ {
+  "title": "FR - BFM TV",
+  "tvg_id": "BFMTV.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "BFM.TV.fr"
+  ]
+ },
+ {
+  "title": "FR - Euronews Français",
+  "tvg_id": "EuronewsFrench.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "FR - France 2",
+  "tvg_id": "France2.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "France.2.fr",
+   "France.24.fr",
+   "France.2..fr"
+  ]
+ },
+ {
+  "title": "FR - France 24 Français",
+  "tvg_id": "France.24.fr",
+  "status": "EPG_OK",
+  "sources": [
+   "FR1"
+  ],
+  "programmes": 799
+ },
+ {
+  "title": "FR - France 3",
+  "tvg_id": "France3.fr@National",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "FR - France 5",
+  "tvg_id": "France.5.fr",
+  "status": "EPG_OK",
+  "sources": [
+   "FR1"
+  ],
+  "programmes": 241
+ },
+ {
+  "title": "FR - franceinfo",
+  "tvg_id": "Franceinfo.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Franceinfo.fr",
+   "France.info.fr",
+   "franceinfo:.fr"
+  ]
+ },
+ {
+  "title": "FR - M6",
+  "tvg_id": "M6.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "FR - TF1",
+  "tvg_id": "TF1.fr@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "TF1.fr"
+  ]
+ },
+ {
+  "title": "IE - TG4",
+  "tvg_id": "TG4.ie@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "MT - One",
+  "tvg_id": "One.mt@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "MX - Azteca Uno (+1)",
+  "tvg_id": "AztecaUno.mx@Plus1",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "MX - Imagen Televisión",
+  "tvg_id": "ImagenTV.mx@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "PE - Latina Televisión",
+  "tvg_id": "LATINA.HD.(Latina.HD).pe",
+  "status": "EPG_OK",
+  "sources": [
+   "PE1"
+  ],
+  "programmes": 70
+ },
+ {
+  "title": "PE - Panamericana TV",
+  "tvg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
+  "status": "EPG_OK",
+  "sources": [
+   "PE1"
+  ],
+  "programmes": 78
+ },
+ {
+  "title": "UK - BBC News",
+  "tvg_id": "BBC.NEWS.HD.uk",
+  "status": "EPG_OK",
+  "sources": [
+   "UK1"
+  ],
+  "programmes": 194
+ },
+ {
+  "title": "UK - BBC One",
+  "tvg_id": "BBCOne.uk@London",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "UK - BBC Two",
+  "tvg_id": "BBCTwo.uk@HD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "UK - Channel 4",
+  "tvg_id": "Channel4.uk@UK",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Channel.44.uk"
+  ]
+ },
+ {
+  "title": "UK - GREAT! Movies",
+  "tvg_id": "GREAT!.movies.uk",
+  "status": "EPG_OK",
+  "sources": [
+   "UK1"
+  ],
+  "programmes": 131
+ },
+ {
+  "title": "UK - History Hit",
+  "tvg_id": "HistoryHit.uk@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "UK - QVC",
+  "tvg_id": "QVC.HD.uk",
+  "status": "EPG_OK",
+  "sources": [
+   "UK1"
+  ],
+  "programmes": 90
+ },
+ {
+  "title": "US - ABC (KGTV San Diego)",
+  "tvg_id": "ABC.us@KGTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - AMC Thrillers",
+  "tvg_id": "AMCThrillers.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - beIN SPORTS XTRA",
+  "tvg_id": "beINSPORTSXTRA.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - Bloomberg",
+  "tvg_id": "Bloomberg.HD.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 97
+ },
+ {
+  "title": "US - CNN International",
+  "tvg_id": "CNNInternational.us@Europe",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "CNN.International.us2"
+  ]
+ },
+ {
+  "title": "US - HSN",
+  "tvg_id": "HSN.Home.Shopping.Network.HD.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 96
+ },
+ {
+  "title": "US - MeTV Toons (cartoni classici)",
+  "tvg_id": "MeTVToons.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "MeTV.Toons.us2"
+  ]
+ },
+ {
+  "title": "US - NBC (KNTV San Francisco)",
+  "tvg_id": "NBC.us@KNTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - NBC (KXAS Dallas)",
+  "tvg_id": "NBC.us@KXASTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - NBC (WMAQ Chicago)",
+  "tvg_id": "NBC.us@WMAQTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - NBC News NOW",
+  "tvg_id": "NBCNewsNOW.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - QVC",
+  "tvg_id": "QVC.HD.us2",
+  "status": "EPG_OK",
+  "sources": [
+   "US2"
+  ],
+  "programmes": 63
+ },
+ {
+  "title": "US - Stories by AMC",
+  "tvg_id": "StoriesbyAMC.us@SD",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Stories.by.AMC.us2"
+  ]
+ },
+ {
+  "title": "US - Telemundo (WCAU Philadelphia)",
+  "tvg_id": "Telemundo.us@WCAU",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  }
 ]
