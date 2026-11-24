@@ -227,10 +227,6 @@
   "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889706/hls/master.m3u8?ads.xumo_channelId=88889706a&ads.xumo_ifaType=&ads.xumo_providerId=3831&ads.xumo_providerName=NBCNDAL",
   "alternatives": 1
  },
- "US - ABC (WJLA Washington)": {
-  "url": "https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8",
-  "alternatives": 1
- },
  "US - ABC (KGTV San Diego)": {
   "url": "https://amg01438-amg01438c6-vizio-us-10897.playouts.now.amagi.tv/playlist.m3u8",
   "alternatives": 1
@@ -253,10 +249,6 @@
  },
  "US - FOX (WTXF Philadelphia)": {
   "url": "https://amg00488-foxdigital-fox29philadelphiawtx-vizious-x0v1b.amagi.tv/playlist/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8",
-  "alternatives": 1
- },
- "US - Telemundo (WCAU Philadelphia)": {
-  "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889705/hls/master.m3u8?ads.xumo_channelId=88889705a&ads.xumo_ifaType=&ads.xumo_providerId=3819&ads.xumo_providerName=NBCNPHI",
   "alternatives": 1
  },
  "IE - TG4": {
