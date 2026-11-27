@@ -48,7 +48,7 @@
   "alternatives": 1
  },
  "US - ABC News Live": {
-  "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+  "url": "https://abcnews-livestreams.akamaized.net/out/v1/42a9b78d0a1f4b6599bbdfb1ae512bc4/abcn-live-01-cmaf-manifest/abcn-live-01-index.m3u8",
   "alternatives": 2
  },
  "US - NBC News NOW": {
@@ -88,7 +88,7 @@
   "alternatives": 1
  },
  "US - Hell's Kitchen": {
-  "url": "https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8",
+  "url": "https://jmp2.uk/plu-62ea45010d0611000839868c.m3u8",
   "alternatives": 1
  },
  "US - Cops": {
@@ -229,10 +229,6 @@
  },
  "US - ABC (KGTV San Diego)": {
   "url": "https://amg01438-amg01438c6-vizio-us-10897.playouts.now.amagi.tv/playlist.m3u8",
-  "alternatives": 1
- },
- "US - CBS (KUTV Salt Lake City)": {
-  "url": "https://linear-707.frequency.stream/dist/stirr/707/hls/master/playlist.m3u8",
   "alternatives": 1
  },
  "US - CBS (KIRO Seattle)": {
