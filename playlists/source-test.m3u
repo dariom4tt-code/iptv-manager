@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="t0" tvg-chno="9000",TEST-samsungtvplus - ABC News Live
+https://jmp2.uk/stvp-USBC39000171G
+#EXTINF:-1 tvg-id="t1" tvg-chno="9001",TEST-samsungtvplus - 48 Hours
+https://jmp2.uk/stvp-US1000005GY
+#EXTINF:-1 tvg-id="t2" tvg-chno="9002",TEST-samsungtvplus - Baywatch
+https://jmp2.uk/stvp-USBA2000001BR
+#EXTINF:-1 tvg-id="t3" tvg-chno="9003",TEST-plex - 60 Minutes
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-668561babc1490a2f408f30c/?X-Plex-Token=Y48dEsANQ67syzJqQ3z_
+#EXTINF:-1 tvg-id="t4" tvg-chno="9004",TEST-plex - Baywatch
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63e63f20abacad42ed3d1acf/?X-Plex-Token=Y48dEsANQ67syzJqQ3z_
+#EXTINF:-1 tvg-id="t5" tvg-chno="9005",TEST-plex - MythBusters
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66b133a8a9ef8c41ec0841aa/?X-Plex-Token=Y48dEsANQ67syzJqQ3z_
+#EXTINF:-1 tvg-id="t6" tvg-chno="9006",TEST-plex - 24 Hour Free Movies
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5fd115bab7ef8d002dcf181d/?X-Plex-Token=Y48dEsANQ67syzJqQ3z_
+#EXTINF:-1 tvg-id="t7" tvg-chno="9007",TEST-plutotv - 48 Hours
+https://jmp2.uk/plu-6176f39e709f160007ec61c3.m3u8
