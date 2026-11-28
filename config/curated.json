@@ -47,17 +47,20 @@
   {
    "type": "pinned",
    "from_title": "ES - La 1 (RTVE)",
-   "group": "Spagna"
+   "group": "Spagna",
+   "name": "ES - La 1 (generalista, RTVE)"
   },
   {
    "type": "pinned",
    "from_title": "ES - La 2 (RTVE)",
-   "group": "Spagna"
+   "group": "Spagna",
+   "name": "ES - La 2 (cultura, RTVE)"
   },
   {
    "type": "pinned",
    "from_title": "ES - TVE Internacional",
-   "group": "Spagna"
+   "group": "Spagna",
+   "name": "ES - TVE Internacional (generalista)"
   },
   {
    "type": "streams",
@@ -65,7 +68,7 @@
    "tvg_ids": [
     "24Horas.es@SD"
    ],
-   "name": "ES - 24 Horas (RTVE)",
+   "name": "ES - 24 Horas (news, RTVE)",
    "group": "Spagna",
    "hold": false
   },
@@ -75,7 +78,7 @@
    "tvg_ids": [
     "DW.de@Espanol"
    ],
-   "name": "ES - DW Español",
+   "name": "ES - DW Español (news)",
    "group": "Spagna",
    "hold": true
   },
@@ -85,7 +88,7 @@
    "tvg_ids": [
     "France24.fr@Spanish"
    ],
-   "name": "ES - France 24 Español",
+   "name": "ES - France 24 Español (news)",
    "group": "Spagna",
    "hold": true
   },
@@ -95,7 +98,7 @@
    "tvg_ids": [
     "EuronewsSpanish.fr@SD"
    ],
-   "name": "ES - Euronews Español",
+   "name": "ES - Euronews Español (news)",
    "group": "Spagna",
    "hold": true
   },
@@ -105,7 +108,7 @@
    "tvg_ids": [
     "CNNenEspanol.us@SD"
    ],
-   "name": "ES - CNN en Español",
+   "name": "ES - CNN en Español (news)",
    "group": "Spagna",
    "hold": true
   },
@@ -115,7 +118,7 @@
    "tvg_ids": [
     "EstrellaTV.us@SD"
    ],
-   "name": "ES - Estrella TV",
+   "name": "ES - Estrella TV (intrattenimento)",
    "group": "Spagna",
    "hold": true
   },
@@ -125,7 +128,7 @@
    "tvg_ids": [
     "beINSPORTSXTRAenEspanol.us@SD"
    ],
-   "name": "ES - beIN SPORTS XTRA",
+   "name": "ES - beIN SPORTS XTRA (sport)",
    "group": "Spagna",
    "hold": true
   },
@@ -135,7 +138,7 @@
    "tvg_ids": [
     "Clan.es@SD"
    ],
-   "name": "ES - Clan (RTVE)",
+   "name": "ES - Clan (cartoni, RTVE)",
    "group": "Spagna",
    "hold": true
   },
@@ -145,7 +148,7 @@
    "tvg_ids": [
     "Historia.es@SD"
    ],
-   "name": "ES - Historia",
+   "name": "ES - Historia (documentari)",
    "group": "Spagna",
    "hold": true
   },
@@ -153,18 +156,21 @@
    "type": "pinned",
    "from_title": "PE - Latina Televisión",
    "group": "Perù",
-   "epg_id": "LATINA.HD.(Latina.HD).pe"
+   "epg_id": "LATINA.HD.(Latina.HD).pe",
+   "name": "PE - Latina Televisión (generalista)"
   },
   {
    "type": "pinned",
    "from_title": "PE - Panamericana TV",
    "group": "Perù",
-   "epg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe"
+   "epg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
+   "name": "PE - Panamericana TV (generalista)"
   },
   {
    "type": "pinned",
    "from_title": "UK - BBC News",
-   "group": "Regno Unito"
+   "group": "Regno Unito",
+   "name": "UK - BBC News (news)"
   },
   {
    "type": "streams",
@@ -172,7 +178,7 @@
    "tvg_ids": [
     "CNNInternational.us@Europe"
    ],
-   "name": "US - CNN International",
+   "name": "US - CNN International (news)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -182,7 +188,7 @@
    "tvg_ids": [
     "BloombergOriginals.us@US"
    ],
-   "name": "US - Bloomberg",
+   "name": "US - Bloomberg (news, economia)",
    "group": "Stati Uniti",
    "hold": true,
    "epg_id": "Bloomberg.HD.us2"
@@ -193,7 +199,7 @@
    "tvg_ids": [
     "DW.de@English"
    ],
-   "name": "DE - DW English",
+   "name": "DE - DW English (news)",
    "group": "Germania",
    "hold": true
   },
@@ -203,7 +209,7 @@
    "tvg_ids": [
     "ABCNewsLive1.us@SD"
    ],
-   "name": "US - ABC News Live",
+   "name": "US - ABC News Live (news)",
    "group": "Stati Uniti",
    "hold": true,
    "epg_id": "ABC.News.Live.us2"
@@ -214,7 +220,7 @@
    "tvg_ids": [
     "NBCNewsNOW.us@SD"
    ],
-   "name": "US - NBC News NOW",
+   "name": "US - NBC News NOW (news)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -224,7 +230,7 @@
    "tvg_ids": [
     "ReutersTV.us@SD"
    ],
-   "name": "US - Reuters TV",
+   "name": "US - Reuters TV (news)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -234,9 +240,10 @@
    "tvg_ids": [
     "ABCNews.au@Sydney"
    ],
-   "name": "AU - ABC News Australia",
+   "name": "AU - ABC News Australia (news)",
    "group": "Australia",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -244,7 +251,7 @@
    "tvg_ids": [
     "GBNews.uk@SD"
    ],
-   "name": "UK - GB News",
+   "name": "UK - GB News (news)",
    "group": "Regno Unito",
    "hold": true,
    "epg_id": "GB.News.HD.uk"
@@ -255,7 +262,7 @@
    "tvg_ids": [
     "BBCOne.uk@London"
    ],
-   "name": "UK - BBC One",
+   "name": "UK - BBC One (generalista)",
    "group": "Regno Unito",
    "hold": true
   },
@@ -265,7 +272,7 @@
    "tvg_ids": [
     "BBCTwo.uk@HD"
    ],
-   "name": "UK - BBC Two",
+   "name": "UK - BBC Two (generalista)",
    "group": "Regno Unito",
    "hold": true
   },
@@ -275,7 +282,7 @@
    "tvg_ids": [
     "Channel4.uk@UK"
    ],
-   "name": "UK - Channel 4",
+   "name": "UK - Channel 4 (generalista)",
    "group": "Regno Unito",
    "hold": true
   },
@@ -285,7 +292,7 @@
    "tvg_ids": [
     "Baywatch.us@US"
    ],
-   "name": "US - Baywatch",
+   "name": "US - Baywatch (serie)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -295,7 +302,7 @@
    "tvg_ids": [
     "Mythbusters.us@UK"
    ],
-   "name": "US - Mythbusters",
+   "name": "US - Mythbusters (documentari)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -303,11 +310,12 @@
    "type": "streams",
    "source": "iptvorg-all",
    "tvg_ids": [
-    "GordonRamsaysHellsKitchen.us@SD"
+    "HellsKitchen.us@UK"
    ],
-   "name": "US - Hell's Kitchen",
+   "name": "US - Hell's Kitchen (reality cucina)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -315,7 +323,7 @@
    "tvg_ids": [
     "Cops.us@SD"
    ],
-   "name": "US - Cops",
+   "name": "US - Cops (reality)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -325,9 +333,10 @@
    "tvg_ids": [
     "Tastemade.us@US"
    ],
-   "name": "US - Tastemade",
+   "name": "US - Tastemade (cucina e viaggi)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -335,7 +344,7 @@
    "tvg_ids": [
     "TopGear.uk@SD"
    ],
-   "name": "UK - Top Gear",
+   "name": "UK - Top Gear (motori)",
    "group": "Regno Unito",
    "hold": true
   },
@@ -343,12 +352,16 @@
    "type": "pinned",
    "from_title": "US - Hallmark Movies & More",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "name": "US - Hallmark Movies & More (film)"
   },
   {
    "type": "pinned",
    "from_title": "UK - GREAT! Movies",
-   "group": "Regno Unito"
+   "group": "Regno Unito",
+   "name": "UK - GREAT! Movies (film)",
+   "priority": true,
+   "hold": false
   },
   {
    "type": "streams",
@@ -356,7 +369,7 @@
    "tvg_ids": [
     "beINSPORTSXTRA.us@SD"
    ],
-   "name": "US - beIN SPORTS XTRA",
+   "name": "US - beIN SPORTS XTRA (sport)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -366,7 +379,7 @@
    "tvg_ids": [
     "TennisChannel.us@SD"
    ],
-   "name": "US - Tennis Channel",
+   "name": "US - Tennis Channel (sport)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -376,7 +389,7 @@
    "tvg_ids": [
     "Teletubbies.uk@SD"
    ],
-   "name": "UK - Teletubbies",
+   "name": "UK - Teletubbies (cartoni)",
    "group": "Regno Unito",
    "hold": true
   },
@@ -396,9 +409,10 @@
    "tvg_ids": [
     "LoveNature.ca@SD"
    ],
-   "name": "CA - Love Nature",
+   "name": "CA - Love Nature (documentari)",
    "group": "Canada",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -406,7 +420,7 @@
    "tvg_ids": [
     "Docurama.us@SD"
    ],
-   "name": "US - Docurama",
+   "name": "US - Docurama (documentari)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -416,7 +430,7 @@
    "tvg_ids": [
     "HistoryHit.uk@SD"
    ],
-   "name": "UK - History Hit",
+   "name": "UK - History Hit (documentari)",
    "group": "Regno Unito",
    "hold": true
   },
@@ -424,25 +438,28 @@
    "type": "pinned",
    "from_title": "US - QVC",
    "group": "Stati Uniti",
-   "epg_id": "QVC.HD.us2"
+   "epg_id": "QVC.HD.us2",
+   "name": "US - QVC (shopping)"
   },
   {
    "type": "pinned",
    "from_title": "US - HSN",
    "group": "Stati Uniti",
-   "epg_id": "HSN.Home.Shopping.Network.HD.us2"
+   "epg_id": "HSN.Home.Shopping.Network.HD.us2",
+   "name": "US - HSN (shopping)"
   },
   {
    "type": "pinned",
    "from_title": "UK - QVC",
    "group": "Regno Unito",
-   "epg_id": "QVC.HD.uk"
+   "epg_id": "QVC.HD.uk",
+   "name": "UK - QVC (shopping)"
   },
   {
    "type": "pinned",
    "from_title": "FR - France 5 (verifica disponibilità)",
    "group": "Francia",
-   "name": "FR - France 5"
+   "name": "FR - France 5 (generalista, cultura)"
   },
   {
    "type": "streams",
@@ -450,7 +467,7 @@
    "tvg_ids": [
     "TF1.fr@SD"
    ],
-   "name": "FR - TF1",
+   "name": "FR - TF1 (generalista)",
    "group": "Francia",
    "hold": true
   },
@@ -460,7 +477,7 @@
    "tvg_ids": [
     "France2.fr@SD"
    ],
-   "name": "FR - France 2",
+   "name": "FR - France 2 (generalista)",
    "group": "Francia",
    "hold": true
   },
@@ -470,14 +487,15 @@
    "tvg_ids": [
     "M6.fr@SD"
    ],
-   "name": "FR - M6",
+   "name": "FR - M6 (intrattenimento)",
    "group": "Francia",
    "hold": true
   },
   {
    "type": "pinned",
    "from_title": "FR - France 24 Français",
-   "group": "Francia"
+   "group": "Francia",
+   "name": "FR - France 24 Français (news)"
   },
   {
    "type": "streams",
@@ -485,7 +503,7 @@
    "tvg_ids": [
     "RTSInfo.ch@SD"
    ],
-   "name": "FR - RTS Info",
+   "name": "FR - RTS Info (news)",
    "group": "Francia",
    "hold": true
   },
@@ -495,7 +513,7 @@
    "tvg_ids": [
     "DasErste.de@HD"
    ],
-   "name": "DE - Das Erste",
+   "name": "DE - Das Erste (generalista)",
    "group": "Germania",
    "hold": true,
    "epg_id": "Das.Erste.de"
@@ -506,7 +524,7 @@
    "tvg_ids": [
     "ZDF.de@HD"
    ],
-   "name": "DE - ZDF",
+   "name": "DE - ZDF (generalista)",
    "group": "Germania",
    "hold": true
   },
@@ -516,7 +534,7 @@
    "tvg_ids": [
     "tagesschau24.de@SD"
    ],
-   "name": "DE - tagesschau24",
+   "name": "DE - tagesschau24 (news)",
    "group": "Germania",
    "hold": true
   },
@@ -747,7 +765,8 @@
    "type": "pinned",
    "from_title": "SM - San Marino RTV",
    "group": "Internazionali - San Marino",
-   "hold": true
+   "hold": true,
+   "name": "SM - San Marino RTV (generalista)"
   },
   {
    "type": "streams",
@@ -755,7 +774,7 @@
    "tvg_ids": [
     "AMCThrillers.us@SD"
    ],
-   "name": "US - AMC Thrillers",
+   "name": "US - AMC Thrillers (film e serie)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -765,7 +784,7 @@
    "tvg_ids": [
     "StoriesbyAMC.us@SD"
    ],
-   "name": "US - Stories by AMC",
+   "name": "US - Stories by AMC (serie)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -775,7 +794,7 @@
    "tvg_ids": [
     "ImagenTV.mx@SD"
    ],
-   "name": "MX - Imagen Televisión",
+   "name": "MX - Imagen Televisión (generalista)",
    "group": "Messico",
    "hold": true
   },
@@ -785,7 +804,7 @@
    "tvg_ids": [
     "AztecaUno.mx@Plus1"
    ],
-   "name": "MX - Azteca Uno (+1)",
+   "name": "MX - Azteca Uno +1 (generalista)",
    "group": "Messico",
    "hold": true
   },
@@ -805,7 +824,7 @@
    "tvg_ids": [
     "TyCSports.ar@SD"
    ],
-   "name": "AR - TyC Sports",
+   "name": "AR - TyC Sports (sport)",
    "group": "Argentina",
    "hold": true
   },
@@ -815,7 +834,7 @@
    "tvg_ids": [
     "LaRed.cl@SD"
    ],
-   "name": "CL - La Red",
+   "name": "CL - La Red (generalista)",
    "group": "Cile",
    "hold": true
   },
@@ -835,7 +854,7 @@
    "tvg_ids": [
     "NBC.us@KNTV"
    ],
-   "name": "US - NBC (KNTV San Francisco)",
+   "name": "US - NBC San Francisco KNTV (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -845,7 +864,7 @@
    "tvg_ids": [
     "NBC.us@WMAQTV"
    ],
-   "name": "US - NBC (WMAQ Chicago)",
+   "name": "US - NBC Chicago WMAQ (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -855,17 +874,7 @@
    "tvg_ids": [
     "NBC.us@KXASTV"
    ],
-   "name": "US - NBC (KXAS Dallas)",
-   "group": "Stati Uniti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "ABC.us@WJLATV"
-   ],
-   "name": "US - ABC (WJLA Washington)",
+   "name": "US - NBC Dallas KXAS (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -875,17 +884,7 @@
    "tvg_ids": [
     "ABC.us@KGTV"
    ],
-   "name": "US - ABC (KGTV San Diego)",
-   "group": "Stati Uniti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "CBS.us@KUTV"
-   ],
-   "name": "US - CBS (KUTV Salt Lake City)",
+   "name": "US - ABC San Diego KGTV (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -895,7 +894,7 @@
    "tvg_ids": [
     "CBS.us@KIROTV"
    ],
-   "name": "US - CBS (KIRO Seattle)",
+   "name": "US - CBS Seattle KIRO (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -905,7 +904,7 @@
    "tvg_ids": [
     "Fox.us@WNYW"
    ],
-   "name": "US - FOX (WNYW New York)",
+   "name": "US - FOX New York WNYW (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -915,7 +914,7 @@
    "tvg_ids": [
     "Fox.us@KTTV"
    ],
-   "name": "US - FOX (KTTV Los Angeles)",
+   "name": "US - FOX Los Angeles KTTV (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -925,17 +924,7 @@
    "tvg_ids": [
     "Fox.us@WTXFTV"
    ],
-   "name": "US - FOX (WTXF Philadelphia)",
-   "group": "Stati Uniti",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "Telemundo.us@WCAU"
-   ],
-   "name": "US - Telemundo (WCAU Philadelphia)",
+   "name": "US - FOX Philadelphia WTXF (network)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -945,7 +934,7 @@
    "tvg_ids": [
     "TG4.ie@SD"
    ],
-   "name": "IE - TG4",
+   "name": "IE - TG4 (generalista, irlandese)",
    "group": "Irlanda",
    "hold": true
   },
@@ -955,9 +944,10 @@
    "tvg_ids": [
     "CBCNewsNetwork.ca@SD"
    ],
-   "name": "CA - CBC News Network",
+   "name": "CA - CBC News Network (news)",
    "group": "Canada",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -965,7 +955,7 @@
    "tvg_ids": [
     "TeleTicino.ch@SD"
    ],
-   "name": "CH - TeleTicino",
+   "name": "CH - TeleTicino (regionale, italiano)",
    "group": "Svizzera italiana",
    "hold": true
   },
@@ -1169,9 +1159,10 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "Canal Sur Andalucía",
-   "name": "ES - Canal Sur Andalucía",
+   "name": "ES - Canal Sur Andalucía (regionale)",
    "group": "Spagna",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1179,31 +1170,34 @@
    "tvg_ids": [
     "Telemadrid.es@HD"
    ],
-   "name": "ES - Telemadrid",
+   "name": "ES - Telemadrid (regionale)",
    "group": "Spagna",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "Castilla-La Mancha Media (CMM)",
-   "name": "ES - CMM Castilla-La Mancha",
+   "name": "ES - CMM Castilla-La Mancha (regionale)",
    "group": "Spagna",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "Canal Extremadura",
-   "name": "ES - Canal Extremadura",
+   "name": "ES - Canal Extremadura (regionale)",
    "group": "Spagna",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "ETB 2",
-   "name": "ES - ETB 2",
+   "name": "ES - ETB 2 (regionale)",
    "group": "Spagna",
    "hold": true
   },
@@ -1211,7 +1205,7 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "TVG",
-   "name": "ES - TVG Galicia",
+   "name": "ES - TVG Galicia (regionale)",
    "group": "Spagna",
    "hold": true
   },
@@ -1219,7 +1213,7 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "TRECE",
-   "name": "ES - TRECE",
+   "name": "ES - TRECE (generalista)",
    "group": "Spagna",
    "hold": true
   },
@@ -1227,7 +1221,7 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "Real Madrid TV",
-   "name": "ES - Real Madrid TV",
+   "name": "ES - Real Madrid TV (sport)",
    "group": "Spagna",
    "hold": true
   },
@@ -1235,42 +1229,46 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "Star TVE Europa",
-   "name": "ES - Star TVE",
+   "name": "ES - Star TVE (fiction, RTVE)",
    "group": "Spagna",
    "hold": true,
-   "url_contains": "rtveplayplus"
+   "url_contains": "rtveplayplus",
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "La 1",
-   "name": "ES - La 1 (alt. ottera)",
+   "name": "ES - La 1 alt. (generalista, RTVE)",
    "group": "Spagna",
    "hold": true,
-   "url_contains": "ottera.tv"
+   "url_contains": "ottera.tv",
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "La 2",
-   "name": "ES - La 2 (alt. ottera)",
+   "name": "ES - La 2 alt. (cultura, RTVE)",
    "group": "Spagna",
    "hold": true,
-   "url_contains": "ottera.tv"
+   "url_contains": "ottera.tv",
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "Canal 6 Multimedios México",
-   "name": "MX - Canal 6 Multimedios",
+   "name": "MX - Canal 6 Multimedios (intrattenimento)",
    "group": "Messico",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "Exitosa Noticias Perú",
-   "name": "PE - Exitosa Noticias",
+   "name": "PE - Exitosa Noticias (news)",
    "group": "Perù",
    "hold": true
   },
@@ -1278,15 +1276,16 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "Noticias RCN Colombia",
-   "name": "CO - Noticias RCN",
+   "name": "CO - Noticias RCN (news)",
    "group": "Colombia",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
    "source": "tdt",
    "title_equals": "Señal Colombia",
-   "name": "CO - Señal Colombia",
+   "name": "CO - Señal Colombia (cultura)",
    "group": "Colombia",
    "hold": true
   },
@@ -1294,7 +1293,7 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "Miami TV Fashion",
-   "name": "US - Miami TV Fashion",
+   "name": "US - Miami TV Fashion (moda)",
    "group": "Stati Uniti",
    "hold": true
   },
@@ -1302,9 +1301,10 @@
    "type": "streams",
    "source": "tdt",
    "title_equals": "BUZZR TV USA EN",
-   "name": "US - BUZZR (giochi a premi)",
+   "name": "US - BUZZR (game show)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1312,9 +1312,10 @@
    "tvg_ids": [
     "Tastemade.us@US"
    ],
-   "name": "US - Tastemade",
+   "name": "US - Tastemade (cucina e viaggi)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1322,9 +1323,10 @@
    "tvg_ids": [
     "bonappetit.us@SD"
    ],
-   "name": "US - Bon Appétit",
+   "name": "US - Bon Appétit (cucina)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1332,9 +1334,10 @@
    "tvg_ids": [
     "DealorNoDeal.us@SD"
    ],
-   "name": "US - Deal or No Deal",
+   "name": "US - Deal or No Deal (game show)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1342,9 +1345,10 @@
    "tvg_ids": [
     "BBCEarth.uk@US"
    ],
-   "name": "UK - BBC Earth",
+   "name": "UK - BBC Earth (documentari)",
    "group": "Regno Unito",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1352,9 +1356,10 @@
    "tvg_ids": [
     "BBCFood.us@SD"
    ],
-   "name": "UK - BBC Food",
+   "name": "UK - BBC Food (cucina)",
    "group": "Regno Unito",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1362,9 +1367,10 @@
    "tvg_ids": [
     "BBCHomeGarden.us@SD"
    ],
-   "name": "UK - BBC Home & Garden",
+   "name": "UK - BBC Home & Garden (lifestyle)",
    "group": "Regno Unito",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
@@ -1372,19 +1378,28 @@
    "tvg_ids": [
     "TalkTV.uk@SD"
    ],
-   "name": "UK - TalkTV",
+   "name": "UK - TalkTV (news e dibattiti)",
    "group": "Regno Unito",
-   "hold": true
+   "hold": true,
+   "priority": true
   },
   {
    "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "TelemundoInternacional.us@South"
-   ],
-   "name": "US - Telemundo Internacional",
+   "source": "stvp-us",
+   "title_equals": "Price is Right",
+   "name": "US - The Price Is Right (game show)",
    "group": "Stati Uniti",
-   "hold": true
+   "hold": true,
+   "priority": true
+  },
+  {
+   "type": "streams",
+   "source": "stvp-us",
+   "title_equals": "Dry Bar Comedy",
+   "name": "US - Dry Bar Comedy (stand-up)",
+   "group": "Stati Uniti",
+   "hold": true,
+   "priority": true
   }
  ]
 }
