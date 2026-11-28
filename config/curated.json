@@ -23,6 +23,7 @@
     "Canada",
     "Svizzera italiana",
     "Cile",
+    "Colombia",
     "Germania",
     "Spagna",
     "Francia",
@@ -467,16 +468,6 @@
    "type": "streams",
    "source": "iptvorg-all",
    "tvg_ids": [
-    "France3.fr@National"
-   ],
-   "name": "FR - France 3",
-   "group": "Francia",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
     "M6.fr@SD"
    ],
    "name": "FR - M6",
@@ -487,36 +478,6 @@
    "type": "pinned",
    "from_title": "FR - France 24 Français",
    "group": "Francia"
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "Franceinfo.fr@SD"
-   ],
-   "name": "FR - franceinfo",
-   "group": "Francia",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "BFMTV.fr@SD"
-   ],
-   "name": "FR - BFM TV",
-   "group": "Francia",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "EuronewsFrench.fr@SD"
-   ],
-   "name": "FR - Euronews Français",
-   "group": "Francia",
-   "hold": true
   },
   {
    "type": "streams",
@@ -553,33 +514,11 @@
    "type": "streams",
    "source": "iptvorg-all",
    "tvg_ids": [
-    "ARDalpha.de@SD"
-   ],
-   "name": "DE - ARD-alpha",
-   "group": "Germania",
-   "hold": true,
-   "epg_id": "ARD.alpha.de"
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
     "tagesschau24.de@SD"
    ],
    "name": "DE - tagesschau24",
    "group": "Germania",
    "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
-    "QVC.de@SD"
-   ],
-   "name": "DE - QVC",
-   "group": "Germania",
-   "hold": true,
-   "epg_id": "QVC.de"
   },
   {
    "type": "redirector",
@@ -1014,16 +953,6 @@
    "type": "streams",
    "source": "iptvorg-all",
    "tvg_ids": [
-    "One.mt@SD"
-   ],
-   "name": "MT - One",
-   "group": "Malta",
-   "hold": true
-  },
-  {
-   "type": "streams",
-   "source": "iptvorg-all",
-   "tvg_ids": [
     "CBCNewsNetwork.ca@SD"
    ],
    "name": "CA - CBC News Network",
@@ -1235,6 +1164,227 @@
    "catalog_name": "SonyTv - Filmrise Sci-Fi",
    "name": "SN - Filmrise Sci-Fi",
    "group": "FAST | Film e serie"
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Canal Sur Andalucía",
+   "name": "ES - Canal Sur Andalucía",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Telemadrid.es@HD"
+   ],
+   "name": "ES - Telemadrid",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Castilla-La Mancha Media (CMM)",
+   "name": "ES - CMM Castilla-La Mancha",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Canal Extremadura",
+   "name": "ES - Canal Extremadura",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "ETB 2",
+   "name": "ES - ETB 2",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "TVG",
+   "name": "ES - TVG Galicia",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "TRECE",
+   "name": "ES - TRECE",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Real Madrid TV",
+   "name": "ES - Real Madrid TV",
+   "group": "Spagna",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Star TVE Europa",
+   "name": "ES - Star TVE",
+   "group": "Spagna",
+   "hold": true,
+   "url_contains": "rtveplayplus"
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "La 1",
+   "name": "ES - La 1 (alt. ottera)",
+   "group": "Spagna",
+   "hold": true,
+   "url_contains": "ottera.tv"
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "La 2",
+   "name": "ES - La 2 (alt. ottera)",
+   "group": "Spagna",
+   "hold": true,
+   "url_contains": "ottera.tv"
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Canal 6 Multimedios México",
+   "name": "MX - Canal 6 Multimedios",
+   "group": "Messico",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Exitosa Noticias Perú",
+   "name": "PE - Exitosa Noticias",
+   "group": "Perù",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Noticias RCN Colombia",
+   "name": "CO - Noticias RCN",
+   "group": "Colombia",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Señal Colombia",
+   "name": "CO - Señal Colombia",
+   "group": "Colombia",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "Miami TV Fashion",
+   "name": "US - Miami TV Fashion",
+   "group": "Stati Uniti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "tdt",
+   "title_equals": "BUZZR TV USA EN",
+   "name": "US - BUZZR (giochi a premi)",
+   "group": "Stati Uniti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "Tastemade.us@US"
+   ],
+   "name": "US - Tastemade",
+   "group": "Stati Uniti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "bonappetit.us@SD"
+   ],
+   "name": "US - Bon Appétit",
+   "group": "Stati Uniti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "DealorNoDeal.us@SD"
+   ],
+   "name": "US - Deal or No Deal",
+   "group": "Stati Uniti",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "BBCEarth.uk@US"
+   ],
+   "name": "UK - BBC Earth",
+   "group": "Regno Unito",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "BBCFood.us@SD"
+   ],
+   "name": "UK - BBC Food",
+   "group": "Regno Unito",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "BBCHomeGarden.us@SD"
+   ],
+   "name": "UK - BBC Home & Garden",
+   "group": "Regno Unito",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "TalkTV.uk@SD"
+   ],
+   "name": "UK - TalkTV",
+   "group": "Regno Unito",
+   "hold": true
+  },
+  {
+   "type": "streams",
+   "source": "iptvorg-all",
+   "tvg_ids": [
+    "TelemundoInternacional.us@South"
+   ],
+   "name": "US - Telemundo Internacional",
+   "group": "Stati Uniti",
+   "hold": true
   }
  ]
 }

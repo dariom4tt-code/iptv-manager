@@ -165,6 +165,10 @@ def build(production_text: str, sources: dict, prev_selected: dict | None = None
                     continue
                 if e.get("catalog_name") and c.attrs.get("tvg-name") != e["catalog_name"]:
                     continue
+                if e.get("title_equals") and c.title != e["title_equals"]:
+                    continue
+                if e.get("url_contains") and e["url_contains"] not in c.url:
+                    continue
                 if any(tag in c.title for tag in policy["skip_title_tags"]):
                     continue
                 ok, why = url_allowed(c.url, policy)

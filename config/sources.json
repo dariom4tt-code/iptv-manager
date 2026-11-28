@@ -170,6 +170,12 @@
       "id": "iptvorg-co",
       "kind": "streams",
       "url": "https://iptv-org.github.io/iptv/countries/co.m3u"
+    },
+    {
+      "id": "tdt",
+      "kind": "streams",
+      "url": "https://www.tdtchannels.com/lists/tv.m3u8",
+      "note": "TDTChannels: canali spagnoli; EPG: https://www.tdtchannels.com/epg/TV.xml.gz"
     }
   ]
 }

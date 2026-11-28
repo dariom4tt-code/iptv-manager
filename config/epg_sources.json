@@ -11,6 +11,12 @@
   "enabled": true
  },
  {
+  "name": "TDT_EPG",
+  "url": "https://www.tdtchannels.com/epg/TV.xml.gz",
+  "enabled": true,
+  "note": "guida spagnola di TDTChannels (id tipo La1.TV)"
+ },
+ {
   "name": "PE1",
   "url": "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz",
   "enabled": true
