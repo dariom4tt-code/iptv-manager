@@ -778,25 +778,25 @@
   "suggestions": []
  },
  {
-  "title": "AU - ABC News Australia",
+  "title": "AU - ABC News Australia (news)",
   "tvg_id": "ABCNews.au@Sydney",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "CA - CBC News Network",
+  "title": "CA - CBC News Network (news)",
   "tvg_id": "CBCNewsNetwork.ca@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "CA - Love Nature",
+  "title": "CA - Love Nature (documentari)",
   "tvg_id": "LoveNature.ca@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "CH - TeleTicino",
+  "title": "CH - TeleTicino (regionale, italiano)",
   "tvg_id": "TeleTicino.ch@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -810,18 +810,23 @@
   "suggestions": []
  },
  {
-  "title": "CL - La Red",
+  "title": "CL - La Red (generalista)",
   "tvg_id": "LaRed.cl@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "CO - Señal Colombia",
+  "title": "CO - Noticias RCN (news)",
   "tvg_id": "",
   "status": "NO_TVG_ID"
  },
  {
-  "title": "DE - Das Erste",
+  "title": "CO - Señal Colombia (cultura)",
+  "tvg_id": "",
+  "status": "NO_TVG_ID"
+ },
+ {
+  "title": "DE - Das Erste (generalista)",
   "tvg_id": "Das.Erste.de",
   "status": "EPG_OK",
   "sources": [
@@ -830,7 +835,7 @@
   "programmes": 122
  },
  {
-  "title": "DE - tagesschau24",
+  "title": "DE - tagesschau24 (news)",
   "tvg_id": "tagesschau24.de@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -838,7 +843,7 @@
   ]
  },
  {
-  "title": "DE - ZDF",
+  "title": "DE - ZDF (generalista)",
   "tvg_id": "ZDF.de@HD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -846,19 +851,19 @@
   ]
  },
  {
-  "title": "ES - 24 Horas (RTVE)",
+  "title": "ES - 24 Horas (news, RTVE)",
   "tvg_id": "24Horas.es@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - beIN SPORTS XTRA",
+  "title": "ES - beIN SPORTS XTRA (sport)",
   "tvg_id": "beINSPORTSXTRAenEspanol.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - Canal Extremadura",
+  "title": "ES - Canal Extremadura (regionale)",
   "tvg_id": "Extremadura.TV",
   "status": "EPG_OK",
   "sources": [
@@ -867,7 +872,7 @@
   "programmes": 76
  },
  {
-  "title": "ES - Canal Sur Andalucía",
+  "title": "ES - Canal Sur Andalucía (regionale)",
   "tvg_id": "CanalSurA.TV",
   "status": "EPG_OK",
   "sources": [
@@ -876,13 +881,13 @@
   "programmes": 44
  },
  {
-  "title": "ES - Clan (RTVE)",
+  "title": "ES - Clan (cartoni, RTVE)",
   "tvg_id": "Clan.es@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - CMM Castilla-La Mancha",
+  "title": "ES - CMM Castilla-La Mancha (regionale)",
   "tvg_id": "CMM.TV",
   "status": "EPG_OK",
   "sources": [
@@ -891,19 +896,19 @@
   "programmes": 58
  },
  {
-  "title": "ES - CNN en Español",
+  "title": "ES - CNN en Español (news)",
   "tvg_id": "CNNenEspanol.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - DW Español",
+  "title": "ES - DW Español (news)",
   "tvg_id": "DW.de@Espanol",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - Estrella TV",
+  "title": "ES - Estrella TV (intrattenimento)",
   "tvg_id": "EstrellaTV.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -911,19 +916,19 @@
   ]
  },
  {
-  "title": "ES - France 24 Español",
+  "title": "ES - France 24 Español (news)",
   "tvg_id": "France24.fr@Spanish",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - Historia",
+  "title": "ES - Historia (documentari)",
   "tvg_id": "Historia.es@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "ES - La 1 (RTVE)",
+  "title": "ES - La 1 (generalista, RTVE)",
   "tvg_id": "La.1.es",
   "status": "EPG_OK",
   "sources": [
@@ -932,16 +937,16 @@
   "programmes": 76
  },
  {
-  "title": "ES - La 2 (alt. ottera)",
-  "tvg_id": "La2.TV",
+  "title": "ES - La 1 alt. (generalista, RTVE)",
+  "tvg_id": "La1.TV",
   "status": "EPG_OK",
   "sources": [
    "TDT_EPG"
   ],
-  "programmes": 66
+  "programmes": 32
  },
  {
-  "title": "ES - La 2 (RTVE)",
+  "title": "ES - La 2 (cultura, RTVE)",
   "tvg_id": "La.2.es",
   "status": "EPG_OK",
   "sources": [
@@ -950,7 +955,16 @@
   "programmes": 121
  },
  {
-  "title": "ES - Star TVE",
+  "title": "ES - La 2 alt. (cultura, RTVE)",
+  "tvg_id": "La2.TV",
+  "status": "EPG_OK",
+  "sources": [
+   "TDT_EPG"
+  ],
+  "programmes": 66
+ },
+ {
+  "title": "ES - Star TVE (fiction, RTVE)",
   "tvg_id": "TVE_STAR.TV",
   "status": "EPG_OK",
   "sources": [
@@ -959,7 +973,7 @@
   "programmes": 50
  },
  {
-  "title": "ES - Telemadrid",
+  "title": "ES - Telemadrid (regionale)",
   "tvg_id": "Telemadrid.es@HD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -967,7 +981,7 @@
   ]
  },
  {
-  "title": "ES - TRECE",
+  "title": "ES - TRECE (generalista)",
   "tvg_id": "13.TV",
   "status": "EPG_OK",
   "sources": [
@@ -976,7 +990,7 @@
   "programmes": 33
  },
  {
-  "title": "ES - TVE Internacional",
+  "title": "ES - TVE Internacional (generalista)",
   "tvg_id": "TVE.Internacional.fr",
   "status": "ID_PRESENT_NO_PROGRAMMES",
   "sources": [
@@ -985,7 +999,7 @@
   "programmes": 0
  },
  {
-  "title": "ES - TVG Galicia",
+  "title": "ES - TVG Galicia (regionale)",
   "tvg_id": "TVGAL.TV",
   "status": "EPG_OK",
   "sources": [
@@ -994,7 +1008,7 @@
   "programmes": 50
  },
  {
-  "title": "FR - France 2",
+  "title": "FR - France 2 (generalista)",
   "tvg_id": "France2.fr@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -1004,7 +1018,7 @@
   ]
  },
  {
-  "title": "FR - France 24 Français",
+  "title": "FR - France 24 Français (news)",
   "tvg_id": "France.24.fr",
   "status": "EPG_OK",
   "sources": [
@@ -1013,7 +1027,7 @@
   "programmes": 388
  },
  {
-  "title": "FR - France 5",
+  "title": "FR - France 5 (generalista, cultura)",
   "tvg_id": "France.5.fr",
   "status": "EPG_OK",
   "sources": [
@@ -1022,13 +1036,13 @@
   "programmes": 242
  },
  {
-  "title": "FR - M6",
+  "title": "FR - M6 (intrattenimento)",
   "tvg_id": "M6.fr@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "FR - TF1",
+  "title": "FR - TF1 (generalista)",
   "tvg_id": "TF1.fr@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -1036,30 +1050,35 @@
   ]
  },
  {
-  "title": "IE - TG4",
+  "title": "IE - TG4 (generalista, irlandese)",
   "tvg_id": "TG4.ie@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "MX - Azteca Uno (+1)",
+  "title": "MX - Azteca Uno +1 (generalista)",
   "tvg_id": "AztecaUno.mx@Plus1",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "MX - Imagen Televisión",
+  "title": "MX - Canal 6 Multimedios (intrattenimento)",
+  "tvg_id": "",
+  "status": "NO_TVG_ID"
+ },
+ {
+  "title": "MX - Imagen Televisión (generalista)",
   "tvg_id": "ImagenTV.mx@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "PE - Exitosa Noticias",
+  "title": "PE - Exitosa Noticias (news)",
   "tvg_id": "",
   "status": "NO_TVG_ID"
  },
  {
-  "title": "PE - Latina Televisión",
+  "title": "PE - Latina Televisión (generalista)",
   "tvg_id": "LATINA.HD.(Latina.HD).pe",
   "status": "EPG_OK",
   "sources": [
@@ -1068,7 +1087,7 @@
   "programmes": 66
  },
  {
-  "title": "PE - Panamericana TV",
+  "title": "PE - Panamericana TV (generalista)",
   "tvg_id": "PANAMERICANA.TELEVISION.HD.(Panamericana.HD).pe",
   "status": "EPG_OK",
   "sources": [
@@ -1077,19 +1096,25 @@
   "programmes": 75
  },
  {
-  "title": "UK - BBC Food",
+  "title": "UK - BBC Earth (documentari)",
+  "tvg_id": "BBCEarth.uk@US",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "UK - BBC Food (cucina)",
   "tvg_id": "BBCFood.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "UK - BBC Home & Garden",
+  "title": "UK - BBC Home & Garden (lifestyle)",
   "tvg_id": "BBCHomeGarden.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "UK - BBC News",
+  "title": "UK - BBC News (news)",
   "tvg_id": "BBC.NEWS.HD.uk",
   "status": "EPG_OK",
   "sources": [
@@ -1098,19 +1123,19 @@
   "programmes": 194
  },
  {
-  "title": "UK - BBC One",
+  "title": "UK - BBC One (generalista)",
   "tvg_id": "BBCOne.uk@London",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "UK - BBC Two",
+  "title": "UK - BBC Two (generalista)",
   "tvg_id": "BBCTwo.uk@HD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "UK - Channel 4",
+  "title": "UK - Channel 4 (generalista)",
   "tvg_id": "Channel4.uk@UK",
   "status": "ID_NOT_FOUND",
   "suggestions": [
@@ -1118,7 +1143,7 @@
   ]
  },
  {
-  "title": "UK - GREAT! Movies",
+  "title": "UK - GREAT! Movies (film)",
   "tvg_id": "GREAT!.movies.uk",
   "status": "EPG_OK",
   "sources": [
@@ -1127,13 +1152,13 @@
   "programmes": 133
  },
  {
-  "title": "UK - History Hit",
+  "title": "UK - History Hit (documentari)",
   "tvg_id": "HistoryHit.uk@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "UK - QVC",
+  "title": "UK - QVC (shopping)",
   "tvg_id": "QVC.HD.uk",
   "status": "EPG_OK",
   "sources": [
@@ -1142,19 +1167,13 @@
   "programmes": 89
  },
  {
-  "title": "UK - TalkTV",
+  "title": "UK - TalkTV (news e dibattiti)",
   "tvg_id": "TalkTV.uk@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - ABC (KGTV San Diego)",
-  "tvg_id": "ABC.us@KGTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - ABC News Live",
+  "title": "US - ABC News Live (news)",
   "tvg_id": "ABC.News.Live.us2",
   "status": "EPG_OK",
   "sources": [
@@ -1163,19 +1182,25 @@
   "programmes": 134
  },
  {
-  "title": "US - AMC Thrillers",
+  "title": "US - ABC San Diego KGTV (network)",
+  "tvg_id": "ABC.us@KGTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - AMC Thrillers (film e serie)",
   "tvg_id": "AMCThrillers.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - beIN SPORTS XTRA",
+  "title": "US - beIN SPORTS XTRA (sport)",
   "tvg_id": "beINSPORTSXTRA.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - Bloomberg",
+  "title": "US - Bloomberg (news, economia)",
   "tvg_id": "Bloomberg.HD.us2",
   "status": "EPG_OK",
   "sources": [
@@ -1184,32 +1209,36 @@
   "programmes": 103
  },
  {
-  "title": "US - Bon Appétit",
+  "title": "US - Bon Appétit (cucina)",
   "tvg_id": "bonappetit.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - BUZZR (giochi a premi)",
+  "title": "US - BUZZR (game show)",
   "tvg_id": "",
   "status": "NO_TVG_ID"
  },
  {
-  "title": "US - CNN International",
-  "tvg_id": "CNNInternational.us@Europe",
-  "status": "ID_NOT_FOUND",
-  "suggestions": [
-   "CNN.International.us2"
-  ]
- },
- {
-  "title": "US - Hell's Kitchen",
-  "tvg_id": "GordonRamsaysHellsKitchen.us@SD",
+  "title": "US - Deal or No Deal (game show)",
+  "tvg_id": "DealorNoDeal.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - HSN",
+  "title": "US - Dry Bar Comedy (stand-up)",
+  "tvg_id": "USAJ30000039U",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - Hell's Kitchen (reality cucina)",
+  "tvg_id": "HellsKitchen.us@UK",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - HSN (shopping)",
   "tvg_id": "HSN.Home.Shopping.Network.HD.us2",
   "status": "EPG_OK",
   "sources": [
@@ -1226,36 +1255,36 @@
   ]
  },
  {
-  "title": "US - Miami TV Fashion",
+  "title": "US - Miami TV Fashion (moda)",
   "tvg_id": "",
   "status": "NO_TVG_ID"
  },
  {
-  "title": "US - NBC (KNTV San Francisco)",
-  "tvg_id": "NBC.us@KNTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - NBC (KXAS Dallas)",
-  "tvg_id": "NBC.us@KXASTV",
-  "status": "ID_NOT_FOUND",
-  "suggestions": []
- },
- {
-  "title": "US - NBC (WMAQ Chicago)",
+  "title": "US - NBC Chicago WMAQ (network)",
   "tvg_id": "NBC.us@WMAQTV",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - NBC News NOW",
+  "title": "US - NBC Dallas KXAS (network)",
+  "tvg_id": "NBC.us@KXASTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - NBC News NOW (news)",
   "tvg_id": "NBCNewsNOW.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": []
  },
  {
-  "title": "US - QVC",
+  "title": "US - NBC San Francisco KNTV (network)",
+  "tvg_id": "NBC.us@KNTV",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
+ },
+ {
+  "title": "US - QVC (shopping)",
   "tvg_id": "QVC.HD.us2",
   "status": "EPG_OK",
   "sources": [
@@ -1264,11 +1293,33 @@
   "programmes": 54
  },
  {
-  "title": "US - Stories by AMC",
+  "title": "US - Stories by AMC (serie)",
   "tvg_id": "StoriesbyAMC.us@SD",
   "status": "ID_NOT_FOUND",
   "suggestions": [
    "Stories.by.AMC.us2"
   ]
+ },
+ {
+  "title": "US - Tastemade (cucina e viaggi)",
+  "tvg_id": "Tastemade.us@US",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Tastemade.us2"
+  ]
+ },
+ {
+  "title": "US - Tastemade (cucina e viaggi)",
+  "tvg_id": "Tastemade.us@US",
+  "status": "ID_NOT_FOUND",
+  "suggestions": [
+   "Tastemade.us2"
+  ]
+ },
+ {
+  "title": "US - The Price Is Right (game show)",
+  "tvg_id": "US5000052H1",
+  "status": "ID_NOT_FOUND",
+  "suggestions": []
  }
 ]
